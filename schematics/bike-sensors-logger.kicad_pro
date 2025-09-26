@@ -709,8 +709,8 @@
       "12V to 5V buck"
     ],
     [
-      "e6e877c9-c0e1-49b9-ad2a-7eeed8846b75",
-      "5V to 3.3V buck"
+      "cfd34f19-b9c8-43fa-a529-56c363000dae",
+      "Accel - Gyro"
     ]
   ],
   "text_variables": {}

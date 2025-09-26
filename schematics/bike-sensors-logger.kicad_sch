@@ -961,6 +961,143 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:Earth"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Earth"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"Earth\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground gnd"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Earth_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Earth_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Bike sensors logger Prototype v1"
 		(exclude_from_sim no)
@@ -973,64 +1110,170 @@
 		(uuid "ed6ce1eb-56e7-4102-b1cb-d00fcddd6c9f")
 	)
 	(junction
-		(at 41.91 77.47)
+		(at 74.93 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4bb967fd-7226-48ae-9eaf-0e6ebe036d52")
+		(uuid "29bdd719-4432-4389-8ed9-56c0b6c8265a")
+	)
+	(junction
+		(at 87.63 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c7d6d5a-8400-48d6-a6e8-067738cc5186")
 	)
 	(wire
 		(pts
-			(xy 41.91 77.47) (xy 77.47 77.47)
+			(xy 81.28 41.91) (xy 81.28 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1dbfc7fe-fcdd-47b1-9db5-e9819251ba9a")
+		(uuid "0e1e8e78-c332-43ef-82f8-fbd0a48d958d")
 	)
 	(wire
 		(pts
-			(xy 24.13 90.17) (xy 24.13 96.52)
+			(xy 45.72 49.53) (xy 45.72 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "55ed66fe-2f6a-4e27-a83a-00979d2d4822")
+		(uuid "14eb291d-ab41-4f46-ad29-0dd048844a0b")
 	)
 	(wire
 		(pts
-			(xy 41.91 90.17) (xy 41.91 77.47)
+			(xy 53.34 80.01) (xy 53.34 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a343f2b-3942-4b30-a574-a58fcae199a4")
+		(uuid "15c6729d-2973-4e4f-826f-dec4f94204af")
 	)
 	(wire
 		(pts
-			(xy 24.13 96.52) (xy 25.4 96.52)
+			(xy 74.93 72.39) (xy 87.63 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7189a1d-12ff-4d1a-8d9f-e742df9f808f")
+		(uuid "22cf6184-0255-4cb8-aa82-9a8c4c1dbc04")
 	)
 	(wire
 		(pts
-			(xy 24.13 90.17) (xy 41.91 90.17)
+			(xy 81.28 64.77) (xy 87.63 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e49d6635-e0c7-4149-ae13-10dcf1ffb6ea")
+		(uuid "2974586d-49b9-40d6-89b7-c614a535bd5b")
 	)
 	(wire
 		(pts
-			(xy 40.64 77.47) (xy 41.91 77.47)
+			(xy 53.34 87.63) (xy 138.43 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a939317-850a-4f89-951b-bedcc269b39e")
+	)
+	(wire
+		(pts
+			(xy 50.8 80.01) (xy 50.8 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f5d7961-9484-4a2c-a065-9cd96fe18957")
+	)
+	(wire
+		(pts
+			(xy 58.42 72.39) (xy 74.93 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bdab95f-0072-418e-addc-707c0ba31097")
+	)
+	(wire
+		(pts
+			(xy 45.72 52.07) (xy 74.93 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fed9d5e-2a56-4f2e-86d5-b509ba43b012")
+	)
+	(wire
+		(pts
+			(xy 74.93 52.07) (xy 74.93 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "690dbfe5-e3f2-4cc3-b07a-6fd7d19a8f07")
+	)
+	(wire
+		(pts
+			(xy 139.7 88.9) (xy 139.7 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8138b05d-64b5-4b8d-a75e-ad4ec7f4f973")
+	)
+	(wire
+		(pts
+			(xy 138.43 74.93) (xy 138.43 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a7830d0-11ec-4053-9f75-cb9cde08901f")
+	)
+	(wire
+		(pts
+			(xy 138.43 72.39) (xy 139.7 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2803af7-b453-4388-b4f1-6fa65d1dd7ae")
+	)
+	(wire
+		(pts
+			(xy 58.42 69.85) (xy 87.63 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d65bad0f-725e-4dd4-a4eb-2548746d3555")
+	)
+	(wire
+		(pts
+			(xy 50.8 88.9) (xy 139.7 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e74ba7ee-7827-4920-9dcf-6c9f869c37b9")
+	)
+	(wire
+		(pts
+			(xy 53.34 41.91) (xy 81.28 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1038,9 +1281,19 @@
 		)
 		(uuid "f180e0f0-4e9b-4fe0-8a1e-5891f5fc3f49")
 	)
+	(wire
+		(pts
+			(xy 87.63 72.39) (xy 87.63 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1b84ed4-9fb5-407b-a598-920ac0929b58")
+	)
 	(symbol
 		(lib_id "Raspberry PI Zero:RaspberryPi_Zero_Dummy")
-		(at 92.71 83.82 0)
+		(at 78.74 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1049,7 +1302,7 @@
 		(fields_autoplaced yes)
 		(uuid "52707346-5e3e-4862-abc2-7a3f8838e6c5")
 		(property "Reference" "U1"
-			(at 93.98 82.5499 0)
+			(at 80.01 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1059,7 +1312,7 @@
 			)
 		)
 		(property "Value" "RaspberryPi_Zero_Dummy"
-			(at 93.98 85.0899 0)
+			(at 80.01 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1069,7 +1322,7 @@
 			)
 		)
 		(property "Footprint" "RaspberryPiZero_Dummy:RaspberryPiZero_Dummy"
-			(at 92.71 83.82 0)
+			(at 78.74 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1078,7 +1331,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 83.82 0)
+			(at 78.74 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1087,7 +1340,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 83.82 0)
+			(at 78.74 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1106,7 +1359,7 @@
 	)
 	(symbol
 		(lib_id "arduino-library:Arduino_Nano_R4")
-		(at 102.87 64.77 0)
+		(at 113.03 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1115,7 +1368,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a12c5d0-dd2a-4c99-b9b9-6e8e48d9f9b0")
 		(property "Reference" "A1"
-			(at 102.87 33.02 0)
+			(at 113.03 20.32 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1123,7 +1376,7 @@
 			)
 		)
 		(property "Value" "Arduino_Nano_R4"
-			(at 102.87 35.56 0)
+			(at 113.03 22.86 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1131,7 +1384,7 @@
 			)
 		)
 		(property "Footprint" "PCM_arduino-library:Arduino_Nano_R4"
-			(at 102.87 99.06 0)
+			(at 113.03 86.36 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1140,7 +1393,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.arduino.cc/tutorials/nano-r4/user-manual/"
-			(at 102.87 95.25 0)
+			(at 113.03 82.55 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1149,7 +1402,7 @@
 			)
 		)
 		(property "Description" "Arduino Nano R4"
-			(at 102.87 64.77 0)
+			(at 113.03 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1265,8 +1518,74 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 74.93 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df3335e4-83fd-46f6-a592-d4c8b6b5abe4")
+		(property "Reference" "#PWR01"
+			(at 74.93 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 74.93 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 74.93 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93439c59-8d58-4b7c-a83d-19bd7351e47e")
+		)
+		(instances
+			(project ""
+				(path "/2c1d9222-af16-428b-85a5-a3d420373d70"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 25.4 73.66)
+		(at 38.1 38.1)
 		(size 15.24 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1282,7 +1601,7 @@
 		)
 		(uuid "49def333-5dd9-480f-a077-de948f7f462b")
 		(property "Sheetname" "12V to 5V buck"
-			(at 25.4 72.9484 0)
+			(at 38.1 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1291,7 +1610,7 @@
 			)
 		)
 		(property "Sheetfile" "12-to-5V-buck.kicad_sch"
-			(at 25.4 85.6746 0)
+			(at 38.1 50.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1300,7 +1619,7 @@
 			)
 		)
 		(pin "Vin" input
-			(at 25.4 77.47 180)
+			(at 38.1 41.91 180)
 			(uuid "1fba134d-67a4-42a1-ab65-a5cb09d9e20f")
 			(effects
 				(font
@@ -1310,7 +1629,7 @@
 			)
 		)
 		(pin "Vout" output
-			(at 40.64 77.47 0)
+			(at 53.34 41.91 0)
 			(uuid "4bd4a991-c53f-441a-80a9-582a1e444a29")
 			(effects
 				(font
@@ -1320,7 +1639,7 @@
 			)
 		)
 		(pin "GND" passive
-			(at 33.02 85.09 270)
+			(at 45.72 49.53 270)
 			(uuid "1cc7af7e-7b01-401d-b77c-68523e3f5a74")
 			(effects
 				(font
@@ -1338,8 +1657,8 @@
 		)
 	)
 	(sheet
-		(at 25.4 93.98)
-		(size 15.24 11.43)
+		(at 44.45 67.31)
+		(size 13.97 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1352,9 +1671,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "e6e877c9-c0e1-49b9-ad2a-7eeed8846b75")
-		(property "Sheetname" "5V to 3.3V buck"
-			(at 25.4 93.2684 0)
+		(uuid "cfd34f19-b9c8-43fa-a529-56c363000dae")
+		(property "Sheetname" "Accel - Gyro"
+			(at 44.45 66.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1362,8 +1681,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "5-to-3.3V-buck.kicad_sch"
-			(at 25.4 105.9946 0)
+		(property "Sheetfile" "accel-gyro.kicad_sch"
+			(at 44.45 80.5946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1372,8 +1691,28 @@
 			)
 		)
 		(pin "GND" passive
-			(at 33.02 105.41 270)
-			(uuid "1c5a94ae-8116-4b84-93cd-1fd021dd2518")
+			(at 58.42 72.39 0)
+			(uuid "19df47a0-b1a5-4a66-8fc2-98226421eb96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 53.34 80.01 270)
+			(uuid "bc63ebbc-bec1-404a-84fd-abf3665e800c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 50.8 80.01 270)
+			(uuid "1342e340-dbbe-479e-b91e-5e936d6515df")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1382,18 +1721,8 @@
 			)
 		)
 		(pin "Vin" input
-			(at 25.4 96.52 180)
-			(uuid "a02b214c-9c86-4dca-8132-1615df178f32")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Vout" output
-			(at 40.64 96.52 0)
-			(uuid "5cd02aef-7ee9-4906-b00a-d3cc3d889651")
+			(at 58.42 69.85 0)
+			(uuid "5dce0168-bd29-412b-9278-90868d31a232")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1404,7 +1733,7 @@
 		(instances
 			(project "bike-sensors-logger"
 				(path "/2c1d9222-af16-428b-85a5-a3d420373d70"
-					(page "3")
+					(page "4")
 				)
 			)
 		)

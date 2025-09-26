@@ -1576,7 +1576,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22 µF"
 			(at 116.84 29.2099 90)
 			(effects
 				(font
@@ -1766,7 +1766,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7 uH"
+		(property "Value" "4.7 µH"
 			(at 101.6 19.05 0)
 			(effects
 				(font

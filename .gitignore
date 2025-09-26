@@ -1,1 +1,5 @@
+# Backups, exports
 **/*.zip
+# Opened temp files
+**/~*
+\#auto_saved_files#

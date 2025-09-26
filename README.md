@@ -38,5 +38,10 @@ What has been done so far:
 
 | Project component | Component       | Current state  | Notes |
 | ----------------- | --------------- | -------------- | ----- |
-| PCB Schematic     | 12V to 5V buck  | To be reviewed | To power the microprocessor (Arduino) |
-| PCB Schematic     | 5V to 3.3V buck | To be reviewed | To power most of the sensors. Preferred over a linear dropout regulator due to lower overheating and possibly bad ventilation |
+| PCB Schematic     | 12V to 5V buck  | To be reviewed | To power the microprocessor (Arduino). |
+| PCB Schematic     | Accel - Gyro | To be reviewed | LSM6DSOXTR based accelerometer + gyroscope with embedded ML capabilities in MODE 1 "Stand alone", connected via I2C. Direct I2C connection to Arduino is possible thanks to the microprocessor's integrated I2C level translation. |
+
+### Rev 1
+
+- Removed 5V to 3.3V buck, using Arduino Nano R4's 3V3 pin instead (schematic is being kept for possible future use).
+- Added LSM6DSOXTR accelerometer / gyroscope in MODE 1 (standalone) connected via I2C
