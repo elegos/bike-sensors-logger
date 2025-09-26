@@ -1,0 +1,12 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "arduino-library")(type "KiCad")(uri "${KIPRJMOD}/libraries/arduino-library.kicad_sym")(options "")(descr ""))
+  (lib (name "WCAP-ATG8_5X11")(type "KiCad")(uri "${KIPRJMOD}/libraries/WCAP-ATG8_5X11.kicad_sym")(options "")(descr ""))
+  (lib (name "MBJCG168BB7104KTPA18")(type "KiCad")(uri "${KIPRJMOD}/libraries/MBJCG168BB7104KTPA18.kicad_sym")(options "")(descr ""))
+  (lib (name "ASPI-0804T-150M-T")(type "KiCad")(uri "${KIPRJMOD}/libraries/ASPI-0804T-150M-T.kicad_sym")(options "")(descr ""))
+  (lib (name "MLASG32MSB5226MPNA01")(type "KiCad")(uri "${KIPRJMOD}/libraries/MLASG32MSB5226MPNA01.kicad_sym")(options "")(descr ""))
+  (lib (name "GCM0335C1E750FA16D")(type "KiCad")(uri "${KIPRJMOD}/libraries/GCM0335C1E750FA16D.kicad_sym")(options "")(descr ""))
+  (lib (name "MCASL21GBC7475MTCA01")(type "KiCad")(uri "${KIPRJMOD}/libraries/MCASL21GBC7475MTCA01.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS62203DBVTG4")(type "KiCad")(uri "${KIPRJMOD}/libraries/TPS62203DBVTG4.kicad_sym")(options "")(descr ""))
+  (lib (name "WE-TPC_2828")(type "KiCad")(uri "${KIPRJMOD}/libraries/WE-TPC_2828.kicad_sym")(options "")(descr ""))
+)
