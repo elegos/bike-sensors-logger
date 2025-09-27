@@ -12,4 +12,5 @@
   (lib (name "LSM6DSOXTR")(type "KiCad")(uri "${KIPRJMOD}/libraries/LSM6DSOXTR.kicad_sym")(options "")(descr ""))
   (lib (name "TESEO-LIV3R")(type "KiCad")(uri "${KIPRJMOD}/libraries/TESEO-LIV3R.kicad_sym")(options "")(descr ""))
   (lib (name "0732511352")(type "KiCad")(uri "${KIPRJMOD}/libraries/0732511352.kicad_sym")(options "")(descr ""))
+  (lib (name "150060RS83000")(type "KiCad")(uri "${KIPRJMOD}/libraries/150060RS83000.kicad_sym")(options "")(descr ""))
 )
