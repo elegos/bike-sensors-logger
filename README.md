@@ -41,7 +41,12 @@ What has been done so far:
 | PCB Schematic     | 12V to 5V buck  | To be reviewed | To power the microprocessor (Arduino). |
 | PCB Schematic     | Accel - Gyro | To be reviewed | LSM6DSOXTR based accelerometer + gyroscope with embedded ML capabilities in MODE 1 "Stand alone", connected via I2C. Direct I2C connection to Arduino is possible thanks to the microprocessor's integrated I2C level translation. |
 
-### Rev 1
+
+### Dev 2
+
+- Added GNSS (GPS, GLONASS, Galileo, Beidu) module
+
+### Dev 1
 
 - Removed 5V to 3.3V buck, using Arduino Nano R4's 3V3 pin instead (schematic is being kept for possible future use).
 - Added LSM6DSOXTR accelerometer / gyroscope in MODE 1 (standalone) connected via I2C

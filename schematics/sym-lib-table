@@ -10,4 +10,5 @@
   (lib (name "TPS62203DBVTG4")(type "KiCad")(uri "${KIPRJMOD}/libraries/TPS62203DBVTG4.kicad_sym")(options "")(descr ""))
   (lib (name "WE-TPC_2828")(type "KiCad")(uri "${KIPRJMOD}/libraries/WE-TPC_2828.kicad_sym")(options "")(descr ""))
   (lib (name "LSM6DSOXTR")(type "KiCad")(uri "${KIPRJMOD}/libraries/LSM6DSOXTR.kicad_sym")(options "")(descr ""))
+  (lib (name "TESEO-LIV3R")(type "KiCad")(uri "${KIPRJMOD}/libraries/TESEO-LIV3R.kicad_sym")(options "")(descr ""))
 )

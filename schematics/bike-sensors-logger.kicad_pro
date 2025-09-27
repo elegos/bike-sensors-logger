@@ -709,6 +709,10 @@
       "12V to 5V buck"
     ],
     [
+      "20b38507-7c11-47bc-b74f-fc37e2ef1b90",
+      "GNSS"
+    ],
+    [
       "cfd34f19-b9c8-43fa-a529-56c363000dae",
       "Accel - Gyro"
     ]

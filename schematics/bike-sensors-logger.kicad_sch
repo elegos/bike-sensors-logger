@@ -1110,6 +1110,24 @@
 		(uuid "ed6ce1eb-56e7-4102-b1cb-d00fcddd6c9f")
 	)
 	(junction
+		(at 82.55 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "126b6584-9ace-409f-8e6d-80f479646a63")
+	)
+	(junction
+		(at 81.28 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "162c9fd2-e54c-45fb-8831-3586d84a2942")
+	)
+	(junction
+		(at 80.01 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d0fc000-8fb5-4352-a294-b66d95a10ee5")
+	)
+	(junction
 		(at 74.93 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1120,6 +1138,22 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c7d6d5a-8400-48d6-a6e8-067738cc5186")
+	)
+	(junction
+		(at 83.82 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e429806-6b2a-4a5f-bdaf-8a66e0d4f233")
+	)
+	(wire
+		(pts
+			(xy 82.55 104.14) (xy 82.55 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01c4ec4d-aeea-4ea5-986b-2b02f63b5534")
 	)
 	(wire
 		(pts
@@ -1153,13 +1187,33 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 72.39) (xy 87.63 72.39)
+			(xy 74.93 72.39) (xy 80.01 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "22cf6184-0255-4cb8-aa82-9a8c4c1dbc04")
+	)
+	(wire
+		(pts
+			(xy 60.96 99.06) (xy 80.01 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24d08bc4-3d3e-40e4-9908-51d76585fe3f")
+	)
+	(wire
+		(pts
+			(xy 81.28 93.98) (xy 81.28 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "254ba5fb-5d9a-4779-befb-ace98e6cb649")
 	)
 	(wire
 		(pts
@@ -1173,7 +1227,17 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 87.63) (xy 138.43 87.63)
+			(xy 83.82 88.9) (xy 139.7 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36f6cbe0-6160-4342-adbb-3310269739a7")
+	)
+	(wire
+		(pts
+			(xy 53.34 87.63) (xy 82.55 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1190,6 +1254,26 @@
 			(type default)
 		)
 		(uuid "3f5d7961-9484-4a2c-a065-9cd96fe18957")
+	)
+	(wire
+		(pts
+			(xy 83.82 106.68) (xy 83.82 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42af4234-39d7-4128-a3c5-a2866aa21d77")
+	)
+	(wire
+		(pts
+			(xy 82.55 87.63) (xy 138.43 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "476eb38f-a689-435d-abf7-e23b7ad3a463")
 	)
 	(wire
 		(pts
@@ -1210,6 +1294,16 @@
 			(type default)
 		)
 		(uuid "5fed9d5e-2a56-4f2e-86d5-b509ba43b012")
+	)
+	(wire
+		(pts
+			(xy 60.96 106.68) (xy 83.82 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "673f5bc7-0b58-4af0-8ac3-005b3dd4caa3")
 	)
 	(wire
 		(pts
@@ -1243,6 +1337,36 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 99.06) (xy 80.01 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ef75001-5cd6-4cd0-9d8c-d971d761fa04")
+	)
+	(wire
+		(pts
+			(xy 60.96 104.14) (xy 82.55 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba2ec6b1-2ab9-4cd9-a9ee-16fb9fa18546")
+	)
+	(wire
+		(pts
+			(xy 80.01 72.39) (xy 87.63 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf3bff37-0222-493f-9f69-eebffa515682")
+	)
+	(wire
+		(pts
 			(xy 138.43 72.39) (xy 139.7 72.39)
 		)
 		(stroke
@@ -1253,7 +1377,17 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 69.85) (xy 87.63 69.85)
+			(xy 81.28 69.85) (xy 87.63 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9570cb4-df6b-4148-afc4-3f413ab1f951")
+	)
+	(wire
+		(pts
+			(xy 58.42 69.85) (xy 81.28 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1263,7 +1397,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 88.9) (xy 139.7 88.9)
+			(xy 50.8 88.9) (xy 83.82 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1290,6 +1424,16 @@
 			(type default)
 		)
 		(uuid "f1b84ed4-9fb5-407b-a598-920ac0929b58")
+	)
+	(wire
+		(pts
+			(xy 60.96 93.98) (xy 81.28 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f44f1795-bf0c-418d-80bb-278180e8f360")
 	)
 	(symbol
 		(lib_id "Raspberry PI Zero:RaspberryPi_Zero_Dummy")
@@ -1580,6 +1724,118 @@
 				(path "/2c1d9222-af16-428b-85a5-a3d420373d70"
 					(reference "#PWR01")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 91.44)
+		(size 17.78 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "20b38507-7c11-47bc-b74f-fc37e2ef1b90")
+		(property "Sheetname" "GNSS"
+			(at 43.18 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gnss.kicad_sch"
+			(at 43.18 109.1696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" passive
+			(at 60.96 99.06 0)
+			(uuid "c4d069c1-c8b7-4361-ba5b-95296cfd1f0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RF_IN" input
+			(at 43.18 97.155 180)
+			(uuid "bf4f19a2-74b3-4f5c-bfc7-d4a45cd254f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 60.96 104.14 0)
+			(uuid "746e36f7-fe56-40e1-acb4-742d06059291")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 60.96 106.68 0)
+			(uuid "bde5fa85-177a-4807-b7d8-eec2da73a9f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBATT" input
+			(at 60.96 96.52 0)
+			(uuid "639ca259-b863-47a9-bb6a-e237a0c49bb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC" input
+			(at 60.96 93.98 0)
+			(uuid "2ea461f0-5e67-4249-a5bf-8a454623a9da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC_RF" input
+			(at 43.18 94.615 180)
+			(uuid "c7138f69-02aa-42ac-9a2a-f5ebbe256586")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "bike-sensors-logger"
+				(path "/2c1d9222-af16-428b-85a5-a3d420373d70"
+					(page "4")
 				)
 			)
 		)
