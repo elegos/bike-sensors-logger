@@ -39,7 +39,8 @@ What has been done so far:
 | Project component | Component       | Current state  | Notes |
 | ----------------- | --------------- | -------------- | ----- |
 | PCB Schematic     | 12V to 5V buck  | To be reviewed | To power the microprocessor (Arduino). |
-| PCB Schematic     | Accel - Gyro | To be reviewed | LSM6DSOXTR based accelerometer + gyroscope with embedded ML capabilities in MODE 1 "Stand alone", connected via I2C. Direct I2C connection to Arduino is possible thanks to the microprocessor's integrated I2C level translation. |
+| PCB Schematic     | Accel - Gyro    | To be reviewed | LSM6DSOXTR based accelerometer + gyroscope with embedded ML capabilities in MODE 1 "Stand alone", connected via I2C. Direct I2C connection to Arduino is possible thanks to the microprocessor's integrated I2C level translation. |
+| PCB Schematic     | GNSS            | To be reviewed | GNSS module powered by TESEO-LIV3R chip and an external antenna. The external antenna can be either active (3.3V) or passive. The antenna is connected via a MMCX connector and can be powered if active via a switch. The module provides ANT_PWR to hint the state of the switch, and it's connected to a status LED. |
 
 
 ### Dev 2
