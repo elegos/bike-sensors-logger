@@ -2458,7 +2458,7 @@
 	)
 	(sheet
 		(at 43.18 91.44)
-		(size 17.78 16.51)
+		(size 17.78 22.225)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2482,7 +2482,7 @@
 			)
 		)
 		(property "Sheetfile" "gnss.kicad_sch"
-			(at 43.18 109.1696 0)
+			(at 43.18 114.2496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2543,6 +2543,16 @@
 		(pin "VCC" input
 			(at 60.96 93.98 0)
 			(uuid "2ea461f0-5e67-4249-a5bf-8a454623a9da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ANT_PWR" output
+			(at 60.96 111.76 0)
+			(uuid "79f6cceb-1544-46c6-86c5-d52ae06cbab8")
 			(effects
 				(font
 					(size 1.27 1.27)

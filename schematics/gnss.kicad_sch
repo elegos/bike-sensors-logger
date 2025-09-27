@@ -636,6 +636,12 @@
 		)
 	)
 	(junction
+		(at 124.46 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cda14d8-5a2f-4858-8860-f4538f5f9052")
+	)
+	(junction
 		(at 171.45 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -692,6 +698,16 @@
 			(type default)
 		)
 		(uuid "4a0691d6-9c8b-498a-876e-b0e8b3956da6")
+	)
+	(wire
+		(pts
+			(xy 123.19 72.39) (xy 124.46 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53a944de-74cd-4ae7-9269-3a5eb1fd7e7b")
 	)
 	(wire
 		(pts
@@ -863,6 +879,17 @@
 			(justify left)
 		)
 		(uuid "08661ef2-0059-447d-b16a-3befd631c150")
+	)
+	(hierarchical_label "ANT_PWR"
+		(shape output)
+		(at 123.19 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10673b0d-8a6c-4f74-ab05-103ba5efeb61")
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
