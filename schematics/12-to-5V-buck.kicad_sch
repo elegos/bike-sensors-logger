@@ -5,7 +5,7 @@
 	(uuid "96d5dd0d-b4ca-44b3-b89c-d698dc007e52")
 	(paper "A4")
 	(title_block
-		(title "12V to 5V buck via TPS54308")
+		(title "12V CC / 5V CC buck via TPS54308")
 	)
 	(lib_symbols
 		(symbol "ASPI-0804T-150M-T:ASPI-0804T-150M-T"
