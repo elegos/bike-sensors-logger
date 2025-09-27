@@ -1973,16 +1973,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 55.88) (xy 55.88 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14eb291d-ab41-4f46-ad29-0dd048844a0b")
-	)
-	(wire
-		(pts
 			(xy 53.34 80.01) (xy 53.34 85.09)
 		)
 		(stroke
@@ -2103,16 +2093,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 99.06) (xy 63.5 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74904406-c689-43aa-9a9b-1453594a1bcc")
-	)
-	(wire
-		(pts
 			(xy 139.7 86.36) (xy 139.7 72.39)
 		)
 		(stroke
@@ -2140,16 +2120,6 @@
 			(type default)
 		)
 		(uuid "ba2ec6b1-2ab9-4cd9-a9ee-16fb9fa18546")
-	)
-	(wire
-		(pts
-			(xy 58.42 72.39) (xy 60.96 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc4f8043-e9a9-4ddc-a92d-b2be643addda")
 	)
 	(wire
 		(pts
@@ -2690,72 +2660,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 55.88 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58214e98-fc42-4c54-8ee9-2e2440e88c99")
-		(property "Reference" "#PWR01"
-			(at 55.88 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.88 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0444e76-3601-4d3e-ad58-6c3322b0993d")
-		)
-		(instances
-			(project "bike-sensors-logger"
-				(path "/2c1d9222-af16-428b-85a5-a3d420373d70"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 88.9 111.76 90)
 		(unit 1)
@@ -3016,72 +2920,6 @@
 			(project ""
 				(path "/2c1d9222-af16-428b-85a5-a3d420373d70"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 60.96 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97ede7ed-91fb-41b2-9853-8446fa0bcd13")
-		(property "Reference" "#PWR05"
-			(at 60.96 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 60.96 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b967893c-aa88-4b7f-8d03-2476095ebd58")
-		)
-		(instances
-			(project "bike-sensors-logger"
-				(path "/2c1d9222-af16-428b-85a5-a3d420373d70"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3448,72 +3286,6 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 63.5 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb3c505d-dc83-4133-acbe-e1fa4137862d")
-		(property "Reference" "#PWR03"
-			(at 63.5 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 63.5 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5daaf52-f232-454b-a938-0828326915c7")
-		)
-		(instances
-			(project "bike-sensors-logger"
-				(path "/2c1d9222-af16-428b-85a5-a3d420373d70"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
 		(at 43.18 91.44)
 		(size 17.78 22.225)
@@ -3546,16 +3318,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "GND" passive
-			(at 60.96 99.06 0)
-			(uuid "c4d069c1-c8b7-4361-ba5b-95296cfd1f0a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "RF_IN" input
@@ -3680,16 +3442,6 @@
 				(justify right)
 			)
 		)
-		(pin "GND" passive
-			(at 55.88 55.88 270)
-			(uuid "1cc7af7e-7b01-401d-b77c-68523e3f5a74")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "bike-sensors-logger"
 				(path "/2c1d9222-af16-428b-85a5-a3d420373d70"
@@ -3730,16 +3482,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "GND" passive
-			(at 58.42 72.39 0)
-			(uuid "19df47a0-b1a5-4a66-8fc2-98226421eb96")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "SCL" bidirectional
