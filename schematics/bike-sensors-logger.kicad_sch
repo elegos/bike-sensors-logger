@@ -2489,7 +2489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "193f451e-ea6f-4bae-a34d-8c45e1d31ec1")
-		(property "Reference" "LED2"
+		(property "Reference" "LED1"
 			(at 101.6 87.63 0)
 			(effects
 				(font
@@ -2593,7 +2593,7 @@
 		(instances
 			(project "bike-sensors-logger"
 				(path "/2c1d9222-af16-428b-85a5-a3d420373d70"
-					(reference "LED2")
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -2609,7 +2609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c262338-7af7-48f5-925d-8d81f2d21742")
-		(property "Reference" "LED1"
+		(property "Reference" "LED2"
 			(at 81.28 129.54 0)
 			(effects
 				(font
@@ -2713,7 +2713,7 @@
 		(instances
 			(project ""
 				(path "/2c1d9222-af16-428b-85a5-a3d420373d70"
-					(reference "LED1")
+					(reference "LED2")
 					(unit 1)
 				)
 			)
