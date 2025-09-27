@@ -1966,10 +1966,22 @@
 		(uuid "29bdd719-4432-4389-8ed9-56c0b6c8265a")
 	)
 	(junction
+		(at 73.66 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f1706bb-a7b3-4fad-97da-587ac7141047")
+	)
+	(junction
 		(at 82.55 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fcf4538-fa11-4fed-9491-24ac734c9a97")
+	)
+	(junction
+		(at 88.9 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40312e1f-db2f-4c0d-917a-8118d2ef8ed8")
 	)
 	(junction
 		(at 87.63 72.39)
@@ -1984,10 +1996,22 @@
 		(uuid "5834ab59-0051-4744-aeb0-eca789a5ab1d")
 	)
 	(junction
+		(at 85.09 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6771a912-431e-4c1e-8f5c-5623d6d80e91")
+	)
+	(junction
 		(at 80.01 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bff3cc72-a2e3-4d4c-bf3a-08d39689ea8a")
+	)
+	(junction
+		(at 66.04 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed005376-68bc-4a96-b38f-82f1b5f9596a")
 	)
 	(junction
 		(at 83.82 86.36)
@@ -1997,7 +2021,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 111.76) (xy 83.82 111.76)
+			(xy 82.55 137.16) (xy 73.66 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2014,6 +2038,16 @@
 			(type default)
 		)
 		(uuid "0e1e8e78-c332-43ef-82f8-fbd0a48d958d")
+	)
+	(wire
+		(pts
+			(xy 60.96 111.76) (xy 66.04 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13fdbee7-b949-404e-9cf6-543559fe81a4")
 	)
 	(wire
 		(pts
@@ -2034,6 +2068,16 @@
 			(type default)
 		)
 		(uuid "15c6729d-2973-4e4f-826f-dec4f94204af")
+	)
+	(wire
+		(pts
+			(xy 88.9 102.87) (xy 88.9 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18dec98f-d04f-48b1-bf6c-50cbe2324e59")
 	)
 	(wire
 		(pts
@@ -2084,6 +2128,26 @@
 			(type default)
 		)
 		(uuid "2974586d-49b9-40d6-89b7-c614a535bd5b")
+	)
+	(wire
+		(pts
+			(xy 88.9 102.87) (xy 109.22 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c123298-90be-4c8f-9bc9-4428bb1291ef")
+	)
+	(wire
+		(pts
+			(xy 85.09 69.85) (xy 87.63 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cbd0aad-40bd-4c77-ab45-7d8abfb2ce1b")
 	)
 	(wire
 		(pts
@@ -2144,6 +2208,16 @@
 			(type default)
 		)
 		(uuid "3f5d7961-9484-4a2c-a065-9cd96fe18957")
+	)
+	(wire
+		(pts
+			(xy 93.98 95.25) (xy 85.09 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "450968f7-ecf0-4ecd-a25c-02c1d706c390")
 	)
 	(wire
 		(pts
@@ -2237,7 +2311,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 111.76) (xy 106.68 99.06)
+			(xy 88.9 137.16) (xy 88.9 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2247,7 +2321,17 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 99.06) (xy 106.68 99.06)
+			(xy 73.66 137.16) (xy 66.04 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9985029f-1a20-4c68-a381-a0e54fd77357")
+	)
+	(wire
+		(pts
+			(xy 80.01 99.06) (xy 88.9 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2264,6 +2348,16 @@
 			(type default)
 		)
 		(uuid "a807ed21-dc48-4866-a8dd-9bab698228c6")
+	)
+	(wire
+		(pts
+			(xy 66.04 111.76) (xy 66.04 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a92bda92-3d28-4d9c-848d-79b301197fe0")
 	)
 	(wire
 		(pts
@@ -2307,13 +2401,33 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 69.85) (xy 87.63 69.85)
+			(xy 81.28 69.85) (xy 85.09 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c9570cb4-df6b-4148-afc4-3f413ab1f951")
+	)
+	(wire
+		(pts
+			(xy 109.22 95.25) (xy 109.22 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9c2393d-8507-43e7-ba3d-6bd7d9824ba4")
+	)
+	(wire
+		(pts
+			(xy 85.09 69.85) (xy 85.09 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbef3b14-26f6-449b-82f5-94cb52c82b65")
 	)
 	(wire
 		(pts
@@ -2367,24 +2481,24 @@
 	)
 	(symbol
 		(lib_id "150060RS83000:150060RS83000")
-		(at 106.68 111.76 180)
+		(at 109.22 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2c262338-7af7-48f5-925d-8d81f2d21742")
-		(property "Reference" "LED1"
-			(at 99.06 104.14 0)
+		(uuid "193f451e-ea6f-4bae-a34d-8c45e1d31ec1")
+		(property "Reference" "LED2"
+			(at 101.6 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "ANT_PWR"
-			(at 99.06 106.68 0)
+		(property "Value" "PWR"
+			(at 101.6 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2392,7 +2506,7 @@
 			)
 		)
 		(property "Footprint" "LEDC1608X115N"
-			(at 93.98 18.11 0)
+			(at 96.52 1.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2402,7 +2516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 -81.89 0)
+			(at 96.52 -98.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2412,7 +2526,7 @@
 			)
 		)
 		(property "Description" "Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)"
-			(at 106.68 111.76 0)
+			(at 109.22 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2421,7 +2535,7 @@
 			)
 		)
 		(property "Height" "1.15"
-			(at 93.98 -281.89 0)
+			(at 96.52 -298.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,7 +2545,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 93.98 -381.89 0)
+			(at 96.52 -398.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2441,7 +2555,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 93.98 -481.89 0)
+			(at 96.52 -498.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2451,7 +2565,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 93.98 -581.89 0)
+			(at 96.52 -598.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2461,7 +2575,127 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "150060RS83000"
-			(at 93.98 -681.89 0)
+			(at 96.52 -698.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "377bb661-a53d-45cf-88f4-e6977a18b487")
+		)
+		(pin "2"
+			(uuid "f6980e62-b69d-4284-a121-05021d2e0602")
+		)
+		(instances
+			(project "bike-sensors-logger"
+				(path "/2c1d9222-af16-428b-85a5-a3d420373d70"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "150060RS83000:150060RS83000")
+		(at 88.9 137.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c262338-7af7-48f5-925d-8d81f2d21742")
+		(property "Reference" "LED1"
+			(at 81.28 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ANT_PWR"
+			(at 81.28 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LEDC1608X115N"
+			(at 76.2 43.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 -56.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)"
+			(at 88.9 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.15"
+			(at 76.2 -256.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 76.2 -356.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 76.2 -456.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 76.2 -556.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150060RS83000"
+			(at 76.2 -656.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2553,7 +2787,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 87.63 111.76 90)
+		(at 69.85 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2562,7 +2796,7 @@
 		(fields_autoplaced yes)
 		(uuid "712da28c-a384-4058-8e1a-9ff5c5f6b13b")
 		(property "Reference" "R5"
-			(at 87.63 105.41 90)
+			(at 69.85 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2570,7 +2804,7 @@
 			)
 		)
 		(property "Value" "260 Ω"
-			(at 87.63 107.95 90)
+			(at 69.85 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2578,7 +2812,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 113.538 90)
+			(at 69.85 138.938 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2587,7 +2821,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 111.76 0)
+			(at 69.85 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,7 +2830,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 87.63 111.76 0)
+			(at 69.85 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
