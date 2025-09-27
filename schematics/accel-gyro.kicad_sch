@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "34634e6b-a1f6-4882-bdde-e019b5aeda4b")
 	(paper "A4")
+	(title_block
+		(title "Accelerometer + Gyroscope based on LSM6DSOXTR")
+		(comment 1 "Currently in MODE 1")
+		(comment 2 "MODE 2 allows the integration of a magnometer")
+	)
 	(lib_symbols
 		(symbol "LSM6DSOXTR:LSM6DSOXTR"
 			(pin_names
@@ -670,16 +675,6 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text "Accelerometer + Gyroscope\nbased on LSM6DSOXTR"
-		(exclude_from_sim no)
-		(at 231.648 173.99 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-			)
-		)
-		(uuid "0057b3a5-77bd-4301-a6a9-4da003590e60")
 	)
 	(junction
 		(at 165.1 91.44)

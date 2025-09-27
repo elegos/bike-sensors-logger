@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "96d5dd0d-b4ca-44b3-b89c-d698dc007e52")
 	(paper "A4")
+	(title_block
+		(title "12V to 5V buck via TPS54308")
+	)
 	(lib_symbols
 		(symbol "ASPI-0804T-150M-T:ASPI-0804T-150M-T"
 			(pin_names
@@ -1513,103 +1516,93 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "12V to 5V buck via TPS54308"
-		(exclude_from_sim no)
-		(at 227.838 173.482 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-			)
-		)
-		(uuid "5ed1b809-db1c-41e0-823f-e2ed7eeff7e5")
-	)
 	(junction
-		(at 50.8 40.64)
+		(at 106.68 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "031eab6e-69f9-4951-a96d-aca1c807b31d")
 	)
 	(junction
-		(at 50.8 59.69)
+		(at 106.68 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c845e77-782e-4821-ab74-5537b759c5cd")
 	)
 	(junction
-		(at 54.61 40.64)
+		(at 110.49 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11dcb036-9ada-42a8-8274-91f7d46aa2e9")
 	)
 	(junction
-		(at 107.95 59.69)
+		(at 163.83 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fd5f14e-6f68-4818-add1-2c0b2c0707aa")
 	)
 	(junction
-		(at 45.72 40.64)
+		(at 101.6 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a554e3e-18d2-4f79-862a-467e301c1c67")
 	)
 	(junction
-		(at 95.25 71.12)
+		(at 151.13 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5aec06c3-2848-4d1f-873b-8743690c0a5f")
 	)
 	(junction
-		(at 64.77 59.69)
+		(at 120.65 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8eda7cc5-eae0-4822-9a96-2f7f718783cf")
 	)
 	(junction
-		(at 123.19 71.12)
+		(at 179.07 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "921e3cd3-7d1d-4b73-b3e5-65fb01731504")
 	)
 	(junction
-		(at 123.19 43.18)
+		(at 179.07 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9befb64c-bb39-49c6-9694-e8047f185016")
 	)
 	(junction
-		(at 123.19 63.5)
+		(at 179.07 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4c8689d-9763-47b6-a779-1ef313e28027")
 	)
 	(junction
-		(at 45.72 59.69)
+		(at 101.6 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b848ce61-20dd-4294-94e5-4f6db77f06d4")
 	)
 	(junction
-		(at 111.76 43.18)
+		(at 167.64 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc16be65-a658-440a-9c70-8282e589e252")
 	)
 	(junction
-		(at 107.95 43.18)
+		(at 163.83 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7eff9fe-6e44-44db-ae2e-67383c937af4")
 	)
 	(junction
-		(at 82.55 43.18)
+		(at 138.43 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5df0744-f8ab-4b55-b6b3-869367e0593f")
 	)
 	(wire
 		(pts
-			(xy 107.95 52.07) (xy 107.95 59.69)
+			(xy 163.83 83.82) (xy 163.83 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1619,7 +1612,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 43.18) (xy 82.55 43.18)
+			(xy 130.81 74.93) (xy 138.43 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1629,7 +1622,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 44.45) (xy 107.95 43.18)
+			(xy 163.83 76.2) (xy 163.83 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1639,7 +1632,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 36.83) (xy 82.55 43.18)
+			(xy 138.43 68.58) (xy 138.43 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1649,7 +1642,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 45.72) (xy 74.93 71.12)
+			(xy 130.81 77.47) (xy 130.81 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1659,7 +1652,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 52.07) (xy 45.72 59.69)
+			(xy 101.6 83.82) (xy 101.6 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1669,7 +1662,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 71.12) (xy 123.19 71.12)
+			(xy 151.13 102.87) (xy 179.07 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1679,7 +1672,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 40.64) (xy 54.61 40.64)
+			(xy 106.68 72.39) (xy 110.49 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1689,7 +1682,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 63.5) (xy 111.76 63.5)
+			(xy 151.13 95.25) (xy 167.64 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1699,7 +1692,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 43.18) (xy 111.76 49.53)
+			(xy 167.64 74.93) (xy 167.64 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1709,7 +1702,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 40.64) (xy 50.8 40.64)
+			(xy 101.6 72.39) (xy 106.68 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1719,7 +1712,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 43.18) (xy 138.43 43.18)
+			(xy 179.07 74.93) (xy 194.31 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1729,7 +1722,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 59.69) (xy 107.95 59.69)
+			(xy 120.65 91.44) (xy 163.83 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1739,7 +1732,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 50.8) (xy 64.77 59.69)
+			(xy 120.65 82.55) (xy 120.65 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1749,7 +1742,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 63.5) (xy 123.19 63.5)
+			(xy 175.26 95.25) (xy 179.07 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1759,7 +1752,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 40.64) (xy 54.61 45.72)
+			(xy 110.49 72.39) (xy 110.49 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1769,7 +1762,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 59.69) (xy 50.8 59.69)
+			(xy 101.6 91.44) (xy 106.68 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1779,7 +1772,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 71.12) (xy 95.25 71.12)
+			(xy 130.81 102.87) (xy 151.13 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1789,7 +1782,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 43.18) (xy 123.19 43.18)
+			(xy 167.64 74.93) (xy 179.07 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1799,7 +1792,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 40.64) (xy 45.72 40.64)
+			(xy 90.17 72.39) (xy 101.6 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1809,7 +1802,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 59.69) (xy 64.77 59.69)
+			(xy 106.68 91.44) (xy 120.65 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1819,7 +1812,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 59.69) (xy 111.76 57.15)
+			(xy 167.64 91.44) (xy 167.64 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1829,7 +1822,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 59.69) (xy 45.72 66.04)
+			(xy 101.6 91.44) (xy 101.6 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1839,7 +1832,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 43.18) (xy 111.76 43.18)
+			(xy 163.83 74.93) (xy 167.64 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1849,7 +1842,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 36.83) (xy 74.93 40.64)
+			(xy 130.81 68.58) (xy 130.81 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1859,7 +1852,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 40.64) (xy 50.8 52.07)
+			(xy 106.68 72.39) (xy 106.68 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1869,7 +1862,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 63.5) (xy 123.19 50.8)
+			(xy 179.07 95.25) (xy 179.07 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1879,7 +1872,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 59.69) (xy 107.95 59.69)
+			(xy 167.64 91.44) (xy 163.83 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1889,7 +1882,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 44.45) (xy 45.72 40.64)
+			(xy 101.6 76.2) (xy 101.6 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1899,7 +1892,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 59.69) (xy 64.77 78.74)
+			(xy 120.65 91.44) (xy 120.65 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1909,7 +1902,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 78.74) (xy 64.77 78.74)
+			(xy 179.07 110.49) (xy 120.65 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1919,7 +1912,7 @@
 	)
 	(hierarchical_label "Vin"
 		(shape input)
-		(at 34.29 40.64 180)
+		(at 90.17 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1930,7 +1923,7 @@
 	)
 	(hierarchical_label "Vout"
 		(shape output)
-		(at 138.43 43.18 0)
+		(at 194.31 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1941,7 +1934,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 45.72 66.04 270)
+		(at 101.6 97.79 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1952,7 +1945,7 @@
 	)
 	(symbol
 		(lib_id "MLASG32MSB5226MPNA01:MLASG32MSB5226MPNA01")
-		(at 111.76 52.07 270)
+		(at 167.64 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1960,7 +1953,7 @@
 		(dnp no)
 		(uuid "34101a2c-377f-4a19-a21b-fbf8427fe188")
 		(property "Reference" "C5"
-			(at 115.57 52.0699 90)
+			(at 171.45 83.8199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1969,7 +1962,7 @@
 			)
 		)
 		(property "Value" "22 µF"
-			(at 115.57 54.6099 90)
+			(at 171.45 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1978,7 +1971,7 @@
 			)
 		)
 		(property "Footprint" "MLASG32MSB5226MPNA01:CAPC3225X270N"
-			(at 111.76 52.07 0)
+			(at 167.64 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1988,7 +1981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 52.07 0)
+			(at 167.64 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1997,7 +1990,7 @@
 			)
 		)
 		(property "Description" "22 uF"
-			(at 111.76 52.07 0)
+			(at 167.64 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2006,7 +1999,7 @@
 			)
 		)
 		(property "MF" "Taiyo Yuden"
-			(at 111.76 52.07 0)
+			(at 167.64 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2016,7 +2009,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "2.7mm"
-			(at 111.76 52.07 0)
+			(at 167.64 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2026,7 +2019,7 @@
 			)
 		)
 		(property "Package" "3225-2 Taiyo Yuden"
-			(at 111.76 52.07 0)
+			(at 167.64 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2036,7 +2029,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 111.76 52.07 0)
+			(at 167.64 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2046,7 +2039,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MLASG32MSB5226MPNA01/Taiyo+Yuden/view-part/?ref=eda"
-			(at 111.76 52.07 0)
+			(at 167.64 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2056,7 +2049,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 111.76 52.07 0)
+			(at 167.64 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2066,7 +2059,7 @@
 			)
 		)
 		(property "PARTREV" "NA"
-			(at 111.76 52.07 0)
+			(at 167.64 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2076,7 +2069,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MLASG32MSB5226MPNA01/Taiyo+Yuden/view-part/?ref=snap"
-			(at 111.76 52.07 0)
+			(at 167.64 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2086,7 +2079,7 @@
 			)
 		)
 		(property "MP" "MLASG32MSB5226MPNA01"
-			(at 111.76 52.07 0)
+			(at 167.64 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2096,7 +2089,7 @@
 			)
 		)
 		(property "Description_1" "22uF 35V 20% Multilayer Ceramic Capacitor X5R 1210 (3225 Metric)"
-			(at 111.76 52.07 0)
+			(at 167.64 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2106,7 +2099,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 111.76 52.07 0)
+			(at 167.64 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2116,7 +2109,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Taiyo Yuden"
-			(at 111.76 52.07 0)
+			(at 167.64 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2142,7 +2135,7 @@
 	)
 	(symbol
 		(lib_id "MBJCG168BB7104KTPA18:MBJCG168BB7104KTPA18")
-		(at 50.8 54.61 270)
+		(at 106.68 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2151,7 +2144,7 @@
 		(fields_autoplaced yes)
 		(uuid "65638e8f-5ab7-4ec2-b6c6-2f7d7ed47a25")
 		(property "Reference" "C2"
-			(at 54.61 54.6099 90)
+			(at 110.49 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2160,7 +2153,7 @@
 			)
 		)
 		(property "Value" "0.1 µF"
-			(at 54.61 57.1499 90)
+			(at 110.49 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2169,7 +2162,7 @@
 			)
 		)
 		(property "Footprint" "MBJCG168BB7104KTPA18:CAPC1608X100N"
-			(at 50.8 54.61 0)
+			(at 106.68 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2179,7 +2172,7 @@
 			)
 		)
 		(property "Datasheet" "https://ds.yuden.co.jp/TYCOMPAS/or/download?pn=MBARQ167SCG0R4ATRA01&fileType=CS"
-			(at 50.8 54.61 0)
+			(at 106.68 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2188,7 +2181,7 @@
 			)
 		)
 		(property "Description" "0.1 uF"
-			(at 50.8 54.61 0)
+			(at 106.68 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2197,7 +2190,7 @@
 			)
 		)
 		(property "MF" "Taiyo Yuden"
-			(at 50.8 54.61 0)
+			(at 106.68 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2207,7 +2200,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.00mm"
-			(at 50.8 54.61 0)
+			(at 106.68 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2217,7 +2210,7 @@
 			)
 		)
 		(property "Package" "1608-2 TAIYO"
-			(at 50.8 54.61 0)
+			(at 106.68 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2227,7 +2220,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 50.8 54.61 0)
+			(at 106.68 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2237,7 +2230,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MBJCG168BB7104KTPA18/Taiyo+Yuden/view-part/?ref=eda"
-			(at 50.8 54.61 0)
+			(at 106.68 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2247,7 +2240,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 50.8 54.61 0)
+			(at 106.68 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2257,7 +2250,7 @@
 			)
 		)
 		(property "PARTREV" "NA"
-			(at 50.8 54.61 0)
+			(at 106.68 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2267,7 +2260,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MBJCG168BB7104KTPA18/Taiyo+Yuden/view-part/?ref=snap"
-			(at 50.8 54.61 0)
+			(at 106.68 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2277,7 +2270,7 @@
 			)
 		)
 		(property "MP" "MBJCG168BB7104KTPA18"
-			(at 50.8 54.61 0)
+			(at 106.68 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2287,7 +2280,7 @@
 			)
 		)
 		(property "Description_1" "0.1uF 35V 10% Multilayer Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 50.8 54.61 0)
+			(at 106.68 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2297,7 +2290,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 50.8 54.61 0)
+			(at 106.68 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2307,7 +2300,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Taiyo Yuden"
-			(at 50.8 54.61 0)
+			(at 106.68 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2333,7 +2326,7 @@
 	)
 	(symbol
 		(lib_id "WCAP-ATG8_5X11:WCAP-ATG8_5X11")
-		(at 45.72 49.53 90)
+		(at 101.6 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2342,7 +2335,7 @@
 		(fields_autoplaced yes)
 		(uuid "6bc06cc7-af10-4cbc-8eb7-f6312d672e10")
 		(property "Reference" "C1"
-			(at 49.53 46.023 90)
+			(at 105.41 77.773 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2351,7 +2344,7 @@
 			)
 		)
 		(property "Value" "10 µF"
-			(at 49.53 48.563 90)
+			(at 105.41 80.313 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2360,7 +2353,7 @@
 			)
 		)
 		(property "Footprint" "WCAP-ATG8_5X11:WCAP-ATG8_5X11_DXL_"
-			(at 45.72 49.53 0)
+			(at 101.6 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2370,7 +2363,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860010572002.pdf"
-			(at 45.72 49.53 0)
+			(at 101.6 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2379,7 +2372,7 @@
 			)
 		)
 		(property "Description" "10 uF"
-			(at 45.72 49.53 0)
+			(at 101.6 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2388,7 +2381,7 @@
 			)
 		)
 		(property "MF" "Würth Elektronik"
-			(at 45.72 49.53 0)
+			(at 101.6 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2398,7 +2391,7 @@
 			)
 		)
 		(property "Description_1" "CAP ALUM 10UF 20% 35V RADIAL TH"
-			(at 45.72 49.53 0)
+			(at 101.6 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2408,7 +2401,7 @@
 			)
 		)
 		(property "Package" "Radial Wurth Electronics"
-			(at 45.72 49.53 0)
+			(at 101.6 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2418,7 +2411,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 45.72 49.53 0)
+			(at 101.6 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2428,7 +2421,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/860010572002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-			(at 45.72 49.53 0)
+			(at 101.6 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2438,7 +2431,7 @@
 			)
 		)
 		(property "MP" "860010572002"
-			(at 45.72 49.53 0)
+			(at 101.6 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2448,7 +2441,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 45.72 49.53 0)
+			(at 101.6 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2458,7 +2451,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/860010572002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-			(at 45.72 49.53 0)
+			(at 101.6 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2484,7 +2477,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 115.57 63.5 270)
+		(at 171.45 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2493,7 +2486,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a28d194-5ea1-4303-b1b2-a31a5476a909")
 		(property "Reference" "R4"
-			(at 115.57 57.15 90)
+			(at 171.45 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2501,7 +2494,7 @@
 			)
 		)
 		(property "Value" "2 kΩ"
-			(at 115.57 59.69 90)
+			(at 171.45 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,7 +2502,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 61.722 90)
+			(at 171.45 93.472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2518,7 +2511,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 63.5 0)
+			(at 171.45 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2527,7 +2520,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 115.57 63.5 0)
+			(at 171.45 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2552,7 +2545,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 123.19 46.99 0)
+		(at 179.07 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2561,7 +2554,7 @@
 		(fields_autoplaced yes)
 		(uuid "90ab767e-4ea0-441d-98d2-a9b9f29d7e4d")
 		(property "Reference" "R1"
-			(at 125.73 45.7199 0)
+			(at 181.61 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2570,7 +2563,7 @@
 			)
 		)
 		(property "Value" "49.9 kΩ"
-			(at 125.73 48.2599 0)
+			(at 181.61 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +2572,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.412 46.99 90)
+			(at 177.292 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2588,7 +2581,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 46.99 0)
+			(at 179.07 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2597,7 +2590,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 123.19 46.99 0)
+			(at 179.07 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2622,7 +2615,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 123.19 67.31 0)
+		(at 179.07 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2631,7 +2624,7 @@
 		(fields_autoplaced yes)
 		(uuid "91f8e6a5-27f9-4c6d-8b63-9b0aeb39ae26")
 		(property "Reference" "R2"
-			(at 125.73 66.0399 0)
+			(at 181.61 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2640,7 +2633,7 @@
 			)
 		)
 		(property "Value" "100 kΩ"
-			(at 125.73 68.5799 0)
+			(at 181.61 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2649,7 +2642,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.412 67.31 90)
+			(at 177.292 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2658,7 +2651,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 67.31 0)
+			(at 179.07 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2667,7 +2660,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 123.19 67.31 0)
+			(at 179.07 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,7 +2685,7 @@
 	)
 	(symbol
 		(lib_id "MLASG32MSB5226MPNA01:MLASG32MSB5226MPNA01")
-		(at 107.95 46.99 270)
+		(at 163.83 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2701,7 +2694,7 @@
 		(fields_autoplaced yes)
 		(uuid "9513e1fc-2e2c-4bec-a0dc-3e1c50c2dc1a")
 		(property "Reference" "C4"
-			(at 111.76 46.9899 90)
+			(at 167.64 78.7399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2710,7 +2703,7 @@
 			)
 		)
 		(property "Value" "22 µF"
-			(at 111.76 49.5299 90)
+			(at 167.64 81.2799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2719,7 +2712,7 @@
 			)
 		)
 		(property "Footprint" "MLASG32MSB5226MPNA01:CAPC3225X270N"
-			(at 107.95 46.99 0)
+			(at 163.83 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2729,7 +2722,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 46.99 0)
+			(at 163.83 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2738,7 +2731,7 @@
 			)
 		)
 		(property "Description" "22 uF"
-			(at 107.95 46.99 0)
+			(at 163.83 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2747,7 +2740,7 @@
 			)
 		)
 		(property "MF" "Taiyo Yuden"
-			(at 107.95 46.99 0)
+			(at 163.83 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2757,7 +2750,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "2.7mm"
-			(at 107.95 46.99 0)
+			(at 163.83 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,7 +2760,7 @@
 			)
 		)
 		(property "Package" "3225-2 Taiyo Yuden"
-			(at 107.95 46.99 0)
+			(at 163.83 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2777,7 +2770,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 107.95 46.99 0)
+			(at 163.83 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2787,7 +2780,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MLASG32MSB5226MPNA01/Taiyo+Yuden/view-part/?ref=eda"
-			(at 107.95 46.99 0)
+			(at 163.83 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2797,7 +2790,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 107.95 46.99 0)
+			(at 163.83 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2807,7 +2800,7 @@
 			)
 		)
 		(property "PARTREV" "NA"
-			(at 107.95 46.99 0)
+			(at 163.83 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2817,7 +2810,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MLASG32MSB5226MPNA01/Taiyo+Yuden/view-part/?ref=snap"
-			(at 107.95 46.99 0)
+			(at 163.83 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2827,7 +2820,7 @@
 			)
 		)
 		(property "MP" "MLASG32MSB5226MPNA01"
-			(at 107.95 46.99 0)
+			(at 163.83 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2837,7 +2830,7 @@
 			)
 		)
 		(property "Description_1" "22uF 35V 20% Multilayer Ceramic Capacitor X5R 1210 (3225 Metric)"
-			(at 107.95 46.99 0)
+			(at 163.83 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2847,7 +2840,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 107.95 46.99 0)
+			(at 163.83 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2857,7 +2850,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Taiyo Yuden"
-			(at 107.95 46.99 0)
+			(at 163.83 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +2876,7 @@
 	)
 	(symbol
 		(lib_id "MBJCG168BB7104KTPA18:MBJCG168BB7104KTPA18")
-		(at 77.47 36.83 0)
+		(at 133.35 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2892,7 +2885,7 @@
 		(fields_autoplaced yes)
 		(uuid "a783c835-5724-4650-90f9-cfafc782e16e")
 		(property "Reference" "C3"
-			(at 78.74 30.48 0)
+			(at 134.62 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2900,7 +2893,7 @@
 			)
 		)
 		(property "Value" "0.1 µF"
-			(at 78.74 33.02 0)
+			(at 134.62 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2908,7 +2901,7 @@
 			)
 		)
 		(property "Footprint" "MBJCG168BB7104KTPA18:CAPC1608X100N"
-			(at 77.47 36.83 0)
+			(at 133.35 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2918,7 +2911,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 36.83 0)
+			(at 133.35 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2927,7 +2920,7 @@
 			)
 		)
 		(property "Description" "0.1 uF"
-			(at 77.47 36.83 0)
+			(at 133.35 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2936,7 +2929,7 @@
 			)
 		)
 		(property "MF" "Taiyo Yuden"
-			(at 77.47 36.83 0)
+			(at 133.35 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2946,7 +2939,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.00mm"
-			(at 77.47 36.83 0)
+			(at 133.35 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2956,7 +2949,7 @@
 			)
 		)
 		(property "Package" "1608-2 TAIYO"
-			(at 77.47 36.83 0)
+			(at 133.35 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2966,7 +2959,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 77.47 36.83 0)
+			(at 133.35 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2976,7 +2969,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/MBJCG168BB7104KTPA18/Taiyo+Yuden/view-part/?ref=eda"
-			(at 77.47 36.83 0)
+			(at 133.35 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2986,7 +2979,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 77.47 36.83 0)
+			(at 133.35 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2996,7 +2989,7 @@
 			)
 		)
 		(property "PARTREV" "NA"
-			(at 77.47 36.83 0)
+			(at 133.35 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3006,7 +2999,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MBJCG168BB7104KTPA18/Taiyo+Yuden/view-part/?ref=snap"
-			(at 77.47 36.83 0)
+			(at 133.35 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3016,7 +3009,7 @@
 			)
 		)
 		(property "MP" "MBJCG168BB7104KTPA18"
-			(at 77.47 36.83 0)
+			(at 133.35 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3026,7 +3019,7 @@
 			)
 		)
 		(property "Description_1" "0.1uF 35V 10% Multilayer Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 77.47 36.83 0)
+			(at 133.35 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3036,7 +3029,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 77.47 36.83 0)
+			(at 133.35 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3046,7 +3039,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Taiyo Yuden"
-			(at 77.47 36.83 0)
+			(at 133.35 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3072,7 +3065,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 123.19 74.93 0)
+		(at 179.07 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3081,7 +3074,7 @@
 		(fields_autoplaced yes)
 		(uuid "c30ad452-3af0-4201-b6db-5ced3ccc41b2")
 		(property "Reference" "R3"
-			(at 125.73 73.6599 0)
+			(at 181.61 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3090,7 +3083,7 @@
 			)
 		)
 		(property "Value" "13.3 kΩ"
-			(at 125.73 76.1999 0)
+			(at 181.61 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3099,7 +3092,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.412 74.93 90)
+			(at 177.292 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3108,7 +3101,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 74.93 0)
+			(at 179.07 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3117,7 +3110,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 123.19 74.93 0)
+			(at 179.07 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3142,7 +3135,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Switching:TPS54308")
-		(at 64.77 43.18 0)
+		(at 120.65 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3151,7 +3144,7 @@
 		(fields_autoplaced yes)
 		(uuid "c57eac64-1f4a-4fdf-946a-637eea9b031f")
 		(property "Reference" "U2"
-			(at 64.77 33.02 0)
+			(at 120.65 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3159,7 +3152,7 @@
 			)
 		)
 		(property "Value" "TPS54308"
-			(at 64.77 35.56 0)
+			(at 120.65 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3167,7 +3160,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 66.04 52.07 0)
+			(at 121.92 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3177,7 +3170,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps54308.pdf"
-			(at 57.15 34.29 0)
+			(at 113.03 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3186,7 +3179,7 @@
 			)
 		)
 		(property "Description" "3A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, continuous-conduction, SOT-23-6"
-			(at 64.77 43.18 0)
+			(at 120.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3223,7 +3216,7 @@
 	)
 	(symbol
 		(lib_id "ASPI-0804T-150M-T:ASPI-0804T-150M-T")
-		(at 95.25 43.18 0)
+		(at 151.13 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3232,7 +3225,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4c50067-c1ea-4db4-ad77-8d47da960c34")
 		(property "Reference" "L1"
-			(at 95.25 36.83 0)
+			(at 151.13 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3240,7 +3233,7 @@
 			)
 		)
 		(property "Value" "15 uH"
-			(at 95.25 39.37 0)
+			(at 151.13 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3248,7 +3241,7 @@
 			)
 		)
 		(property "Footprint" "ASPI-0804T-150M-T:IND_ASPI-0804T-150M-T"
-			(at 95.25 43.18 0)
+			(at 151.13 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3258,7 +3251,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.it/datasheet/3/184/1/ASPI-0804T.pdf"
-			(at 95.25 43.18 0)
+			(at 151.13 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3267,7 +3260,7 @@
 			)
 		)
 		(property "Description" "15 uH"
-			(at 95.25 43.18 0)
+			(at 151.13 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3276,7 +3269,7 @@
 			)
 		)
 		(property "MF" "Abracon"
-			(at 95.25 43.18 0)
+			(at 151.13 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3286,7 +3279,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "5.20mm"
-			(at 95.25 43.18 0)
+			(at 151.13 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3296,7 +3289,7 @@
 			)
 		)
 		(property "Package" "Nonstandard Abracon"
-			(at 95.25 43.18 0)
+			(at 151.13 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3306,7 +3299,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 95.25 43.18 0)
+			(at 151.13 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3316,7 +3309,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/ASPI-0804T-150M-T/Abracon/view-part/?ref=eda"
-			(at 95.25 43.18 0)
+			(at 151.13 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3326,7 +3319,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 95.25 43.18 0)
+			(at 151.13 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3336,7 +3329,7 @@
 			)
 		)
 		(property "PARTREV" "P"
-			(at 95.25 43.18 0)
+			(at 151.13 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3346,7 +3339,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ASPI-0804T-150M-T/Abracon/view-part/?ref=snap"
-			(at 95.25 43.18 0)
+			(at 151.13 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3356,7 +3349,7 @@
 			)
 		)
 		(property "MP" "ASPI-0804T-150M-T"
-			(at 95.25 43.18 0)
+			(at 151.13 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3366,7 +3359,7 @@
 			)
 		)
 		(property "Description_1" "15µH Unshielded Wirewound Inductor 3A 46mOhm Max Nonstandard"
-			(at 95.25 43.18 0)
+			(at 151.13 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3376,7 +3369,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Abracon"
-			(at 95.25 43.18 0)
+			(at 151.13 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3386,7 +3379,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 95.25 43.18 0)
+			(at 151.13 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3396,7 +3389,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "ASPI-0804T-150M-T"
-			(at 95.25 43.18 0)
+			(at 151.13 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,7 +3415,7 @@
 	)
 	(symbol
 		(lib_id "GCM0335C1E750FA16D:GCM0335C1E750FA16D")
-		(at 95.25 66.04 270)
+		(at 151.13 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3431,7 +3424,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5d366ad-911a-4e97-9f44-a242d667449a")
 		(property "Reference" "C6"
-			(at 99.06 66.0399 90)
+			(at 154.94 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,7 +3433,7 @@
 			)
 		)
 		(property "Value" "75 pF"
-			(at 99.06 68.5799 90)
+			(at 154.94 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,7 +3442,7 @@
 			)
 		)
 		(property "Footprint" "GCM0335C1E750FA16D:CAPC0603X33N"
-			(at 95.25 66.04 0)
+			(at 151.13 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3459,7 +3452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 66.04 0)
+			(at 151.13 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3468,7 +3461,7 @@
 			)
 		)
 		(property "Description" "75 pF"
-			(at 95.25 66.04 0)
+			(at 151.13 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3477,7 +3470,7 @@
 			)
 		)
 		(property "MF" "Murata"
-			(at 95.25 66.04 0)
+			(at 151.13 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3487,7 +3480,7 @@
 			)
 		)
 		(property "Description_1" "SMD capacitor C0G(EIA) with capacitance 75pF Tol.1%. Rated voltage 25Vdc 125C"
-			(at 95.25 66.04 0)
+			(at 151.13 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3497,7 +3490,7 @@
 			)
 		)
 		(property "Package" "0603-2 MURATA"
-			(at 95.25 66.04 0)
+			(at 151.13 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3507,7 +3500,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 95.25 66.04 0)
+			(at 151.13 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3517,7 +3510,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GCM0335C1E750FA16D/Murata/view-part/?ref=snap"
-			(at 95.25 66.04 0)
+			(at 151.13 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3527,7 +3520,7 @@
 			)
 		)
 		(property "MP" "GCM0335C1E750FA16D"
-			(at 95.25 66.04 0)
+			(at 151.13 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3537,7 +3530,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 95.25 66.04 0)
+			(at 151.13 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3547,7 +3540,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/GCM0335C1E750FA16D/Murata/view-part/?ref=eda"
-			(at 95.25 66.04 0)
+			(at 151.13 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -4,7 +4,196 @@
 	(generator_version "9.0")
 	(uuid "a9525c6c-4819-4a16-bd84-d178eec4f374")
 	(paper "A4")
+	(title_block
+		(title "GNSS module based on TESEO-LIV3R")
+		(comment 1 "The switch enables active GNSS antennas VCC")
+	)
 	(lib_symbols
+		(symbol "Switch:SW_Wuerth_450301014042"
+			(pin_names
+				(offset 1)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Wuerth_450301014042"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/450301014042.pdf"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch slide, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "changeover single-pole opposite-side-connection double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW*Wuerth*WS*SLTV*10x2.5x6.4*P2.54mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Wuerth_450301014042_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Wuerth_450301014042_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TESEO-LIV3R:TESEO-LIV3R"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -446,16 +635,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "GNSS module\nbased on TESEO-LIV3R"
-		(exclude_from_sim no)
-		(at 226.314 174.244 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-			)
-		)
-		(uuid "2fbb432f-fadf-4f58-8df0-d866e3b2477c")
-	)
 	(junction
 		(at 171.45 88.9)
 		(diameter 0)
@@ -476,6 +655,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 96.52) (xy 124.46 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04edde23-8978-48aa-9b10-d33bdebb5187")
+	)
+	(wire
+		(pts
 			(xy 125.73 111.76) (xy 168.91 111.76)
 		)
 		(stroke
@@ -483,6 +672,26 @@
 			(type default)
 		)
 		(uuid "1eea39da-4b95-48ae-9c22-cd3cb69d1a7b")
+	)
+	(wire
+		(pts
+			(xy 171.45 69.85) (xy 171.45 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bbe4194-db67-446f-bc53-81f3de104d15")
+	)
+	(wire
+		(pts
+			(xy 124.46 72.39) (xy 140.97 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a0691d6-9c8b-498a-876e-b0e8b3956da6")
 	)
 	(wire
 		(pts
@@ -516,6 +725,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 96.52) (xy 124.46 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fda55bb-eb27-46f6-84ad-f1f191f77872")
+	)
+	(wire
+		(pts
 			(xy 173.99 88.9) (xy 171.45 88.9)
 		)
 		(stroke
@@ -546,6 +765,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 69.85) (xy 171.45 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b229645-6435-4ec5-9488-76eb6d5546ac")
+	)
+	(wire
+		(pts
 			(xy 171.45 88.9) (xy 168.91 88.9)
 		)
 		(stroke
@@ -563,16 +792,6 @@
 			(type default)
 		)
 		(uuid "c394d1f6-e63d-4149-adc6-a84405ab6f3a")
-	)
-	(wire
-		(pts
-			(xy 123.19 96.52) (xy 128.27 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4267874-4af2-4942-954d-361d9a815fd6")
 	)
 	(wire
 		(pts
@@ -678,17 +897,6 @@
 		)
 		(uuid "4c4068ae-af42-4352-942a-039f1bba83e2")
 	)
-	(hierarchical_label "VCC_RF"
-		(shape input)
-		(at 123.19 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a9001753-b4af-4c38-aad0-548b2ff7bc5b")
-	)
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 173.99 106.68 0)
@@ -710,6 +918,77 @@
 			(justify left)
 		)
 		(uuid "eeaf8ad5-9a70-4656-bc87-e5654d3b6d8b")
+	)
+	(symbol
+		(lib_id "Switch:SW_Wuerth_450301014042")
+		(at 146.05 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a98070e-e6ed-46b7-9e0e-1006a80741ef")
+		(property "Reference" "SW1"
+			(at 146.05 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch"
+			(at 146.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
+			(at 146.05 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/450301014042.pdf"
+			(at 146.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch slide, single pole double throw"
+			(at 146.05 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "473ff3fb-981c-4c79-93d8-fdbd220bd8d0")
+		)
+		(pin "1"
+			(uuid "056b6aa0-9a08-4f63-8c25-bce85b5dd714")
+		)
+		(pin "2"
+			(uuid "0d2bdd9c-dd31-4fa7-b823-037402e17697")
+		)
+		(instances
+			(project "bike-sensors-logger"
+				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/20b38507-7c11-47bc-b74f-fc37e2ef1b90"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "TESEO-LIV3R:TESEO-LIV3R")
