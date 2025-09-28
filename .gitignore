@@ -1,6 +1,9 @@
 # Backups, exports
 **/*.zip
+
 # Opened temp files
 **/~*
 \#auto_saved_files#
-./fp-info-cache
+
+# Cache files
+schematics/fp-info-cache
