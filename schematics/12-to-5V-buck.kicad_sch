@@ -2595,7 +2595,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 189.23 84.582 90)
 			(effects
 				(font
@@ -2665,7 +2665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 191.262 78.74 90)
 			(effects
 				(font
@@ -2735,7 +2735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 191.262 92.71 90)
 			(effects
 				(font
@@ -3185,7 +3185,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 191.262 100.33 90)
 			(effects
 				(font
@@ -3237,7 +3237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c57eac64-1f4a-4fdf-946a-637eea9b031f")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 120.65 64.77 0)
 			(effects
 				(font
@@ -3281,6 +3281,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "libraries/SPICE/TPS54308_TRANS.LIB"
+			(at 120.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "TPS54308_TRANS"
+			(at 120.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "4ce0c419-a818-4695-b895-a4c992501ce7")
 		)
@@ -3302,7 +3320,7 @@
 		(instances
 			(project "bike-sensors-logger"
 				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/49def333-5dd9-480f-a077-de948f7f462b"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)

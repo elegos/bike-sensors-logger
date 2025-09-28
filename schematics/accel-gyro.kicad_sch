@@ -1080,7 +1080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc76c7a8-3184-4445-bbc3-7c58d67f90ab")
-		(property "Reference" "U5"
+		(property "Reference" "U2"
 			(at 147.32 73.66 0)
 			(effects
 				(font
@@ -1279,7 +1279,7 @@
 		(instances
 			(project "bike-sensors-logger"
 				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/cfd34f19-b9c8-43fa-a529-56c363000dae"
-					(reference "U5")
+					(reference "U2")
 					(unit 1)
 				)
 			)
