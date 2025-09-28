@@ -3476,7 +3476,7 @@
 				)
 			)
 		)
-		(property "Value" "15 uH"
+		(property "Value" "15 µH"
 			(at 151.13 71.12 0)
 			(effects
 				(font
