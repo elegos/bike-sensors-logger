@@ -2345,12 +2345,6 @@
 		(uuid "2fcf4538-fa11-4fed-9491-24ac734c9a97")
 	)
 	(junction
-		(at 223.52 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5150461c-77ab-4202-99df-b92f602a5eff")
-	)
-	(junction
 		(at 151.13 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2486,7 +2480,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 82.55) (xy 226.06 82.55)
+			(xy 201.93 82.55) (xy 226.06 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2646,16 +2640,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 82.55) (xy 223.52 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "392146c6-aed9-4ceb-8ce2-97c0b5957072")
-	)
-	(wire
-		(pts
 			(xy 146.05 110.49) (xy 146.05 147.32)
 		)
 		(stroke
@@ -2783,26 +2767,6 @@
 			(type default)
 		)
 		(uuid "673f5bc7-0b58-4af0-8ac3-005b3dd4caa3")
-	)
-	(wire
-		(pts
-			(xy 226.06 72.39) (xy 223.52 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69a2697c-d124-4a41-a908-6bd6dfb37bec")
-	)
-	(wire
-		(pts
-			(xy 223.52 72.39) (xy 223.52 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fdcf371-8622-4e06-a4c9-34790ea5001c")
 	)
 	(wire
 		(pts
@@ -4770,8 +4734,8 @@
 		)
 	)
 	(sheet
-		(at 226.06 69.85)
-		(size 12.7 15.24)
+		(at 226.06 72.39)
+		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4786,7 +4750,7 @@
 		)
 		(uuid "a53a5bca-403d-4e80-aaac-f027646efe2b")
 		(property "Sheetname" "Micro SD"
-			(at 226.06 69.1384 0)
+			(at 226.06 71.6784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4806,16 +4770,6 @@
 		(pin "CLK" input
 			(at 226.06 82.55 180)
 			(uuid "138bdcbc-4bc4-4e22-8fd0-d51249617110")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CMD" bidirectional
-			(at 226.06 72.39 180)
-			(uuid "7232aa9b-2eeb-4c46-8577-eb7f3db24602")
 			(effects
 				(font
 					(size 1.27 1.27)

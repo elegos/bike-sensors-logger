@@ -678,17 +678,6 @@
 		)
 		(uuid "c8051e15-176b-4efd-8bf8-8c5cf74d2d96")
 	)
-	(hierarchical_label "CMD"
-		(shape bidirectional)
-		(at 124.46 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2362e5a0-8ac5-41d7-9888-1b38c74e9960")
-	)
 	(hierarchical_label "CLK"
 		(shape input)
 		(at 124.46 95.25 180)
