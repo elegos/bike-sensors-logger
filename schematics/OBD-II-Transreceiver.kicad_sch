@@ -1022,34 +1022,28 @@
 		(uuid "e41de77c-3853-40d4-8b93-6c74ce5af229")
 	)
 	(junction
-		(at 137.16 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c247db0-4105-4cd1-a20f-c76dc0a46275")
-	)
-	(junction
-		(at 148.59 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d34acf6-eda1-4ebb-b6cd-51b1d4be6fb4")
-	)
-	(junction
 		(at 52.07 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6cb8a15b-7c8d-4309-8046-38c1e55c5d03")
 	)
 	(junction
-		(at 137.16 57.15)
+		(at 137.16 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "71132e30-1194-4975-827b-a5cdaedc7ad2")
+		(uuid "6d8c2770-34d5-424a-82b8-5d00f976ef79")
 	)
 	(junction
 		(at 118.11 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "994ecf77-fee8-43f4-bfdc-84a6b1ea9fb7")
+	)
+	(junction
+		(at 137.16 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3568672-e6ae-470d-b506-b879b64567a2")
 	)
 	(junction
 		(at 118.11 57.15)
@@ -1059,13 +1053,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 71.12) (xy 167.64 71.12)
+			(xy 137.16 63.5) (xy 151.13 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0468a856-1743-4f33-b883-1c3447f06dbc")
+		(uuid "02041022-11a5-427f-912f-2b984f30f781")
 	)
 	(wire
 		(pts
@@ -1076,6 +1070,26 @@
 			(type default)
 		)
 		(uuid "09626058-36c1-4b30-bc6c-1cf7e64832ac")
+	)
+	(wire
+		(pts
+			(xy 137.16 74.93) (xy 137.16 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1234eb5f-7afa-4da6-83ef-b0c8785732d5")
+	)
+	(wire
+		(pts
+			(xy 148.59 69.85) (xy 151.13 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ec4327-c6b4-4fde-bf71-9b8712c74ec4")
 	)
 	(wire
 		(pts
@@ -1129,6 +1143,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 57.15) (xy 137.16 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d972562-5f01-4b39-8d2f-67ade2888845")
+	)
+	(wire
+		(pts
 			(xy 91.44 57.15) (xy 91.44 72.39)
 		)
 		(stroke
@@ -1136,26 +1160,6 @@
 			(type default)
 		)
 		(uuid "2ea3e5b5-5a28-4304-8876-abf5e7c4f1a3")
-	)
-	(wire
-		(pts
-			(xy 137.16 74.93) (xy 137.16 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44ffaafb-e2bc-4608-8829-178af152c585")
-	)
-	(wire
-		(pts
-			(xy 148.59 73.66) (xy 148.59 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "466714fb-e729-43e6-a9d5-c9c5a3184c5d")
 	)
 	(wire
 		(pts
@@ -1169,56 +1173,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 58.42) (xy 149.86 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "613c79d1-f840-4360-9712-50bf3e354175")
-	)
-	(wire
-		(pts
-			(xy 148.59 73.66) (xy 149.86 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "615c60f0-c082-47af-983e-ef6e0b9dc780")
-	)
-	(wire
-		(pts
-			(xy 137.16 57.15) (xy 137.16 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6447c845-38e7-49da-a403-e1ba163d3e7d")
-	)
-	(wire
-		(pts
-			(xy 148.59 60.96) (xy 149.86 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f2b88bc-e725-427a-baeb-280badc652fc")
-	)
-	(wire
-		(pts
-			(xy 137.16 57.15) (xy 139.7 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7beddb25-afdd-4121-a17f-010b5e164819")
-	)
-	(wire
-		(pts
 			(xy 52.07 54.61) (xy 52.07 74.93)
 		)
 		(stroke
@@ -1226,16 +1180,6 @@
 			(type default)
 		)
 		(uuid "7d0b79d0-5d05-498a-aecb-b0133d590088")
-	)
-	(wire
-		(pts
-			(xy 177.8 63.5) (xy 179.07 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "805ec0ad-aa0f-4bf5-bbb5-6654a1bf556b")
 	)
 	(wire
 		(pts
@@ -1249,17 +1193,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 66.04) (xy 177.8 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fc0ba11-59e8-4928-aab4-4ebe6d03d3a2")
-	)
-	(wire
-		(pts
-			(xy 137.16 74.93) (xy 139.7 74.93)
+			(xy 118.11 74.93) (xy 137.16 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1289,6 +1223,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 74.93) (xy 139.7 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa711a8b-e0be-48a7-bb83-a273e5d7d04b")
+	)
+	(wire
+		(pts
 			(xy 101.6 54.61) (xy 52.07 54.61)
 		)
 		(stroke
@@ -1299,13 +1243,33 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 82.55) (xy 148.59 73.66)
+			(xy 137.16 57.15) (xy 139.7 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb25c36d-bfc8-4e91-af42-ddf505c822cf")
+		(uuid "b57b2564-97e3-4410-9cf1-99a84275f399")
+	)
+	(wire
+		(pts
+			(xy 171.45 63.5) (xy 179.07 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a90f21-6339-42d5-af40-a29bb62bb7b6")
+	)
+	(wire
+		(pts
+			(xy 171.45 66.04) (xy 179.07 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c44248e3-cb23-457f-8e32-adcf13a437b3")
 	)
 	(wire
 		(pts
@@ -1319,43 +1283,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 71.12) (xy 149.86 71.12)
+			(xy 148.59 82.55) (xy 148.59 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3036e2f-9562-422c-a992-fe3f8c10468b")
-	)
-	(wire
-		(pts
-			(xy 118.11 74.93) (xy 137.16 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc7c93d2-92a4-4f92-8852-83cc902865d8")
-	)
-	(wire
-		(pts
-			(xy 177.8 66.04) (xy 179.07 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e143c68f-d05b-458f-b533-5a542e5a1a6b")
-	)
-	(wire
-		(pts
-			(xy 177.8 58.42) (xy 177.8 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e906c4d9-a9f3-42f0-8c14-09f6a84dae2f")
+		(uuid "d087c867-f9df-4c83-b9cd-233e96fa837a")
 	)
 	(wire
 		(pts
@@ -1369,13 +1303,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 58.42) (xy 167.64 58.42)
+			(xy 137.16 66.04) (xy 151.13 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc0b179f-2e18-4164-9df5-1c6bf1db3b52")
+		(uuid "fe0c763a-82cf-45ee-b51f-fb6a97492cdd")
 	)
 	(hierarchical_label "CAN_H"
 		(shape bidirectional)
@@ -2037,8 +1971,8 @@
 		)
 	)
 	(sheet
-		(at 149.86 55.88)
-		(size 17.78 6.35)
+		(at 151.13 60.96)
+		(size 20.32 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2053,7 +1987,7 @@
 		)
 		(uuid "5910e0b9-62cb-4cb3-9485-33336876b92c")
 		(property "Sheetname" "5V Clamping"
-			(at 149.86 55.1684 0)
+			(at 151.13 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,7 +1996,7 @@
 			)
 		)
 		(property "Sheetfile" "5V-clamping.kicad_sch"
-			(at 149.86 62.8146 0)
+			(at 151.13 72.9746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2070,19 +2004,9 @@
 				(justify left top)
 			)
 		)
-		(pin "5V_SIG" output
-			(at 167.64 58.42 0)
-			(uuid "a285d01e-62dd-4324-84b4-b4c213a5a744")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "HV_SIG" input
-			(at 149.86 58.42 180)
-			(uuid "9c99ead7-ee69-4c7f-a343-5f5d6f8f40d5")
+		(pin "VCC_5V" input
+			(at 151.13 69.85 180)
+			(uuid "0cf6cfe8-9b1c-40bc-94b7-a5f66d99d275")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2090,9 +2014,39 @@
 				(justify left)
 			)
 		)
-		(pin "VCC_5V" input
-			(at 149.86 60.96 180)
-			(uuid "0cf6cfe8-9b1c-40bc-94b7-a5f66d99d275")
+		(pin "5V_CAN_H" output
+			(at 171.45 63.5 0)
+			(uuid "be1ee8b1-7e9b-4229-910a-eb843121a529")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V_CAN_L" output
+			(at 171.45 66.04 0)
+			(uuid "7af3786e-461c-4788-93a2-10ec80acfad6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_H" input
+			(at 151.13 63.5 180)
+			(uuid "fa96f1f9-f78c-4499-bc45-17d2f7004e47")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_L" input
+			(at 151.13 66.04 180)
+			(uuid "32dec35a-6be5-4579-8f35-caecb0cdecf1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2104,78 +2058,6 @@
 			(project "bike-sensors-logger"
 				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/23f3389a-4f90-491e-9f31-2a46e142f2be"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 149.86 68.58)
-		(size 17.78 6.35)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "87c411fc-cb49-4436-9f14-905509547f42")
-		(property "Sheetname" "5V Clamping1"
-			(at 149.86 67.8684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "5V-clamping.kicad_sch"
-			(at 149.86 75.5146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "5V_SIG" output
-			(at 167.64 71.12 0)
-			(uuid "1e45896c-7235-4a8e-aaca-3e5aeac57be3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "HV_SIG" input
-			(at 149.86 71.12 180)
-			(uuid "0e48afd0-9926-499a-9148-ae96eed2fe1d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VCC_5V" input
-			(at 149.86 73.66 180)
-			(uuid "430faf3d-932c-4e4e-8fb3-b8258e804560")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "bike-sensors-logger"
-				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/23f3389a-4f90-491e-9f31-2a46e142f2be"
-					(page "3")
 				)
 			)
 		)

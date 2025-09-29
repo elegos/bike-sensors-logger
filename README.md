@@ -11,8 +11,8 @@ Software is licensed under the GNU General Public License v3.0.
 ## Repository folders
 
 - schematics: PCB design, using the KiCAD open source software
-- software
-  - microcontroller: the hardware's firmware
+- firmware: the microcontroller's firmware
+- software:
   - tools: PC tools to extract the data from the microSD
 
 ## Hardware's high level design
@@ -41,6 +41,7 @@ What has been done so far:
 | PCB Schematic     | 12V to 5V buck  | To be reviewed | To power the microprocessor (Arduino). |
 | PCB Schematic     | Accel - Gyro    | To be reviewed | LSM6DSOXTR based accelerometer + gyroscope with embedded ML capabilities in MODE 1 "Stand alone", connected via I2C. Direct I2C connection to Arduino is possible thanks to the microprocessor's integrated I2C level translation. |
 | PCB Schematic     | GNSS            | To be reviewed | GNSS module powered by TESEO-LIV3R chip and an external antenna. The external antenna can be either active (3.3V) or passive. The antenna is connected via a MMCX connector and can be powered if active via a switch. The module provides ANT_PWR to hint the state of the switch, and it's connected to a status LED. |
+| PCB Schematic     | OBD II Transreceiver | To be reviewed | CAN bus transreceiver to talk with the OBD II's CAN data interface. Enhanced with a CAN_H / CAN_L termination check and automatic application if required during startup phase. |
 
 
 ### Dev 2

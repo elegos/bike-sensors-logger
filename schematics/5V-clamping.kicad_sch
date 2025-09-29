@@ -414,10 +414,38 @@
 		(uuid "2960fd3a-15f7-4685-9e81-77b8076c4e67")
 	)
 	(junction
+		(at 99.06 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab06592b-58f6-4cf8-a7d0-38673f2487f9")
+	)
+	(junction
 		(at 50.8 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c76b3b3a-29f6-4ffa-8b4f-f89e7cc12533")
+	)
+	(junction
+		(at 99.06 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8f77fef-ab76-4b74-8c79-838b3ac07233")
+	)
+	(junction
+		(at 99.06 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc0f587e-56df-4690-8564-9991f7e64142")
+	)
+	(wire
+		(pts
+			(xy 99.06 57.15) (xy 101.6 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "000bee6d-762e-4b7f-a623-930d4b0841e2")
 	)
 	(wire
 		(pts
@@ -431,13 +459,23 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 78.74) (xy 63.5 78.74)
+			(xy 96.52 57.15) (xy 99.06 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22c37627-552e-4633-8357-d2dd609fe40d")
+		(uuid "1d8a3483-bb2e-45f0-b820-7e9ff95898d0")
+	)
+	(wire
+		(pts
+			(xy 109.22 57.15) (xy 111.76 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22695fa9-0446-467a-a801-d098a605b17a")
 	)
 	(wire
 		(pts
@@ -448,6 +486,16 @@
 			(type default)
 		)
 		(uuid "3f8bed9b-6190-4403-9a5c-afad6b5da742")
+	)
+	(wire
+		(pts
+			(xy 99.06 57.15) (xy 99.06 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40ae9223-5444-45fc-9c28-4489433ff9b1")
 	)
 	(wire
 		(pts
@@ -481,6 +529,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 78.74) (xy 99.06 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e914406-0053-43f9-954b-3d9b6b065225")
+	)
+	(wire
+		(pts
 			(xy 50.8 57.15) (xy 53.34 57.15)
 		)
 		(stroke
@@ -488,6 +546,36 @@
 			(type default)
 		)
 		(uuid "8dfd9600-8a32-4870-ab92-fd4078bad984")
+	)
+	(wire
+		(pts
+			(xy 99.06 78.74) (xy 99.06 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f050dde-efd3-4a6c-bced-2e0d7c0b48c0")
+	)
+	(wire
+		(pts
+			(xy 106.68 88.9) (xy 111.76 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97a11cc0-450f-449a-8a59-5477f6a4bf7d")
+	)
+	(wire
+		(pts
+			(xy 99.06 69.85) (xy 99.06 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d37135-f171-46c9-83c3-705370bdc403")
 	)
 	(wire
 		(pts
@@ -511,6 +599,26 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 78.74) (xy 85.09 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d47f167b-9943-4153-af38-1a1972bccb0e")
+	)
+	(wire
+		(pts
+			(xy 83.82 57.15) (xy 88.9 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d68a0a23-319f-41f7-a451-32095c9e3263")
+	)
+	(wire
+		(pts
 			(xy 60.96 57.15) (xy 63.5 57.15)
 		)
 		(stroke
@@ -519,18 +627,39 @@
 		)
 		(uuid "db85cd85-c648-4470-89eb-3ab9c9e9f649")
 	)
-	(hierarchical_label "VCC_5V"
+	(wire
+		(pts
+			(xy 99.06 69.85) (xy 111.76 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff7fe72a-f32e-4393-b755-dc56c2462680")
+	)
+	(hierarchical_label "CAN_L"
 		(shape input)
-		(at 63.5 78.74 0)
+		(at 83.82 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4ec3b6d9-68a2-4e2f-81b9-eaf6f9b4a60a")
+	)
+	(hierarchical_label "5V_CAN_L"
+		(shape output)
+		(at 111.76 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "0f27c304-69d2-46bf-bf91-3d278e8e2a95")
+		(uuid "62548f71-a94f-4b15-949c-5aabf10b3479")
 	)
-	(hierarchical_label "HV_SIG"
+	(hierarchical_label "CAN_H"
 		(shape input)
 		(at 35.56 57.15 180)
 		(effects
@@ -541,7 +670,18 @@
 		)
 		(uuid "8fd16713-d1cb-4550-bde9-7ce0580e986a")
 	)
-	(hierarchical_label "5V_SIG"
+	(hierarchical_label "VCC_5V"
+		(shape input)
+		(at 76.2 78.74 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aad6d16b-6be8-4f47-841e-9b76f5099b73")
+	)
+	(hierarchical_label "5V_CAN_H"
 		(shape output)
 		(at 63.5 69.85 0)
 		(effects
@@ -553,6 +693,72 @@
 		(uuid "e051d8ce-c4e2-41c7-9fec-4f1d4fa9d032")
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 111.76 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20f15566-056c-4c01-9d05-277063ad80e7")
+		(property "Reference" "#PWR022"
+			(at 111.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0be338da-53e8-4924-8573-ec400360d07d")
+		)
+		(instances
+			(project "bike-sensors-logger"
+				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/23f3389a-4f90-491e-9f31-2a46e142f2be/5910e0b9-62cb-4cb3-9485-33336876b92c"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148")
 		(at 54.61 88.9 0)
 		(unit 1)
@@ -562,7 +768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4baf7567-9470-440d-ba08-480e71766479")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 54.61 82.55 0)
 			(effects
 				(font
@@ -632,11 +838,161 @@
 		(instances
 			(project "bike-sensors-logger"
 				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/23f3389a-4f90-491e-9f31-2a46e142f2be/5910e0b9-62cb-4cb3-9485-33336876b92c"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
-				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/23f3389a-4f90-491e-9f31-2a46e142f2be/87c411fc-cb49-4436-9f14-905509547f42"
-					(reference "D4")
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 88.9 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53961299-5625-4199-a3ce-27f362c277f8")
+		(property "Reference" "D7"
+			(at 88.9 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 88.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 88.9 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 88.9 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 88.9 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 88.9 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 88.9 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95fbd84d-50b4-444c-ae50-f203ec266db4")
+		)
+		(pin "2"
+			(uuid "ff018d9a-2993-4199-a6d4-482de4f3dbd9")
+		)
+		(instances
+			(project "bike-sensors-logger"
+				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/23f3389a-4f90-491e-9f31-2a46e142f2be/5910e0b9-62cb-4cb3-9485-33336876b92c"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ab8ffaa-f08e-4b1b-a54c-889e61c9735f")
+		(property "Reference" "R16"
+			(at 105.41 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.2 k"
+			(at 105.41 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 58.928 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0f897336-e6c4-45e1-a883-b2d50523cf1c")
+		)
+		(pin "1"
+			(uuid "7711ec57-171f-496c-8396-6880587d5b88")
+		)
+		(instances
+			(project "bike-sensors-logger"
+				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/23f3389a-4f90-491e-9f31-2a46e142f2be/5910e0b9-62cb-4cb3-9485-33336876b92c"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -652,7 +1008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "661bec1b-fa44-4d8e-87e7-298786e33617")
-		(property "Reference" "R11"
+		(property "Reference" "R10"
 			(at 44.45 50.8 90)
 			(effects
 				(font
@@ -702,9 +1058,143 @@
 			(uuid "36b41a5d-1c69-49ef-a187-237e8668441d")
 		)
 		(instances
+			(project ""
+				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/23f3389a-4f90-491e-9f31-2a46e142f2be/5910e0b9-62cb-4cb3-9485-33336876b92c"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a70f5c4-4a89-4d3d-99ad-8934e1fe0a72")
+		(property "Reference" "#PWR021"
+			(at 111.76 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc78ae88-ed24-4796-8c91-93814a15ba8a")
+		)
+		(instances
 			(project "bike-sensors-logger"
-				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/23f3389a-4f90-491e-9f31-2a46e142f2be/87c411fc-cb49-4436-9f14-905509547f42"
-					(reference "R11")
+				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/23f3389a-4f90-491e-9f31-2a46e142f2be/5910e0b9-62cb-4cb3-9485-33336876b92c"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 92.71 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d8dd9df-c64d-4693-ae6a-27a308ce0040")
+		(property "Reference" "R15"
+			(at 92.71 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3 k"
+			(at 92.71 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 58.928 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 92.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3e1d7331-b106-4400-a9a1-7a4b81d8c028")
+		)
+		(pin "1"
+			(uuid "590d50fd-3dde-480d-b5c8-9e33dcad9022")
+		)
+		(instances
+			(project "bike-sensors-logger"
+				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/23f3389a-4f90-491e-9f31-2a46e142f2be/5910e0b9-62cb-4cb3-9485-33336876b92c"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -720,7 +1210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "964ff83d-99fa-4369-aad5-ea12ff3284a8")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 63.5 63.5 0)
 			(effects
 				(font
@@ -771,10 +1261,6 @@
 			(project "bike-sensors-logger"
 				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/23f3389a-4f90-491e-9f31-2a46e142f2be/5910e0b9-62cb-4cb3-9485-33336876b92c"
 					(reference "#PWR017")
-					(unit 1)
-				)
-				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/23f3389a-4f90-491e-9f31-2a46e142f2be/87c411fc-cb49-4436-9f14-905509547f42"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -838,8 +1324,8 @@
 			(uuid "58c66b75-5e44-46b2-a9f9-70ea64962afd")
 		)
 		(instances
-			(project "bike-sensors-logger"
-				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/23f3389a-4f90-491e-9f31-2a46e142f2be/87c411fc-cb49-4436-9f14-905509547f42"
+			(project ""
+				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/23f3389a-4f90-491e-9f31-2a46e142f2be/5910e0b9-62cb-4cb3-9485-33336876b92c"
 					(reference "#PWR019")
 					(unit 1)
 				)
@@ -856,7 +1342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df443259-f995-4759-b14e-aefc19b3c5fb")
-		(property "Reference" "R12"
+		(property "Reference" "R11"
 			(at 57.15 50.8 90)
 			(effects
 				(font
@@ -908,11 +1394,93 @@
 		(instances
 			(project "bike-sensors-logger"
 				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/23f3389a-4f90-491e-9f31-2a46e142f2be/5910e0b9-62cb-4cb3-9485-33336876b92c"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
-				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/23f3389a-4f90-491e-9f31-2a46e142f2be/87c411fc-cb49-4436-9f14-905509547f42"
-					(reference "R12")
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 102.87 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e18a3ba3-b19d-482d-a3c2-b692d2299458")
+		(property "Reference" "D8"
+			(at 102.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 102.87 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 102.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 102.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 102.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 102.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 102.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a31cd729-3269-4a36-b7a7-9b00e0f6c5d9")
+		)
+		(pin "2"
+			(uuid "4d548da1-4471-4ec8-acb4-340e477253cd")
+		)
+		(instances
+			(project "bike-sensors-logger"
+				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/23f3389a-4f90-491e-9f31-2a46e142f2be/5910e0b9-62cb-4cb3-9485-33336876b92c"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -928,7 +1496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e30470f2-1e0d-4154-af9e-de823bc64e46")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 54.61 72.39 0)
 			(effects
 				(font
@@ -996,9 +1564,9 @@
 			(uuid "f7ef1fea-ea8d-4b35-8173-164109ec2759")
 		)
 		(instances
-			(project "bike-sensors-logger"
-				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/23f3389a-4f90-491e-9f31-2a46e142f2be/87c411fc-cb49-4436-9f14-905509547f42"
-					(reference "D3")
+			(project ""
+				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/23f3389a-4f90-491e-9f31-2a46e142f2be/5910e0b9-62cb-4cb3-9485-33336876b92c"
+					(reference "D2")
 					(unit 1)
 				)
 			)
