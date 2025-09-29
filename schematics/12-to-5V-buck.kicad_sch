@@ -2587,7 +2587,7 @@
 				)
 			)
 		)
-		(property "Value" "2 kΩ"
+		(property "Value" "2 k"
 			(at 189.23 82.55 90)
 			(effects
 				(font
@@ -2656,7 +2656,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "49.9 kΩ"
+		(property "Value" "49.9 k"
 			(at 195.58 80.0099 0)
 			(effects
 				(font
@@ -2726,7 +2726,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 kΩ"
+		(property "Value" "100 k"
 			(at 195.58 93.9799 0)
 			(effects
 				(font
@@ -3176,7 +3176,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "13.3 kΩ"
+		(property "Value" "13.3 k"
 			(at 195.58 101.5999 0)
 			(effects
 				(font

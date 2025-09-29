@@ -692,6 +692,36 @@
           "label": "Height",
           "name": "Height",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Library",
+          "name": "Sim.Library",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Name",
+          "name": "Sim.Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -759,12 +789,24 @@
       "12V CC - 5V CC buck"
     ],
     [
+      "87c411fc-cb49-4436-9f14-905509547f42",
+      "5V Clamping1"
+    ],
+    [
       "20b38507-7c11-47bc-b74f-fc37e2ef1b90",
       "GNSS"
     ],
     [
       "cfd34f19-b9c8-43fa-a529-56c363000dae",
       "Accel - Gyro"
+    ],
+    [
+      "23f3389a-4f90-491e-9f31-2a46e142f2be",
+      "OBD II Transreceiver"
+    ],
+    [
+      "5910e0b9-62cb-4cb3-9485-33336876b92c",
+      "5V Clamping"
     ]
   ],
   "text_variables": {}
