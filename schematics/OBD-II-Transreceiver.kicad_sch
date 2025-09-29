@@ -999,8 +999,8 @@
 		)
 	)
 	(rectangle
-		(start 99.822 32.258)
-		(end 191.262 86.36)
+		(start 99.822 22.86)
+		(end 165.1 86.36)
 		(stroke
 			(width 0)
 			(type default)
@@ -1010,9 +1010,9 @@
 		)
 		(uuid f798e0f5-77fb-4dc5-b09d-20e39bec61c2)
 	)
-	(text "CAN_H / CAN_L termination (check + application).\n\nOBD II CAN_H / CAN_L pins might or might not be terminated.\n\nIMPORTANT NOTE: check needs to be done during stardup phase, before CAN transmission!"
+	(text "CAN_H / CAN_L termination (check + application).\n\nOBD II CAN_H / CAN_L pins might or might not be terminated.\n\nIMPORTANT NOTE: check needs to be done during startup phase,\n                  before CAN transmission!"
 		(exclude_from_sim no)
-		(at 101.6 38.1 0)
+		(at 101.346 29.464 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1022,16 +1022,16 @@
 		(uuid "e41de77c-3853-40d4-8b93-6c74ce5af229")
 	)
 	(junction
+		(at 119.38 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64e7bfe0-0569-4350-8bd8-847d824aea90")
+	)
+	(junction
 		(at 52.07 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6cb8a15b-7c8d-4309-8046-38c1e55c5d03")
-	)
-	(junction
-		(at 137.16 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d8c2770-34d5-424a-82b8-5d00f976ef79")
 	)
 	(junction
 		(at 118.11 74.93)
@@ -1040,26 +1040,10 @@
 		(uuid "994ecf77-fee8-43f4-bfdc-84a6b1ea9fb7")
 	)
 	(junction
-		(at 137.16 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3568672-e6ae-470d-b506-b879b64567a2")
-	)
-	(junction
 		(at 118.11 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e41ec2c2-20c8-4821-9f27-4760f940d5b5")
-	)
-	(wire
-		(pts
-			(xy 137.16 63.5) (xy 151.13 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02041022-11a5-427f-912f-2b984f30f781")
 	)
 	(wire
 		(pts
@@ -1073,26 +1057,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 74.93) (xy 137.16 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1234eb5f-7afa-4da6-83ef-b0c8785732d5")
-	)
-	(wire
-		(pts
-			(xy 148.59 69.85) (xy 151.13 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12ec4327-c6b4-4fde-bf71-9b8712c74ec4")
-	)
-	(wire
-		(pts
 			(xy 91.44 72.39) (xy 88.9 72.39)
 		)
 		(stroke
@@ -1100,16 +1064,6 @@
 			(type default)
 		)
 		(uuid "1d5ca7d9-b7b1-4041-a766-8d59e660c43b")
-	)
-	(wire
-		(pts
-			(xy 109.22 44.45) (xy 133.35 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "279a79e1-7026-4e6a-bce2-4b2a79a68483")
 	)
 	(wire
 		(pts
@@ -1143,16 +1097,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 57.15) (xy 137.16 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d972562-5f01-4b39-8d2f-67ade2888845")
-	)
-	(wire
-		(pts
 			(xy 91.44 57.15) (xy 91.44 72.39)
 		)
 		(stroke
@@ -1163,7 +1107,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 57.15) (xy 137.16 57.15)
+			(xy 118.11 57.15) (xy 139.7 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1183,17 +1127,37 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 74.93) (xy 52.07 82.55)
+			(xy 119.38 41.91) (xy 119.38 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "856215af-dde9-4efd-b67d-e254a20ca958")
+		(uuid "873b33db-ca8f-4553-81ab-a560eee076b1")
 	)
 	(wire
 		(pts
-			(xy 118.11 74.93) (xy 137.16 74.93)
+			(xy 109.22 44.45) (xy 119.38 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b1a6152-62e3-4973-9e10-d927577d96c7")
+	)
+	(wire
+		(pts
+			(xy 119.38 44.45) (xy 133.35 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a337b271-4f90-42dc-975f-072a92c030b0")
+	)
+	(wire
+		(pts
+			(xy 118.11 74.93) (xy 139.7 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1223,16 +1187,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 74.93) (xy 139.7 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa711a8b-e0be-48a7-bb83-a273e5d7d04b")
-	)
-	(wire
-		(pts
 			(xy 101.6 54.61) (xy 52.07 54.61)
 		)
 		(stroke
@@ -1243,33 +1197,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 57.15) (xy 139.7 57.15)
+			(xy 121.92 41.91) (xy 119.38 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b57b2564-97e3-4410-9cf1-99a84275f399")
-	)
-	(wire
-		(pts
-			(xy 171.45 63.5) (xy 179.07 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7a90f21-6339-42d5-af40-a29bb62bb7b6")
-	)
-	(wire
-		(pts
-			(xy 171.45 66.04) (xy 179.07 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c44248e3-cb23-457f-8e32-adcf13a437b3")
+		(uuid "b03361f7-feed-4a92-aa2a-9395392542d7")
 	)
 	(wire
 		(pts
@@ -1280,36 +1214,6 @@
 			(type default)
 		)
 		(uuid "ce7c21c6-d167-4bc0-99c4-af36a021e005")
-	)
-	(wire
-		(pts
-			(xy 148.59 82.55) (xy 148.59 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d087c867-f9df-4c83-b9cd-233e96fa837a")
-	)
-	(wire
-		(pts
-			(xy 52.07 82.55) (xy 148.59 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f470d1a7-6c10-4f36-8583-7e5e3bff81eb")
-	)
-	(wire
-		(pts
-			(xy 137.16 66.04) (xy 151.13 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe0c763a-82cf-45ee-b51f-fb6a97492cdd")
 	)
 	(hierarchical_label "CAN_H"
 		(shape bidirectional)
@@ -1322,17 +1226,6 @@
 		)
 		(uuid "0a3d26d0-93e1-488d-a4a2-79a088778879")
 	)
-	(hierarchical_label "5V_CAN_L"
-		(shape bidirectional)
-		(at 179.07 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "231971ba-4dd6-4ee8-a161-b767a2993fdf")
-	)
 	(hierarchical_label "TXD"
 		(shape input)
 		(at 60.96 69.85 180)
@@ -1344,7 +1237,7 @@
 		)
 		(uuid "2945d349-8666-46b7-a308-9028837ba2da")
 	)
-	(hierarchical_label "TERM"
+	(hierarchical_label "TERMD"
 		(shape input)
 		(at 110.49 69.85 180)
 		(effects
@@ -1366,19 +1259,8 @@
 		)
 		(uuid "3a184efb-4b7a-452e-883e-668d3de2e22f")
 	)
-	(hierarchical_label "5V_CAN_H"
-		(shape bidirectional)
-		(at 179.07 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4308f392-9a11-4438-a5e4-74899d787b40")
-	)
-	(hierarchical_label "TERM_CHKD"
-		(shape output)
+	(hierarchical_label "EN_TERM_CHKD"
+		(shape input)
 		(at 125.73 49.53 180)
 		(effects
 			(font
@@ -1409,6 +1291,17 @@
 			(justify left)
 		)
 		(uuid "b7b58588-d507-4ecc-80cc-3e5350ab0148")
+	)
+	(hierarchical_label "TERM_CHECKD"
+		(shape output)
+		(at 121.92 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c5c21b5d-c2fa-49e3-8306-f9fc3ad16ced")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1966,98 +1859,6 @@
 				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/23f3389a-4f90-491e-9f31-2a46e142f2be"
 					(reference "R7")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 151.13 60.96)
-		(size 20.32 11.43)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "5910e0b9-62cb-4cb3-9485-33336876b92c")
-		(property "Sheetname" "5V Clamping"
-			(at 151.13 60.2484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "5V-clamping.kicad_sch"
-			(at 151.13 72.9746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "VCC_5V" input
-			(at 151.13 69.85 180)
-			(uuid "0cf6cfe8-9b1c-40bc-94b7-a5f66d99d275")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "5V_CAN_H" output
-			(at 171.45 63.5 0)
-			(uuid "be1ee8b1-7e9b-4229-910a-eb843121a529")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "5V_CAN_L" output
-			(at 171.45 66.04 0)
-			(uuid "7af3786e-461c-4788-93a2-10ec80acfad6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CAN_H" input
-			(at 151.13 63.5 180)
-			(uuid "fa96f1f9-f78c-4499-bc45-17d2f7004e47")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CAN_L" input
-			(at 151.13 66.04 180)
-			(uuid "32dec35a-6be5-4579-8f35-caecb0cdecf1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "bike-sensors-logger"
-				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/23f3389a-4f90-491e-9f31-2a46e142f2be"
-					(page "6")
 				)
 			)
 		)

@@ -1,8 +1,7 @@
 // ------------- OBD Transceiver Termination pins -------------
-const int terminationDPin      = 6;  // Digital pin to activate the termination
-const int terminationCheckDPin = 7;  // Digital pin to check the OBD II port termination
-const int canHPin              = A7; // CAN_H measurement
-const int canLPin              = A6; // CAN_L measurement
+const int obdEnableTermCheckPin = 6;  // Digital pin to enable the termination check, injecting a small current into the CAN_H line
+const int obdTermCheckPin       = 7;  // Digital pin to activate the termination
+const int obdTermPin            = 8;  // Digital pin to check the OBD II port termination
 
 // ------------- OBD termination state variables -------------
 bool obdTerminationDecided                   = false;
@@ -12,10 +11,14 @@ unsigned long obdLastStableReading           = 0;
 const unsigned long OBD_STABLE_TIME_REQUIRED = 200; // in milliseconds
 
 void setup() {
-    pinMode(terminationDPin, OUTPUT);
-    pinMode(terminationCheckDPin, INPUT_PULLUP);
+    pinMode(obdEnableTermCheckPin, OUTPUT);
+    pinMode(obdTermCheckPin, INPUT_PULLUP);
+    pinMode(obdTermPin, OUTPUT);
 
-    digitalWrite(terminationCheckDPin, LOW); // Disable the measurement transistor at startup
+    // Disable the measurement transistor at startup
+    digitalWrite(obdEnableTermCheckPin, LOW);
+    digitalWrite(obdTermPin, LOW);
+
     Serial.begin(9600);
 }
 
@@ -27,8 +30,10 @@ void loop() {
 
 void checkOBDStableTermination() {
     if (obdTerminationDecided) return;
-    
-    bool isTerminated = digitalRead(terminationCheckDPin);
+
+    digitalWrite(obdEnableTermCheckPin, HIGH); // Enable the measurement transistor
+    bool isTerminated = !digitalRead(obdTermCheckPin);
+    digitalWrite(obdEnableTermCheckPin, LOW); // Disable the measurement transistor to avoid bus interference
 
     // Unstable signal
     if (isTerminated != obdLastStableReading) {
@@ -48,7 +53,7 @@ void checkOBDStableTermination() {
         // Stable enough, proceed with decision
         obdTerminationDecided = true;
         if (!isTerminated) {
-            digitalWrite(terminationDPin, HIGH);
+            digitalWrite(obdTermPin, HIGH);
         }
     }
 }
