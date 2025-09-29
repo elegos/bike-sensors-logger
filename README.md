@@ -44,6 +44,10 @@ What has been done so far:
 | PCB Schematic     | OBD II Transreceiver | To be reviewed | CAN bus transreceiver to talk with the OBD II's CAN data interface. Enhanced with a CAN_H / CAN_L termination check and automatic application if required during startup phase. |
 
 
+### Dev 3
+
+- Added OBD II port + relative transreceiver and connections between the two and the microcontroller.
+
 ### Dev 2
 
 - Added GNSS (GPS, GLONASS, Galileo, Beidu) module
