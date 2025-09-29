@@ -154,7 +154,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SOIC127P600X175-8N"
+			(property "Footprint" "MCP2551-E-SN:SOIC127P600X175-8N"
 				(at 24.13 -94.92 0)
 				(effects
 					(font
@@ -1607,7 +1607,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "MCP2551-E-SN:SOIC127P600X175-8N"
 			(at 85.09 164.77 0)
 			(effects
 				(font

@@ -814,7 +814,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 161.29 85.09 270)
+		(at 161.29 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -823,7 +823,7 @@
 		(fields_autoplaced yes)
 		(uuid "8aa6b185-a39d-45c4-863a-ce43c18ffd8b")
 		(property "Reference" "R10"
-			(at 161.29 91.44 90)
+			(at 161.29 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -831,7 +831,7 @@
 			)
 		)
 		(property "Value" "10 k"
-			(at 161.29 88.9 90)
+			(at 161.29 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -839,7 +839,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 161.29 83.312 90)
+			(at 161.29 86.868 90)
 			(effects
 				(font
 					(size 1.27 1.27)

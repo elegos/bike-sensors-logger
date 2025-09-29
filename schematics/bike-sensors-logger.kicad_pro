@@ -722,6 +722,30 @@
           "label": "Sim.Pins",
           "name": "Sim.Pins",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser_Part_Number",
+          "name": "Mouser_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser_Price-Stock",
+          "name": "Mouser_Price-Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow_Part_Number",
+          "name": "Arrow_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow_Price-Stock",
+          "name": "Arrow_Price-Stock",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -786,15 +810,15 @@
     ],
     [
       "49def333-5dd9-480f-a077-de948f7f462b",
-      "12V CC - 5V CC buck"
-    ],
-    [
-      "20b38507-7c11-47bc-b74f-fc37e2ef1b90",
-      "GNSS"
+      "12V to 5V + 3.3V buck"
     ],
     [
       "cfd34f19-b9c8-43fa-a529-56c363000dae",
       "Accel - Gyro"
+    ],
+    [
+      "20b38507-7c11-47bc-b74f-fc37e2ef1b90",
+      "GNSS"
     ],
     [
       "23f3389a-4f90-491e-9f31-2a46e142f2be",

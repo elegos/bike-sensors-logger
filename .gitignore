@@ -3,6 +3,7 @@
 
 # Opened temp files
 **/~*
+**/.~*
 \#auto_saved_files#
 
 # Cache files
