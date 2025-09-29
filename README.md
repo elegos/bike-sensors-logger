@@ -17,24 +17,25 @@ Software is licensed under the GNU General Public License v3.0.
 
 ## Hardware's high level design
 
-- Inputs
+### Inputs
 
-The box only has one input: the OBD2 port. It uses the 12V pins to power itself, with an estimated maximum consumption of <500 mA.
+- OBD2 port: used to get 12V power and the bike's data.
+- GNSS (Global Navigation Satellite System) antenna: to get the GNSS signal, and thus the position and the time.
 
-Main components, to target release v1.0:
+### Main components, to target release v1.0
+
 - [ ] The OBD2 port: power and some of the data (speed, engine's rpm, throttle)
 - [ ] Arduino Nano R4: microcontroller to manage the logics
 - [ ] GPS module: to get geolocation and time
 - [ ] Accelerometer / gyroscope
 - [ ] microSD slot: to save the data
 
-Future enhancements:
+### Future enhancements
+
 - [ ] Magnometer
 - [ ] Bluetooth, to provide the GPS signal to some action cams that support external GPS devices, and thus easily synchronize video and data
 
-## Changelog
-
-What has been done so far:
+### What has been done so far
 
 | Project component | Component       | Current state  | Notes |
 | ----------------- | --------------- | -------------- | ----- |
@@ -42,6 +43,12 @@ What has been done so far:
 | PCB Schematic     | Accel - Gyro    | To be reviewed | LSM6DSOXTR based accelerometer + gyroscope with embedded ML capabilities in MODE 1 "Stand alone", connected via I2C. Direct I2C connection to Arduino is possible thanks to the microprocessor's integrated I2C level translation. |
 | PCB Schematic     | GNSS            | To be reviewed | GNSS module powered by TESEO-LIV3R chip and an external antenna. The external antenna can be either active (3.3V) or passive. The antenna is connected via a MMCX connector and can be powered if active via a switch. The module provides ANT_PWR to hint the state of the switch, and it's connected to a status LED. |
 | PCB Schematic     | OBD II Transreceiver | To be reviewed | CAN bus transreceiver to talk with the OBD II's CAN data interface. Enhanced with a CAN_H / CAN_L termination check and automatic application if required during startup phase. |
+
+### Known problems or TODO list
+
+- The GNSS chip should be also powered by a 3.3V battery to let the internal clock continue ticking. It requires either a CR2032 battery (easier), or a rechargeable solution (more robust).
+
+## Changelog
 
 
 ### Dev 3
