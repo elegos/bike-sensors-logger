@@ -15,4 +15,5 @@
   (lib (name "150060RS83000")(type "KiCad")(uri "${KIPRJMOD}/libraries/Symbols/150060RS83000.kicad_sym")(options "")(descr ""))
   (lib (name "C-OBD-II-16M")(type "KiCad")(uri "${KIPRJMOD}/libraries/Symbols/C-OBD-II-16M.kicad_sym")(options "")(descr ""))
   (lib (name "MCP2551T-E_SN")(type "KiCad")(uri "${KIPRJMOD}/libraries/Symbols/MCP2551T-E_SN.kicad_sym")(options "")(descr ""))
+  (lib (name "PJS008-4100-0-VE")(type "KiCad")(uri "${KIPRJMOD}/libraries/Symbols/PJS008-4100-0-VE.kicad_sym")(options "")(descr ""))
 )

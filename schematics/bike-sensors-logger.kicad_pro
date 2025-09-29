@@ -799,6 +799,10 @@
     [
       "23f3389a-4f90-491e-9f31-2a46e142f2be",
       "OBD II Transreceiver"
+    ],
+    [
+      "a53a5bca-403d-4e80-aaac-f027646efe2b",
+      "Micro SD"
     ]
   ],
   "text_variables": {}

@@ -6,6 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Bike sensors logger MK1")
+		(comment 1 "It will probably require a 5-to-3.3V buck from the main 5V buck instead")
+		(comment 2 "TODO: check overall current consumption on 3V3 port.")
 	)
 	(lib_symbols
 		(symbol "0732511352:0732511352"
@@ -2339,6 +2341,12 @@
 		)
 	)
 	(junction
+		(at 93.98 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0969ca0a-f59f-4cf1-8432-16ebafb32691")
+	)
+	(junction
 		(at 101.6 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2355,6 +2363,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fcf4538-fa11-4fed-9491-24ac734c9a97")
+	)
+	(junction
+		(at 180.34 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5150461c-77ab-4202-99df-b92f602a5eff")
 	)
 	(junction
 		(at 105.41 81.28)
@@ -2385,6 +2399,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f12a0aa3-e133-41b9-915b-1e7d51b623f1")
+	)
+	(wire
+		(pts
+			(xy 93.98 132.08) (xy 163.83 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0174264c-2801-48df-aef5-c60427575007")
 	)
 	(wire
 		(pts
@@ -2445,6 +2469,16 @@
 			(type default)
 		)
 		(uuid "15c6729d-2973-4e4f-826f-dec4f94204af")
+	)
+	(wire
+		(pts
+			(xy 180.34 68.58) (xy 182.88 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f49442-3442-4b6d-9a89-377e739c7897")
 	)
 	(wire
 		(pts
@@ -2538,6 +2572,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 81.28) (xy 93.98 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "330af3f7-f526-45d7-9ec3-97bd63a53183")
+	)
+	(wire
+		(pts
 			(xy 104.14 97.79) (xy 160.02 97.79)
 		)
 		(stroke
@@ -2545,6 +2589,16 @@
 			(type default)
 		)
 		(uuid "36f6cbe0-6160-4342-adbb-3310269739a7")
+	)
+	(wire
+		(pts
+			(xy 158.75 68.58) (xy 180.34 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "392146c6-aed9-4ceb-8ce2-97c0b5957072")
 	)
 	(wire
 		(pts
@@ -2558,7 +2612,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 81.28) (xy 101.6 81.28)
+			(xy 78.74 81.28) (xy 93.98 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2658,6 +2712,26 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 58.42) (xy 180.34 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69a2697c-d124-4a41-a908-6bd6dfb37bec")
+	)
+	(wire
+		(pts
+			(xy 180.34 58.42) (xy 180.34 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fdcf371-8622-4e06-a4c9-34790ea5001c")
+	)
+	(wire
+		(pts
 			(xy 168.91 50.8) (xy 168.91 29.21)
 		)
 		(stroke
@@ -2665,6 +2739,16 @@
 			(type default)
 		)
 		(uuid "72c587b8-fad4-491f-ae87-7c06ff9c9936")
+	)
+	(wire
+		(pts
+			(xy 158.75 66.04) (xy 182.88 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75e5b180-e78d-4b4c-9aee-e08f18f8386d")
 	)
 	(wire
 		(pts
@@ -2695,6 +2779,16 @@
 			(type default)
 		)
 		(uuid "8138b05d-64b5-4b8d-a75e-ad4ec7f4f973")
+	)
+	(wire
+		(pts
+			(xy 163.83 132.08) (xy 163.83 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83e75bd5-9df7-4174-a5ba-d888f9614777")
 	)
 	(wire
 		(pts
@@ -2748,6 +2842,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 60.96) (xy 182.88 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9008131d-5dae-4153-bfed-4794de61cffb")
+	)
+	(wire
+		(pts
 			(xy 25.4 54.61) (xy 24.13 54.61)
 		)
 		(stroke
@@ -2785,6 +2889,16 @@
 			(type default)
 		)
 		(uuid "a40fa2b0-c42f-4677-b9e1-2fcae6bb9d69")
+	)
+	(wire
+		(pts
+			(xy 93.98 81.28) (xy 101.6 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae1f1c59-9640-4122-94bd-a4d1d377a095")
 	)
 	(wire
 		(pts
@@ -2875,6 +2989,36 @@
 			(type default)
 		)
 		(uuid "cef55de5-7d5a-4f45-8c0e-6173759dbd54")
+	)
+	(wire
+		(pts
+			(xy 158.75 63.5) (xy 182.88 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6171423-470c-4cbd-82b2-e77e8d6842af")
+	)
+	(wire
+		(pts
+			(xy 163.83 73.66) (xy 190.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd534f52-07f1-41ea-b694-84dd42daf5c3")
+	)
+	(wire
+		(pts
+			(xy 190.5 71.12) (xy 190.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e256cfe0-e83c-40f0-a8d6-04baea3b283b")
 	)
 	(wire
 		(pts
@@ -4457,6 +4601,108 @@
 			(project "bike-sensors-logger"
 				(path "/2c1d9222-af16-428b-85a5-a3d420373d70"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 182.88 55.88)
+		(size 12.7 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a53a5bca-403d-4e80-aaac-f027646efe2b")
+		(property "Sheetname" "Micro SD"
+			(at 182.88 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "micro-sd.kicad_sch"
+			(at 182.88 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CLK" input
+			(at 182.88 68.58 180)
+			(uuid "138bdcbc-4bc4-4e22-8fd0-d51249617110")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CMD" bidirectional
+			(at 182.88 58.42 180)
+			(uuid "7232aa9b-2eeb-4c46-8577-eb7f3db24602")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAT0" bidirectional
+			(at 182.88 60.96 180)
+			(uuid "ee13a939-759b-4603-8ba7-301ee6634e81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO" bidirectional
+			(at 182.88 66.04 180)
+			(uuid "8bebb376-39cd-4a8a-8554-5c57cc82e615")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI" bidirectional
+			(at 182.88 63.5 180)
+			(uuid "ff96b897-a1d3-4d5d-bfc4-9046a060503a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 190.5 71.12 270)
+			(uuid "40ee8100-3e81-4c5d-9b04-52c69c0fd55f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "bike-sensors-logger"
+				(path "/2c1d9222-af16-428b-85a5-a3d420373d70"
+					(page "6")
 				)
 			)
 		)
