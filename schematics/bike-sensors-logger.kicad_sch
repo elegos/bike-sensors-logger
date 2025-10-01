@@ -2338,6 +2338,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Power is given by the 12V OBD II port"
+		(exclude_from_sim no)
+		(at 70.104 79.248 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8bbd229c-67fc-4356-916c-dbcb13c74d82")
+	)
 	(junction
 		(at 146.05 110.49)
 		(diameter 0)
@@ -2373,12 +2383,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf0deaf1-fb1f-4199-b4a3-b9df7409f977")
-	)
-	(junction
-		(at 68.58 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de5d2fe4-9fac-4d7d-9ebc-c4dca2afaf75")
 	)
 	(junction
 		(at 147.32 111.76)
@@ -2580,16 +2584,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 63.5) (xy 68.58 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d5198a0-2c92-4119-a426-92c8a177beb6")
-	)
-	(wire
-		(pts
 			(xy 119.38 110.49) (xy 146.05 110.49)
 		)
 		(stroke
@@ -2747,16 +2741,6 @@
 			(type default)
 		)
 		(uuid "5e7191c5-442c-49b0-9338-1295924a8a09")
-	)
-	(wire
-		(pts
-			(xy 60.96 66.04) (xy 68.58 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e77d16b-0133-4347-a82c-889aa7b2798f")
 	)
 	(wire
 		(pts
@@ -4006,72 +3990,6 @@
 			(project ""
 				(path "/2c1d9222-af16-428b-85a5-a3d420373d70"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 60.96 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "833dbfc9-ea3f-42cb-a20d-2ab9f32fea75")
-		(property "Reference" "#PWR04"
-			(at 60.96 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 60.96 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b8ac7d5b-4ac5-42b0-8d1c-b330959f2e13")
-		)
-		(instances
-			(project ""
-				(path "/2c1d9222-af16-428b-85a5-a3d420373d70"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
