@@ -15,4 +15,5 @@
   (lib (name "08055C104KAT4A")(type "KiCad")(uri "${KIPRJMOD}/libraries/Footprints/08055C104KAT4A.pretty")(options "")(descr ""))
   (lib (name "EEU-FC1H221S")(type "KiCad")(uri "${KIPRJMOD}/libraries/Footprints/EEU-FC1H221S.pretty")(options "")(descr ""))
   (lib (name "MBAST32MSB7226KPNA18")(type "KiCad")(uri "${KIPRJMOD}/libraries/Footprints/MBAST32MSB7226KPNA18.pretty")(options "")(descr ""))
+  (lib (name "DR125-100-R")(type "KiCad")(uri "${KIPRJMOD}/libraries/Footprints/DR125-100-R.pretty")(options "")(descr ""))
 )
