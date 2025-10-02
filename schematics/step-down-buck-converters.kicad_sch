@@ -8,6 +8,201 @@
 		(title "12V to 5V + 3.3V buck")
 	)
 	(lib_symbols
+		(symbol "08055C104KAT4A:08055C104KAT4A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 3.8109 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "08055C104KAT4A"
+				(at 0 -5.0885 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "08055C104KAT4A:CAPC2012X94N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "AVX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "0805 100nF Ceramic Multilayer Capacitor, 50 VDC, +125degC, X7R Dielec, +/-10% | AVX 08055C104KAT4A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "2012 AVX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/08055C104KAT4A/AVX/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "08055C104KAT4A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/08055C104KAT4A/AVX/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "08055C104KAT4A_0_0"
+				(rectangle
+					(start 0 -1.9069)
+					(end 0.635 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.9069 -1.9069)
+					(end 2.54 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ASPI-0804T-150M-T:ASPI-0804T-150M-T"
 			(pin_names
 				(offset 1.016)
@@ -427,6 +622,221 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EEU-FC1H221S:EEU-FC1H221S"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "EEU-FC1H221S"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "EEU-FC1H221S:CAPPRD500W65D1250H1600"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1209.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Aluminium Electrolytic Capacitor, Radial Lead, AEC-Q200, 105?C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "16"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "667-EEU-FC1H221S"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EEU-FC1H221S?qs=8Z%252BUzlV55zQx6uOsQOxJqQ%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Panasonic"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "EEU-FC1H221S"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "EEU-FC1H221S_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 1.778) (xy 4.064 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 1.27) (xy 3.556 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 2.54)
+					(end 5.842 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54) (xy 6.858 -2.54) (xy 6.858 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "GCM0335C1E750FA16D:GCM0335C1E750FA16D"
 			(pin_names
 				(offset 1.016)
@@ -615,6 +1025,198 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MBAST32MSB7226KPNA18:MBAST32MSB7226KPNA18"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "MBAST32MSB7226KPNA18"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "MBAST32MSB7226KPNA18:CAPC3225X270N"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.in/datasheet/2/396/c_mlcc_B_e-3369865.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V 22uF X7R 1210 10% Industrial"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.7"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "963-MBAST32MSB7226KP"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/MBAST32MSB7226KPNA18?qs=tlsG%2FOw5FFidLEF4ibjoUw%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "TAIYO YUDEN"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "MBAST32MSB7226KPNA18"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "MBAST32MSB7226KPNA18_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1758,236 +2360,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "WCAP-ATG8_5X11:WCAP-ATG8_5X11"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 1.175 3.38 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Value" "WCAP-ATG8_5X11"
-				(at 0.915 -5.075 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Footprint" "WCAP-ATG8_5X11:WCAP-ATG8_5X11_DXL_"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Würth Elektronik"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "CAP ALUM 10UF 20% 35V RADIAL TH"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "Radial Wurth Electronics"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/860010572002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "860010572002"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/860010572002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "WCAP-ATG8_5X11_0_0"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.6426 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -1.905) (xy 0.635 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.905) (xy 1.905 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.9279 0) (xy 2.5705 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "+"
-					(at 2.54 -1.905 0)
-					(effects
-						(font
-							(size 1.4224 1.4224)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "WE-TPC_2828:WE-TPC_2828"
 			(pin_names
 				(offset 1.016)
@@ -2336,7 +2708,7 @@
 		)
 	)
 	(rectangle
-		(start 45.72 46.99)
+		(start 33.02 39.37)
 		(end 177.8 99.06)
 		(stroke
 			(width 0)
@@ -2380,22 +2752,10 @@
 		(uuid "633415c7-98b9-473e-9863-fce60384fc57")
 	)
 	(junction
-		(at 58.42 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "031eab6e-69f9-4951-a96d-aca1c807b31d")
-	)
-	(junction
 		(at 158.75 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c9af3e8-99cb-4a98-961e-6a518919b2c4")
-	)
-	(junction
-		(at 121.92 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1020dd8c-9eb5-4889-b934-15bd31885d3e")
 	)
 	(junction
 		(at 62.23 60.96)
@@ -2404,16 +2764,34 @@
 		(uuid "11dcb036-9ada-42a8-8274-91f7d46aa2e9")
 	)
 	(junction
+		(at 121.92 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19f2bd37-302e-42e4-a0c7-1944184eb5f9")
+	)
+	(junction
+		(at 43.18 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d0f47be-036a-4692-8afd-421c7207a829")
+	)
+	(junction
+		(at 127 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2efab428-f35a-47df-aa8c-55f54c118efa")
+	)
+	(junction
 		(at 144.78 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "361be3a5-53e8-42c6-9ed6-ba7bfe10844d")
 	)
 	(junction
-		(at 53.34 60.96)
+		(at 36.83 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4a554e3e-18d2-4f79-862a-467e301c1c67")
+		(uuid "38f32ab8-5139-4dcd-bf31-98011b714e54")
 	)
 	(junction
 		(at 191.77 119.38)
@@ -2434,16 +2812,16 @@
 		(uuid "6c348111-6dfc-4458-a540-841aba3fe9b3")
 	)
 	(junction
-		(at 121.92 77.47)
+		(at 127 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6f5ad021-1134-4bf3-b391-9bbe53dba3c6")
+		(uuid "76155bf3-e91f-41f9-a63b-9bf0d1770665")
 	)
 	(junction
-		(at 144.78 63.5)
+		(at 43.18 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "79abd15a-a91a-4c3f-8a5f-4c7dc5297d65")
+		(uuid "80056b8c-33f3-406d-a4bb-e281c11f709b")
 	)
 	(junction
 		(at 242.57 114.3)
@@ -2452,10 +2830,22 @@
 		(uuid "8944df36-f3b4-4191-85e5-9c1cba8c92c9")
 	)
 	(junction
-		(at 58.42 80.01)
+		(at 48.26 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9cfacc7d-5895-44e9-ad09-d1e238673ade")
+		(uuid "899ac940-bad9-4097-ba20-69174171aa30")
+	)
+	(junction
+		(at 144.78 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d52c7d1-2906-4d92-a0a8-5a784d790672")
+	)
+	(junction
+		(at 48.26 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a3852ed-4d8f-4860-853f-00160f1c8f42")
 	)
 	(junction
 		(at 144.78 85.09)
@@ -2479,13 +2869,29 @@
 		(at 115.57 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d7eff9fe-6e44-44db-ae2e-67383c937af4")
+		(uuid "c2112d2e-5e93-4156-9fcf-ce42b7c745e9")
+	)
+	(junction
+		(at 121.92 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd821d6a-af67-448d-880d-e93fe33ce67c")
 	)
 	(junction
 		(at 90.17 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5df0744-f8ab-4b55-b6b3-869367e0593f")
+	)
+	(wire
+		(pts
+			(xy 48.26 50.8) (xy 48.26 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05537fe4-4b4b-453e-8742-1df80f7cc39b")
 	)
 	(wire
 		(pts
@@ -2499,13 +2905,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 64.77) (xy 115.57 63.5)
+			(xy 43.18 50.8) (xy 43.18 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c1273d0-660b-4861-81b1-a31a36b9c755")
+		(uuid "1122a95a-f279-4195-a7e4-353dadd30f0f")
 	)
 	(wire
 		(pts
@@ -2529,13 +2935,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 63.5) (xy 144.78 63.5)
+			(xy 48.26 48.26) (xy 60.96 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1558bf7f-5a93-44dd-a8fd-6ed5f0523890")
+		(uuid "174e5fc3-6231-474f-bd60-6c2d2a3938c9")
 	)
 	(wire
 		(pts
@@ -2549,6 +2955,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 48.26) (xy 43.18 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2671dbef-3d58-4ebf-8185-5f7c16b5f114")
+	)
+	(wire
+		(pts
 			(xy 163.83 121.92) (xy 163.83 119.38)
 		)
 		(stroke
@@ -2556,16 +2972,6 @@
 			(type default)
 		)
 		(uuid "3252c0a3-285a-4d9b-a851-b9777759906b")
-	)
-	(wire
-		(pts
-			(xy 58.42 60.96) (xy 62.23 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3585a5ca-4c1a-4920-a1c5-82446ac765a6")
 	)
 	(wire
 		(pts
@@ -2579,23 +2985,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 63.5) (xy 121.92 69.85)
+			(xy 36.83 60.96) (xy 43.18 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ebc3c0b-8f4c-47db-a705-834785e6f97f")
-	)
-	(wire
-		(pts
-			(xy 53.34 60.96) (xy 58.42 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a6fc231-f7e0-4eb4-bfc2-5b8ded5d1b26")
+		(uuid "4608d444-a50a-4448-a306-c6970e492065")
 	)
 	(wire
 		(pts
@@ -2609,13 +3005,23 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 72.39) (xy 53.34 80.01)
+			(xy 127 50.8) (xy 132.08 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "580b56a0-d533-486d-ac45-36c06fcd4c4b")
+		(uuid "57f8b407-c895-4560-9a4c-3a794c0120f0")
+	)
+	(wire
+		(pts
+			(xy 127 60.96) (xy 127 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "582f6db8-4211-4573-a4ce-d465d73dbf2f")
 	)
 	(wire
 		(pts
@@ -2636,6 +3042,16 @@
 			(type default)
 		)
 		(uuid "5f728e93-91ac-4d22-aa15-ed8455ec1ea0")
+	)
+	(wire
+		(pts
+			(xy 127 53.34) (xy 127 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6954a73f-bc26-40ba-b05f-c26fd585c6c5")
 	)
 	(wire
 		(pts
@@ -2669,6 +3085,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 58.42) (xy 48.26 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75ffb2e0-47fc-41d4-bbef-8f0f6d9492f0")
+	)
+	(wire
+		(pts
 			(xy 133.35 74.93) (xy 137.16 74.93)
 		)
 		(stroke
@@ -2689,23 +3115,33 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 60.96) (xy 53.34 60.96)
+			(xy 43.18 58.42) (xy 43.18 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee89bf3-7ce7-4ace-bb13-ec7314ea791a")
+	)
+	(wire
+		(pts
+			(xy 48.26 60.96) (xy 62.23 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8179d424-8621-48fd-a015-515c229a825e")
+	)
+	(wire
+		(pts
+			(xy 31.75 60.96) (xy 36.83 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "93796f29-35a7-480b-8343-e0dc3ca0f3b6")
-	)
-	(wire
-		(pts
-			(xy 115.57 72.39) (xy 115.57 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "957a044a-2e7c-4253-9940-6e5e140b8fd8")
 	)
 	(wire
 		(pts
@@ -2729,16 +3165,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 63.5) (xy 121.92 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a974bf6c-80cc-4ba1-9e44-54bbbd3023c0")
-	)
-	(wire
-		(pts
 			(xy 242.57 137.16) (xy 242.57 114.3)
 		)
 		(stroke
@@ -2759,6 +3185,46 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 60.96) (xy 48.26 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0d159a5-ee31-4f58-bb7c-6ad0517dcbf3")
+	)
+	(wire
+		(pts
+			(xy 115.57 63.5) (xy 121.92 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ca1a1a-13eb-40c2-be5a-03f26aa050fb")
+	)
+	(wire
+		(pts
+			(xy 115.57 50.8) (xy 121.92 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7736c5f-2354-43f2-a86d-1e7ed8518f59")
+	)
+	(wire
+		(pts
+			(xy 43.18 48.26) (xy 48.26 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc8aeded-5049-475d-b41a-731088785c81")
+	)
+	(wire
+		(pts
 			(xy 133.35 85.09) (xy 144.78 85.09)
 		)
 		(stroke
@@ -2769,13 +3235,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 77.47) (xy 121.92 77.47)
+			(xy 144.78 63.5) (xy 158.75 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c146b423-43c1-43d9-80ef-56c6bc659a0b")
+		(uuid "c4999378-0f5f-4253-a593-f9338fc549ae")
 	)
 	(wire
 		(pts
@@ -2809,6 +3275,26 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 50.8) (xy 127 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daaf1f3c-96ee-4173-a899-eaa9cb7a1c15")
+	)
+	(wire
+		(pts
+			(xy 121.92 63.5) (xy 127 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbe7e615-2f7c-42d0-9267-3d7fb8b94a7b")
+	)
+	(wire
+		(pts
 			(xy 158.75 119.38) (xy 163.83 119.38)
 		)
 		(stroke
@@ -2819,33 +3305,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 80.01) (xy 58.42 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd63351d-5c56-4557-a9ce-c6aaa1f8a24e")
-	)
-	(wire
-		(pts
-			(xy 144.78 74.93) (xy 144.78 71.12)
+			(xy 144.78 63.5) (xy 144.78 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "df5c2460-deee-44f0-8fbd-820c341bf45d")
-	)
-	(wire
-		(pts
-			(xy 58.42 60.96) (xy 58.42 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e13342ab-2e21-47f1-bfbc-9463129e04d5")
 	)
 	(wire
 		(pts
@@ -2859,23 +3325,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 64.77) (xy 53.34 60.96)
+			(xy 127 63.5) (xy 144.78 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eefca95e-a729-4ae9-a3e3-703cd4bc7e2e")
-	)
-	(wire
-		(pts
-			(xy 144.78 63.5) (xy 158.75 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6a0b822-fd32-4030-af77-6a2ff9ddda5c")
+		(uuid "e20a859d-ba6f-40cd-b513-d7cadd3eea07")
 	)
 	(wire
 		(pts
@@ -2899,7 +3355,7 @@
 	)
 	(hierarchical_label "Vin"
 		(shape input)
-		(at 41.91 60.96 180)
+		(at 31.75 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3098,7 +3554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cc1b31c-513d-4aef-863c-3c097e2c19ea")
-		(property "Reference" "C7"
+		(property "Reference" "C9"
 			(at 167.64 121.9199 90)
 			(effects
 				(font
@@ -3273,197 +3729,7 @@
 		(instances
 			(project "bike-sensors-logger"
 				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/49def333-5dd9-480f-a077-de948f7f462b"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MLASG32MSB5226MPNA01:MLASG32MSB5226MPNA01")
-		(at 121.92 72.39 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "34101a2c-377f-4a19-a21b-fbf8427fe188")
-		(property "Reference" "C5"
-			(at 125.73 72.3899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22 µF"
-			(at 125.73 74.9299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MLASG32MSB5226MPNA01:CAPC3225X270N"
-			(at 121.92 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "22 uF"
-			(at 121.92 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Taiyo Yuden"
-			(at 121.92 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.7mm"
-			(at 121.92 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "3225-2 Taiyo Yuden"
-			(at 121.92 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 121.92 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MLASG32MSB5226MPNA01/Taiyo+Yuden/view-part/?ref=eda"
-			(at 121.92 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 121.92 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "NA"
-			(at 121.92 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MLASG32MSB5226MPNA01/Taiyo+Yuden/view-part/?ref=snap"
-			(at 121.92 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MLASG32MSB5226MPNA01"
-			(at 121.92 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "22uF 35V 20% Multilayer Ceramic Capacitor X5R 1210 (3225 Metric)"
-			(at 121.92 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 121.92 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Taiyo Yuden"
-			(at 121.92 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c9be92f-4c66-4ff9-844f-fc2ba5198e04")
-		)
-		(pin "2"
-			(uuid "9482bfdf-8cc2-45b4-91d3-595fbba9f461")
-		)
-		(instances
-			(project "bike-sensors-logger"
-				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/49def333-5dd9-480f-a077-de948f7f462b"
-					(reference "C5")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -3545,7 +3811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44908d21-1ec6-43fe-a54e-2af1646fc807")
-		(property "Reference" "C8"
+		(property "Reference" "C10"
 			(at 250.19 116.8399 90)
 			(effects
 				(font
@@ -3720,7 +3986,7 @@
 		(instances
 			(project "bike-sensors-logger"
 				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/49def333-5dd9-480f-a077-de948f7f462b"
-					(reference "C8")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -3793,208 +4059,16 @@
 		)
 	)
 	(symbol
-		(lib_id "MBJCG168BB7104KTPA18:MBJCG168BB7104KTPA18")
-		(at 58.42 74.93 270)
+		(lib_id "EEU-FC1H221S:EEU-FC1H221S")
+		(at 36.83 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65638e8f-5ab7-4ec2-b6c6-2f7d7ed47a25")
-		(property "Reference" "C2"
-			(at 62.23 74.9299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 µF"
-			(at 62.23 77.4699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MBJCG168BB7104KTPA18:CAPC1608X100N"
-			(at 58.42 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ds.yuden.co.jp/TYCOMPAS/or/download?pn=MBARQ167SCG0R4ATRA01&fileType=CS"
-			(at 58.42 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1 uF"
-			(at 58.42 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Taiyo Yuden"
-			(at 58.42 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.00mm"
-			(at 58.42 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "1608-2 TAIYO"
-			(at 58.42 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 58.42 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MBJCG168BB7104KTPA18/Taiyo+Yuden/view-part/?ref=eda"
-			(at 58.42 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 58.42 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "NA"
-			(at 58.42 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MBJCG168BB7104KTPA18/Taiyo+Yuden/view-part/?ref=snap"
-			(at 58.42 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MBJCG168BB7104KTPA18"
-			(at 58.42 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "0.1uF 35V 10% Multilayer Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 58.42 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 58.42 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Taiyo Yuden"
-			(at 58.42 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1eda0e5-47b7-40ec-a2db-bed5f03daf87")
-		)
-		(pin "2"
-			(uuid "2bf645a8-2c8d-4df7-bbf3-aa9e720042d8")
-		)
-		(instances
-			(project "bike-sensors-logger"
-				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/49def333-5dd9-480f-a077-de948f7f462b"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "WCAP-ATG8_5X11:WCAP-ATG8_5X11")
-		(at 53.34 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6bc06cc7-af10-4cbc-8eb7-f6312d672e10")
+		(uuid "5e521e5f-3d32-4d89-9ed2-cf130a680569")
 		(property "Reference" "C1"
-			(at 57.15 66.343 90)
+			(at 34.544 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4002,8 +4076,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10 µF"
-			(at 57.15 68.883 90)
+		(property "Value" "220µF"
+			(at 34.544 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4011,18 +4085,28 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "WCAP-ATG8_5X11:WCAP-ATG8_5X11_DXL_"
-			(at 53.34 69.85 0)
+		(property "Footprint" "EEU-FC1H221S:CAPPRD500W65D1250H1600"
+			(at 133.02 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860010572002.pdf"
-			(at 53.34 69.85 0)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1209.pdf"
+			(at 233.02 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Aluminium Electrolytic Capacitor, Radial Lead, AEC-Q200, 105?C"
+			(at 36.83 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4030,103 +4114,64 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 uF"
-			(at 53.34 69.85 0)
+		(property "Height" "16"
+			(at 433.02 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "MF" "Würth Elektronik"
-			(at 53.34 69.85 0)
+		(property "Mouser Part Number" "667-EEU-FC1H221S"
+			(at 533.02 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description_1" "CAP ALUM 10UF 20% 35V RADIAL TH"
-			(at 53.34 69.85 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EEU-FC1H221S?qs=8Z%252BUzlV55zQx6uOsQOxJqQ%3D%3D"
+			(at 633.02 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Package" "Radial Wurth Electronics"
-			(at 53.34 69.85 0)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 733.02 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
-			(at 53.34 69.85 0)
+		(property "Manufacturer_Part_Number" "EEU-FC1H221S"
+			(at 833.02 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/860010572002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-			(at 53.34 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "860010572002"
-			(at 53.34 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 53.34 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/860010572002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-			(at 53.34 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "f8e9ebeb-6ef5-4472-a8b7-8d143e7c2129")
+			(uuid "f6a4f062-fad8-4e64-9e84-5bb9aa21d0f9")
 		)
 		(pin "1"
-			(uuid "fc8e5325-1a1c-4a8a-9008-e59cc681bdc2")
+			(uuid "fa4f21d4-bf18-4b51-be18-ba8ba307d17e")
 		)
 		(instances
-			(project "bike-sensors-logger"
+			(project ""
 				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/49def333-5dd9-480f-a077-de948f7f462b"
 					(reference "C1")
 					(unit 1)
@@ -4144,7 +4189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a28d194-5ea1-4303-b1b2-a31a5476a909")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 140.97 68.58 90)
 			(effects
 				(font
@@ -4196,77 +4241,7 @@
 		(instances
 			(project "bike-sensors-logger"
 				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/49def333-5dd9-480f-a077-de948f7f462b"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 144.78 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90ab767e-4ea0-441d-98d2-a9b9f29d7e4d")
-		(property "Reference" "R1"
-			(at 147.32 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "49.9 k"
-			(at 147.32 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 143.002 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 144.78 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cff34317-7bd8-42cf-8578-3e0028c62b58")
-		)
-		(pin "1"
-			(uuid "c75931c4-c1af-46e7-b00d-92769586ccda")
-		)
-		(instances
-			(project "bike-sensors-logger"
-				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/49def333-5dd9-480f-a077-de948f7f462b"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4282,7 +4257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91f8e6a5-27f9-4c6d-8b63-9b0aeb39ae26")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 147.32 80.0099 0)
 			(effects
 				(font
@@ -4336,42 +4311,42 @@
 		(instances
 			(project "bike-sensors-logger"
 				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/49def333-5dd9-480f-a077-de948f7f462b"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "MLASG32MSB5226MPNA01:MLASG32MSB5226MPNA01")
-		(at 115.57 67.31 270)
+		(lib_id "MCASL21GBC7475MTCA01:MCASL21GBC7475MTCA01")
+		(at 48.26 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9513e1fc-2e2c-4bec-a0dc-3e1c50c2dc1a")
-		(property "Reference" "C4"
-			(at 119.38 67.3099 90)
+		(uuid "99953a28-a2c2-4834-9464-b07516dfca46")
+		(property "Reference" "C3"
+			(at 52.07 53.3399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "22 µF"
-			(at 119.38 69.8499 90)
+		(property "Value" "4.7 µF"
+			(at 52.07 55.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "MLASG32MSB5226MPNA01:CAPC3225X270N"
-			(at 115.57 67.31 0)
+		(property "Footprint" "MCASL21GBC7475MTCA01:CAPC2012X145N"
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4381,7 +4356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 67.31 0)
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,8 +4364,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22 uF"
-			(at 115.57 67.31 0)
+		(property "Description" ""
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4399,7 +4374,7 @@
 			)
 		)
 		(property "MF" "Taiyo Yuden"
-			(at 115.57 67.31 0)
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4408,8 +4383,8 @@
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.7mm"
-			(at 115.57 67.31 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.45mm"
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4418,8 +4393,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "3225-2 Taiyo Yuden"
-			(at 115.57 67.31 0)
+		(property "Package" "0805-2 TAIYO"
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4429,7 +4404,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 115.57 67.31 0)
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4438,8 +4413,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MLASG32MSB5226MPNA01/Taiyo+Yuden/view-part/?ref=eda"
-			(at 115.57 67.31 0)
+		(property "Check_prices" "https://www.snapeda.com/parts/MCASL21GBC7475MTCA01/Taiyo+Yuden/view-part/?ref=eda"
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4449,7 +4424,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 115.57 67.31 0)
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4459,7 +4434,7 @@
 			)
 		)
 		(property "PARTREV" "NA"
-			(at 115.57 67.31 0)
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4468,8 +4443,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MLASG32MSB5226MPNA01/Taiyo+Yuden/view-part/?ref=snap"
-			(at 115.57 67.31 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MCASL21GBC7475MTCA01/Taiyo+Yuden/view-part/?ref=snap"
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4478,8 +4453,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "MLASG32MSB5226MPNA01"
-			(at 115.57 67.31 0)
+		(property "MP" "MCASL21GBC7475MTCA01"
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4488,8 +4463,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "22uF 35V 20% Multilayer Ceramic Capacitor X5R 1210 (3225 Metric)"
-			(at 115.57 67.31 0)
+		(property "Description_1" "CAP CER 4.7UF 20% 10V X7S 0805"
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,7 +4474,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 115.57 67.31 0)
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4509,7 +4484,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Taiyo Yuden"
-			(at 115.57 67.31 0)
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4518,16 +4493,16 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "30652cde-005b-4756-9372-bdc25b241681")
-		)
 		(pin "2"
-			(uuid "0f5488d9-3488-4971-89a3-25074cead243")
+			(uuid "e2fab1ec-f46f-4f59-bf6f-7474edcf3924")
+		)
+		(pin "1"
+			(uuid "6824a861-fd4d-4702-9694-aafab75abed2")
 		)
 		(instances
 			(project "bike-sensors-logger"
 				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/49def333-5dd9-480f-a077-de948f7f462b"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4609,7 +4584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a783c835-5724-4650-90f9-cfafc782e16e")
-		(property "Reference" "C3"
+		(property "Reference" "C4"
 			(at 86.36 50.8 0)
 			(effects
 				(font
@@ -4617,7 +4592,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1 µF"
+		(property "Value" "0.1µF"
 			(at 86.36 53.34 0)
 			(effects
 				(font
@@ -4782,7 +4757,344 @@
 		(instances
 			(project "bike-sensors-logger"
 				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/49def333-5dd9-480f-a077-de948f7f462b"
-					(reference "C3")
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "08055C104KAT4A:08055C104KAT4A")
+		(at 43.18 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa622473-acd2-4c4a-9a54-5ee13e9bc1ca")
+		(property "Reference" "C2"
+			(at 41.656 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 41.656 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "08055C104KAT4A:CAPC2012X94N"
+			(at 43.18 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "AVX"
+			(at 43.18 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "0805 100nF Ceramic Multilayer Capacitor, 50 VDC, +125degC, X7R Dielec, +/-10% | AVX 08055C104KAT4A"
+			(at 43.18 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "2012 AVX"
+			(at 43.18 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 43.18 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/08055C104KAT4A/AVX/view-part/?ref=snap"
+			(at 43.18 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "08055C104KAT4A"
+			(at 43.18 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 43.18 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/08055C104KAT4A/AVX/view-part/?ref=eda"
+			(at 43.18 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e535c22-da6f-4abf-8deb-3f7982c44f58")
+		)
+		(pin "1"
+			(uuid "ee090e00-8d5c-4519-b4d9-9e30ed8c1384")
+		)
+		(instances
+			(project "bike-sensors-logger"
+				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/49def333-5dd9-480f-a077-de948f7f462b"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MBAST32MSB7226KPNA18:MBAST32MSB7226KPNA18")
+		(at 121.92 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab65b68d-6672-451d-91e2-5edc85749bc4")
+		(property "Reference" "C6"
+			(at 120.142 46.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22µF"
+			(at 120.142 48.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MBAST32MSB7226KPNA18:CAPC3225X270N"
+			(at 218.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.in/datasheet/2/396/c_mlcc_B_e-3369865.pdf"
+			(at 318.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V 22uF X7R 1210 10% Industrial"
+			(at 121.92 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.7"
+			(at 518.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "963-MBAST32MSB7226KP"
+			(at 618.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/MBAST32MSB7226KPNA18?qs=tlsG%2FOw5FFidLEF4ibjoUw%3D%3D"
+			(at 718.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TAIYO YUDEN"
+			(at 818.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MBAST32MSB7226KPNA18"
+			(at 918.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "104ead00-324a-4659-aa5d-0e56c5b82e35")
+		)
+		(pin "1"
+			(uuid "6fb8fe03-bd65-453b-b968-cdf7023bd204")
+		)
+		(instances
+			(project "bike-sensors-logger"
+				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/49def333-5dd9-480f-a077-de948f7f462b"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b110541c-b92d-4b8a-8270-2bc9cba923a7")
+		(property "Reference" "#PWR09"
+			(at 60.96 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15a623f9-ba96-4230-a7b5-ed76f9a100b4")
+		)
+		(instances
+			(project "bike-sensors-logger"
+				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/49def333-5dd9-480f-a077-de948f7f462b"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4798,7 +5110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c30ad452-3af0-4201-b6db-5ced3ccc41b2")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 147.32 87.6299 0)
 			(effects
 				(font
@@ -4807,7 +5119,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "13.3 k"
+		(property "Value" "13.7 k"
 			(at 147.32 90.1699 0)
 			(effects
 				(font
@@ -4852,7 +5164,7 @@
 		(instances
 			(project "bike-sensors-logger"
 				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/49def333-5dd9-480f-a077-de948f7f462b"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4959,16 +5271,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 80.01 0)
+		(at 132.08 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c6b9b2d0-3264-404f-b307-73f0567fed84")
-		(property "Reference" "#PWR09"
-			(at 58.42 86.36 0)
+		(uuid "c9c33252-9dc8-4409-b42a-fda84dcece5a")
+		(property "Reference" "#PWR04"
+			(at 132.08 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4977,7 +5289,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 85.09 0)
+			(at 132.08 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4985,7 +5297,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 80.01 0)
+			(at 132.08 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4994,7 +5306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 80.01 0)
+			(at 132.08 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5003,7 +5315,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 80.01 0)
+			(at 132.08 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5012,12 +5324,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "557a67d1-0fe3-4f74-b488-57ea9a32133d")
+			(uuid "a11b8461-6c4e-46c4-a969-67cdfc432a14")
 		)
 		(instances
-			(project "bike-sensors-logger"
+			(project ""
 				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/49def333-5dd9-480f-a077-de948f7f462b"
-					(reference "#PWR09")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5084,72 +5396,6 @@
 			(project "bike-sensors-logger"
 				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/49def333-5dd9-480f-a077-de948f7f462b"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 121.92 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce7e9035-76a9-4b30-8c20-eea4c2eec113")
-		(property "Reference" "#PWR012"
-			(at 121.92 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 121.92 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6dc7622-e3e3-4124-96a2-ce101f38f8f1")
-		)
-		(instances
-			(project "bike-sensors-logger"
-				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/49def333-5dd9-480f-a077-de948f7f462b"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5305,6 +5551,127 @@
 		)
 	)
 	(symbol
+		(lib_id "MBAST32MSB7226KPNA18:MBAST32MSB7226KPNA18")
+		(at 115.57 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d723cb45-936b-4877-98ac-5c6814ca0d0f")
+		(property "Reference" "C5"
+			(at 113.792 46.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22µF"
+			(at 113.792 48.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MBAST32MSB7226KPNA18:CAPC3225X270N"
+			(at 211.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.in/datasheet/2/396/c_mlcc_B_e-3369865.pdf"
+			(at 311.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V 22uF X7R 1210 10% Industrial"
+			(at 115.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.7"
+			(at 511.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "963-MBAST32MSB7226KP"
+			(at 611.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/MBAST32MSB7226KPNA18?qs=tlsG%2FOw5FFidLEF4ibjoUw%3D%3D"
+			(at 711.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TAIYO YUDEN"
+			(at 811.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MBAST32MSB7226KPNA18"
+			(at 911.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7f450520-900e-46d0-821f-1202286c5c39")
+		)
+		(pin "1"
+			(uuid "e87319d4-0166-49fc-ae38-1e59be8e9942")
+		)
+		(instances
+			(project ""
+				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/49def333-5dd9-480f-a077-de948f7f462b"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ASPI-0804T-150M-T:ASPI-0804T-150M-T")
 		(at 102.87 63.5 0)
 		(unit 1)
@@ -5322,7 +5689,7 @@
 				)
 			)
 		)
-		(property "Value" "15 µH"
+		(property "Value" "15µH"
 			(at 102.87 59.69 0)
 			(effects
 				(font
@@ -5513,7 +5880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5d366ad-911a-4e97-9f44-a242d667449a")
-		(property "Reference" "C6"
+		(property "Reference" "C8"
 			(at 137.16 80.0099 90)
 			(effects
 				(font
@@ -5648,7 +6015,157 @@
 		(instances
 			(project "bike-sensors-logger"
 				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/49def333-5dd9-480f-a077-de948f7f462b"
-					(reference "C6")
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "08055C104KAT4A:08055C104KAT4A")
+		(at 127 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec4a5281-32f8-4585-b3c5-549c2b6016c5")
+		(property "Reference" "C7"
+			(at 125.984 46.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 125.984 48.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "08055C104KAT4A:CAPC2012X94N"
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "AVX"
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "0805 100nF Ceramic Multilayer Capacitor, 50 VDC, +125degC, X7R Dielec, +/-10% | AVX 08055C104KAT4A"
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "2012 AVX"
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/08055C104KAT4A/AVX/view-part/?ref=snap"
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "08055C104KAT4A"
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/08055C104KAT4A/AVX/view-part/?ref=eda"
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "21f25e73-ccf7-4716-b0c0-aa44f5fe5a7f")
+		)
+		(pin "1"
+			(uuid "4eb580c4-038a-4d8f-a1ae-3efa25b6a549")
+		)
+		(instances
+			(project ""
+				(path "/2c1d9222-af16-428b-85a5-a3d420373d70/49def333-5dd9-480f-a077-de948f7f462b"
+					(reference "C7")
 					(unit 1)
 				)
 			)

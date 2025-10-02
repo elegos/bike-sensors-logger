@@ -16,4 +16,7 @@
   (lib (name "C-OBD-II-16M")(type "KiCad")(uri "${KIPRJMOD}/libraries/Symbols/C-OBD-II-16M.kicad_sym")(options "")(descr ""))
   (lib (name "MCP2551T-E_SN")(type "KiCad")(uri "${KIPRJMOD}/libraries/Symbols/MCP2551T-E_SN.kicad_sym")(options "")(descr ""))
   (lib (name "PJS008-4100-0-VE")(type "KiCad")(uri "${KIPRJMOD}/libraries/Symbols/PJS008-4100-0-VE.kicad_sym")(options "")(descr ""))
+  (lib (name "08055C104KAT4A")(type "KiCad")(uri "${KIPRJMOD}/libraries/Symbols/08055C104KAT4A.kicad_sym")(options "")(descr ""))
+  (lib (name "EEU-FC1H221S")(type "KiCad")(uri "${KIPRJMOD}/libraries/Symbols/EEU-FC1H221S.kicad_sym")(options "")(descr ""))
+  (lib (name "MBAST32MSB7226KPNA18")(type "KiCad")(uri "${KIPRJMOD}/libraries/Symbols/MBAST32MSB7226KPNA18.kicad_sym")(options "")(descr ""))
 )
