@@ -226,7 +226,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.arrow.com/en/products/teseo-liv3r/stmicroelectronics?region=nac"
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/teseo-liv3r.pdf"
 				(at 36.83 -194.92 0)
 				(effects
 					(font
@@ -1117,7 +1117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.arrow.com/en/products/teseo-liv3r/stmicroelectronics?region=nac"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/teseo-liv3r.pdf"
 			(at 165.1 281.28 0)
 			(effects
 				(font

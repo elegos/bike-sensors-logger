@@ -9,7 +9,7 @@
     (property "Footprint" "TESEOLIV3R" (at 36.83 -94.92 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Datasheet" "https://www.arrow.com/en/products/teseo-liv3r/stmicroelectronics?region=nac" (at 36.83 -194.92 0)
+    (property "Datasheet" "https://www.st.com/resource/en/datasheet/teseo-liv3r.pdf" (at 36.83 -194.92 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "ki_description" "- RF Receiver BeiDou, GLONASS, GNSS, GPS 1.561GHz, 1.575MHz -163dBm Not Included 18-LCC (9.7x10.1)" (at 36.83 -294.92 0)

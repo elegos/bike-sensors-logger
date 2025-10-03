@@ -5,6 +5,7 @@
 **/~*
 **/.~*
 \#auto_saved_files#
+*.bak
 
 # Cache files
 schematics/fp-info-cache

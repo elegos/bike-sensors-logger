@@ -45,7 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/lsm6dsox.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -475,7 +475,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheet/Taiyo_Yuden_MLCC_B.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1106,7 +1106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lsm6dsox.pdf"
 			(at 147.32 93.98 0)
 			(effects
 				(font
@@ -1321,7 +1321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheet/Taiyo_Yuden_MLCC_B.pdf"
 			(at 167.64 81.28 0)
 			(effects
 				(font

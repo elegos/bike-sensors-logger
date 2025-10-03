@@ -43,7 +43,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -769,7 +769,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.mouser.it/datasheet/3/76/1/GCM0335C1E750FA16-01A.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1156,7 +1156,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheet/Taiyo_Yuden_MLCC_B.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1391,7 +1391,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.mouser.com/catalog/specsheets/TAIYO%20YUDEN_03-04-2025_MCASL21GBC7475MTCA01_SS.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1626,7 +1626,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheet/Taiyo_Yuden_MLCC_L.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2054,7 +2054,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps62205.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2292,7 +2292,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/744025004_Wurth_Elektronik.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3439,7 +3439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps62205.pdf"
 			(at 204.47 121.92 0)
 			(effects
 				(font
@@ -3599,7 +3599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/TAIYO%20YUDEN_03-04-2025_MCASL21GBC7475MTCA01_SS.pdf"
 			(at 158.75 121.92 0)
 			(effects
 				(font
@@ -3856,7 +3856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheet/Taiyo_Yuden_MLCC_L.pdf"
 			(at 241.3 116.84 0)
 			(effects
 				(font
@@ -4372,7 +4372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/TAIYO%20YUDEN_03-04-2025_MCASL21GBC7475MTCA01_SS.pdf"
 			(at 48.26 55.88 0)
 			(effects
 				(font
@@ -4627,7 +4627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://snapeda.s3.amazonaws.com/datasheet/Taiyo_Yuden_MLCC_B.pdf"
 			(at 85.09 57.15 0)
 			(effects
 				(font
@@ -4817,7 +4817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 43.18 55.88 0)
 			(effects
 				(font
@@ -5454,7 +5454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/744025004.pdf"
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/744025004_Wurth_Elektronik.pdf"
 			(at 229.87 114.3 0)
 			(effects
 				(font
@@ -5726,7 +5726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.it/datasheet/3/76/1/GCM0335C1E750FA16-01A.pdf"
 			(at 128.27 80.01 0)
 			(effects
 				(font
@@ -5876,7 +5876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 121.92 58.42 0)
 			(effects
 				(font

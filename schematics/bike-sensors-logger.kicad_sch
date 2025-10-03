@@ -43,7 +43,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/732511352_Molex.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -524,7 +524,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150060RS83000.pdf"
 				(at 12.7 -193.65 0)
 				(effects
 					(font
@@ -3228,7 +3228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150060RS83000.pdf"
 			(at 162.56 -56.49 0)
 			(effects
 				(font
@@ -3348,7 +3348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150060RS83000.pdf"
 			(at 162.56 -39.98 0)
 			(effects
 				(font
@@ -3833,7 +3833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/732511352_Molex.pdf"
 			(at 67.31 133.35 0)
 			(effects
 				(font
