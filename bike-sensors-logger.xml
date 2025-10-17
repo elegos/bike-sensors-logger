@@ -1,0 +1,2085 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/gfurlan/src/bike-sensors-logger/schematics/bike-sensors-logger.kicad_sch</source>
+    <date>2025-10-03T00:30:59+0200</date>
+    <tool>Eeschema 9.0.4-1.fc42</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Bike sensors logger MK1</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>bike-sensors-logger.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/12V to 5V + 3.3V bucks/" tstamps="/49def333-5dd9-480f-a077-de948f7f462b/">
+      <title_block>
+        <title>12V to 5V + 3.3V buck</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>step-down-buck-converters.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Accel - Gyro/" tstamps="/cfd34f19-b9c8-43fa-a529-56c363000dae/">
+      <title_block>
+        <title>Accelerometer + Gyroscope based on LSM6DSOXTR</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>accel-gyro.kicad_sch</source>
+        <comment number="1" value="Currently in MODE 1"/>
+        <comment number="2" value="MODE 2 allows the integration of a magnometer"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/GNSS/" tstamps="/20b38507-7c11-47bc-b74f-fc37e2ef1b90/">
+      <title_block>
+        <title>GNSS module based on TESEO-LIV3R</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>gnss.kicad_sch</source>
+        <comment number="1" value="The switch enables active GNSS antennas VCC"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/OBD II Transreceiver/" tstamps="/23f3389a-4f90-491e-9f31-2a46e142f2be/">
+      <title_block>
+        <title>CAN bus transreceiver based on MCP-2551</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>OBD-II-Transreceiver.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Micro SD/" tstamps="/a53a5bca-403d-4e80-aaac-f027646efe2b/">
+      <title_block>
+        <title>Micro SD connector based on PJS008-4100-0-VE</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>micro-sd.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>Arduino_Nano_R4</value>
+      <footprint>PCM_arduino-library:Arduino_Nano_R4</footprint>
+      <datasheet>https://docs.arduino.cc/tutorials/nano-r4/user-manual/</datasheet>
+      <description>Arduino Nano R4</description>
+      <fields>
+        <field name="Footprint">PCM_arduino-library:Arduino_Nano_R4</field>
+        <field name="Datasheet">https://docs.arduino.cc/tutorials/nano-r4/user-manual/</field>
+        <field name="Description">Arduino Nano R4</field>
+      </fields>
+      <libsource lib="arduino-library" part="Arduino_Nano_R4" description="Arduino Nano R4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bike-sensors-logger.kicad_sch"/>
+      <property name="ki_keywords" value="Arduino MPU Shield"/>
+      <property name="ki_fp_filters" value="Arduino_Nano_Socket"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a12c5d0-dd2a-4c99-b9b9-6e8e48d9f9b0</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>MMCX</value>
+      <footprint>0732511352:MOLEX_0732511352</footprint>
+      <fields>
+        <field name="MF">Molex</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">9.655mm</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/732511352/Molex/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">C4</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/732511352/Molex/view-part/?ref=snap</field>
+        <field name="MP">732511352</field>
+        <field name="Description_1">SMA Connector Jack, Female Socket 50 Ohms Surface Mount Solder</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Molex</field>
+        <field name="Footprint">0732511352:MOLEX_0732511352</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="0732511352" part="0732511352" description=""/>
+      <property name="MF" value="Molex"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="9.655mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/732511352/Molex/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="C4"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/732511352/Molex/view-part/?ref=snap"/>
+      <property name="MP" value="732511352"/>
+      <property name="Description_1" value="SMA Connector Jack, Female Socket 50 Ohms Surface Mount Solder"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Molex"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bike-sensors-logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a618ce4-6df6-4245-b8d1-2b0296e65847</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>OBD II</value>
+      <footprint>C-OBD-II-16M:COMTECH_C-OBD-II-16M</footprint>
+      <fields>
+        <field name="MF">Comtech Electronic Co., LTD</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">18.3mm</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/C-OBD-II-16M/Comtech+Electronic+Co.%252C+LTD/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">A</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/C-OBD-II-16M/Comtech+Electronic+Co.%252C+LTD/view-part/?ref=snap</field>
+        <field name="MP">C-OBD-II-16M</field>
+        <field name="Description_1">OBD II 16pin 90 Degree Angle Male Plug Connector</field>
+        <field name="Availability">Not in stock</field>
+        <field name="MANUFACTURER">Comtech Electronic Co.</field>
+        <field name="Footprint">C-OBD-II-16M:COMTECH_C-OBD-II-16M</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="C-OBD-II-16M" part="C-OBD-II-16M" description=""/>
+      <property name="MF" value="Comtech Electronic Co., LTD"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="18.3mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/C-OBD-II-16M/Comtech+Electronic+Co.%252C+LTD/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="A"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/C-OBD-II-16M/Comtech+Electronic+Co.%252C+LTD/view-part/?ref=snap"/>
+      <property name="MP" value="C-OBD-II-16M"/>
+      <property name="Description_1" value="OBD II 16pin 90 Degree Angle Male Plug Connector"/>
+      <property name="Availability" value="Not in stock"/>
+      <property name="MANUFACTURER" value="Comtech Electronic Co."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bike-sensors-logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4eb1838c-c4c3-43c9-8322-f573ef33dd8f</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>PWR</value>
+      <footprint>LEDC1608X115N</footprint>
+      <description>Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)</description>
+      <fields>
+        <field name="Height">1.15</field>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">150060RS83000</field>
+        <field name="Footprint">LEDC1608X115N</field>
+        <field name="Datasheet"/>
+        <field name="Description">Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)</field>
+      </fields>
+      <libsource lib="150060RS83000" part="150060RS83000" description="Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)"/>
+      <property name="Height" value="1.15"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Manufacturer_Name" value="Wurth Elektronik"/>
+      <property name="Manufacturer_Part_Number" value="150060RS83000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bike-sensors-logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>193f451e-ea6f-4bae-a34d-8c45e1d31ec1</tstamps>
+    </comp>
+    <comp ref="LED2">
+      <value>ANT_PWR</value>
+      <footprint>LEDC1608X115N</footprint>
+      <description>Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)</description>
+      <fields>
+        <field name="Height">1.15</field>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">150060RS83000</field>
+        <field name="Footprint">LEDC1608X115N</field>
+        <field name="Datasheet"/>
+        <field name="Description">Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)</field>
+      </fields>
+      <libsource lib="150060RS83000" part="150060RS83000" description="Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)"/>
+      <property name="Height" value="1.15"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Manufacturer_Name" value="Wurth Elektronik"/>
+      <property name="Manufacturer_Part_Number" value="150060RS83000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bike-sensors-logger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c262338-7af7-48f5-925d-8d81f2d21742</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>260</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bike-sensors-logger.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>712da28c-a384-4058-8e1a-9ff5c5f6b13b</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>260</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="bike-sensors-logger.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbcca88e-92be-44fc-b9de-d53099422119</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>220µF</value>
+      <footprint>EEU-FC1H221S:CAPPRD500W65D1250H1600</footprint>
+      <datasheet>http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1209.pdf</datasheet>
+      <description>Aluminium Electrolytic Capacitor, Radial Lead, AEC-Q200, 105?C</description>
+      <fields>
+        <field name="Height">16</field>
+        <field name="Mouser Part Number">667-EEU-FC1H221S</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Panasonic/EEU-FC1H221S?qs=8Z%252BUzlV55zQx6uOsQOxJqQ%3D%3D</field>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">EEU-FC1H221S</field>
+        <field name="Footprint">EEU-FC1H221S:CAPPRD500W65D1250H1600</field>
+        <field name="Datasheet">http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1209.pdf</field>
+        <field name="Description">Aluminium Electrolytic Capacitor, Radial Lead, AEC-Q200, 105?C</field>
+      </fields>
+      <libsource lib="EEU-FC1H221S" part="EEU-FC1H221S" description="Aluminium Electrolytic Capacitor, Radial Lead, AEC-Q200, 105?C"/>
+      <property name="Height" value="16"/>
+      <property name="Mouser Part Number" value="667-EEU-FC1H221S"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Panasonic/EEU-FC1H221S?qs=8Z%252BUzlV55zQx6uOsQOxJqQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Panasonic"/>
+      <property name="Manufacturer_Part_Number" value="EEU-FC1H221S"/>
+      <property name="Sheetname" value="12V to 5V + 3.3V bucks"/>
+      <property name="Sheetfile" value="step-down-buck-converters.kicad_sch"/>
+      <sheetpath names="/12V to 5V + 3.3V bucks/" tstamps="/49def333-5dd9-480f-a077-de948f7f462b/"/>
+      <tstamps>5e521e5f-3d32-4d89-9ed2-cf130a680569</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>08055C104KAT4A:CAPC2012X94N</footprint>
+      <fields>
+        <field name="MF">AVX</field>
+        <field name="Description_1">0805 100nF Ceramic Multilayer Capacitor, 50 VDC, +125degC, X7R Dielec, +/-10% | AVX 08055C104KAT4A</field>
+        <field name="Package">2012 AVX</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/08055C104KAT4A/AVX/view-part/?ref=snap</field>
+        <field name="MP">08055C104KAT4A</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/08055C104KAT4A/AVX/view-part/?ref=eda</field>
+        <field name="Footprint">08055C104KAT4A:CAPC2012X94N</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="08055C104KAT4A" part="08055C104KAT4A" description=""/>
+      <property name="MF" value="AVX"/>
+      <property name="Description_1" value="0805 100nF Ceramic Multilayer Capacitor, 50 VDC, +125degC, X7R Dielec, +/-10% | AVX 08055C104KAT4A"/>
+      <property name="Package" value="2012 AVX"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/08055C104KAT4A/AVX/view-part/?ref=snap"/>
+      <property name="MP" value="08055C104KAT4A"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/08055C104KAT4A/AVX/view-part/?ref=eda"/>
+      <property name="Sheetname" value="12V to 5V + 3.3V bucks"/>
+      <property name="Sheetfile" value="step-down-buck-converters.kicad_sch"/>
+      <sheetpath names="/12V to 5V + 3.3V bucks/" tstamps="/49def333-5dd9-480f-a077-de948f7f462b/"/>
+      <tstamps>aa622473-acd2-4c4a-9a54-5ee13e9bc1ca</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>4.7 µF</value>
+      <footprint>MCASL21GBC7475MTCA01:CAPC2012X145N</footprint>
+      <fields>
+        <field name="MF">Taiyo Yuden</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.45mm</field>
+        <field name="Package">0805-2 TAIYO</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/MCASL21GBC7475MTCA01/Taiyo+Yuden/view-part/?ref=eda</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="PARTREV">NA</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/MCASL21GBC7475MTCA01/Taiyo+Yuden/view-part/?ref=snap</field>
+        <field name="MP">MCASL21GBC7475MTCA01</field>
+        <field name="Description_1">CAP CER 4.7UF 20% 10V X7S 0805</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Taiyo Yuden</field>
+        <field name="Footprint">MCASL21GBC7475MTCA01:CAPC2012X145N</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MCASL21GBC7475MTCA01" part="MCASL21GBC7475MTCA01" description=""/>
+      <property name="MF" value="Taiyo Yuden"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.45mm"/>
+      <property name="Package" value="0805-2 TAIYO"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/MCASL21GBC7475MTCA01/Taiyo+Yuden/view-part/?ref=eda"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="NA"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/MCASL21GBC7475MTCA01/Taiyo+Yuden/view-part/?ref=snap"/>
+      <property name="MP" value="MCASL21GBC7475MTCA01"/>
+      <property name="Description_1" value="CAP CER 4.7UF 20% 10V X7S 0805"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Taiyo Yuden"/>
+      <property name="Sheetname" value="12V to 5V + 3.3V bucks"/>
+      <property name="Sheetfile" value="step-down-buck-converters.kicad_sch"/>
+      <sheetpath names="/12V to 5V + 3.3V bucks/" tstamps="/49def333-5dd9-480f-a077-de948f7f462b/"/>
+      <tstamps>99953a28-a2c2-4834-9464-b07516dfca46</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1µF</value>
+      <footprint>MBJCG168BB7104KTPA18:CAPC1608X100N</footprint>
+      <description>0.1 uF</description>
+      <fields>
+        <field name="MF">Taiyo Yuden</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.00mm</field>
+        <field name="Package">1608-2 TAIYO</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/MBJCG168BB7104KTPA18/Taiyo+Yuden/view-part/?ref=eda</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="PARTREV">NA</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/MBJCG168BB7104KTPA18/Taiyo+Yuden/view-part/?ref=snap</field>
+        <field name="MP">MBJCG168BB7104KTPA18</field>
+        <field name="Description_1">0.1uF 35V 10% Multilayer Ceramic Capacitor X7R 0603 (1608 Metric)</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Taiyo Yuden</field>
+        <field name="Footprint">MBJCG168BB7104KTPA18:CAPC1608X100N</field>
+        <field name="Datasheet"/>
+        <field name="Description">0.1 uF</field>
+      </fields>
+      <libsource lib="MBJCG168BB7104KTPA18" part="MBJCG168BB7104KTPA18" description=""/>
+      <property name="MF" value="Taiyo Yuden"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.00mm"/>
+      <property name="Package" value="1608-2 TAIYO"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/MBJCG168BB7104KTPA18/Taiyo+Yuden/view-part/?ref=eda"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="NA"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/MBJCG168BB7104KTPA18/Taiyo+Yuden/view-part/?ref=snap"/>
+      <property name="MP" value="MBJCG168BB7104KTPA18"/>
+      <property name="Description_1" value="0.1uF 35V 10% Multilayer Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Taiyo Yuden"/>
+      <property name="Sheetname" value="12V to 5V + 3.3V bucks"/>
+      <property name="Sheetfile" value="step-down-buck-converters.kicad_sch"/>
+      <sheetpath names="/12V to 5V + 3.3V bucks/" tstamps="/49def333-5dd9-480f-a077-de948f7f462b/"/>
+      <tstamps>a783c835-5724-4650-90f9-cfafc782e16e</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>22µF</value>
+      <footprint>MBAST32MSB7226KPNA18:CAPC3225X270N</footprint>
+      <datasheet>https://www.mouser.in/datasheet/2/396/c_mlcc_B_e-3369865.pdf</datasheet>
+      <description>Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V 22uF X7R 1210 10% Industrial</description>
+      <fields>
+        <field name="Height">2.7</field>
+        <field name="Mouser Part Number">963-MBAST32MSB7226KP</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/MBAST32MSB7226KPNA18?qs=tlsG%2FOw5FFidLEF4ibjoUw%3D%3D</field>
+        <field name="Manufacturer_Name">TAIYO YUDEN</field>
+        <field name="Manufacturer_Part_Number">MBAST32MSB7226KPNA18</field>
+        <field name="Footprint">MBAST32MSB7226KPNA18:CAPC3225X270N</field>
+        <field name="Datasheet">https://www.mouser.in/datasheet/2/396/c_mlcc_B_e-3369865.pdf</field>
+        <field name="Description">Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V 22uF X7R 1210 10% Industrial</field>
+      </fields>
+      <libsource lib="MBAST32MSB7226KPNA18" part="MBAST32MSB7226KPNA18" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V 22uF X7R 1210 10% Industrial"/>
+      <property name="Height" value="2.7"/>
+      <property name="Mouser Part Number" value="963-MBAST32MSB7226KP"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/MBAST32MSB7226KPNA18?qs=tlsG%2FOw5FFidLEF4ibjoUw%3D%3D"/>
+      <property name="Manufacturer_Name" value="TAIYO YUDEN"/>
+      <property name="Manufacturer_Part_Number" value="MBAST32MSB7226KPNA18"/>
+      <property name="Sheetname" value="12V to 5V + 3.3V bucks"/>
+      <property name="Sheetfile" value="step-down-buck-converters.kicad_sch"/>
+      <sheetpath names="/12V to 5V + 3.3V bucks/" tstamps="/49def333-5dd9-480f-a077-de948f7f462b/"/>
+      <tstamps>d723cb45-936b-4877-98ac-5c6814ca0d0f</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>22µF</value>
+      <footprint>MBAST32MSB7226KPNA18:CAPC3225X270N</footprint>
+      <datasheet>https://www.mouser.in/datasheet/2/396/c_mlcc_B_e-3369865.pdf</datasheet>
+      <description>Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V 22uF X7R 1210 10% Industrial</description>
+      <fields>
+        <field name="Height">2.7</field>
+        <field name="Mouser Part Number">963-MBAST32MSB7226KP</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/MBAST32MSB7226KPNA18?qs=tlsG%2FOw5FFidLEF4ibjoUw%3D%3D</field>
+        <field name="Manufacturer_Name">TAIYO YUDEN</field>
+        <field name="Manufacturer_Part_Number">MBAST32MSB7226KPNA18</field>
+        <field name="Footprint">MBAST32MSB7226KPNA18:CAPC3225X270N</field>
+        <field name="Datasheet">https://www.mouser.in/datasheet/2/396/c_mlcc_B_e-3369865.pdf</field>
+        <field name="Description">Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V 22uF X7R 1210 10% Industrial</field>
+      </fields>
+      <libsource lib="MBAST32MSB7226KPNA18" part="MBAST32MSB7226KPNA18" description="Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V 22uF X7R 1210 10% Industrial"/>
+      <property name="Height" value="2.7"/>
+      <property name="Mouser Part Number" value="963-MBAST32MSB7226KP"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/MBAST32MSB7226KPNA18?qs=tlsG%2FOw5FFidLEF4ibjoUw%3D%3D"/>
+      <property name="Manufacturer_Name" value="TAIYO YUDEN"/>
+      <property name="Manufacturer_Part_Number" value="MBAST32MSB7226KPNA18"/>
+      <property name="Sheetname" value="12V to 5V + 3.3V bucks"/>
+      <property name="Sheetfile" value="step-down-buck-converters.kicad_sch"/>
+      <sheetpath names="/12V to 5V + 3.3V bucks/" tstamps="/49def333-5dd9-480f-a077-de948f7f462b/"/>
+      <tstamps>ab65b68d-6672-451d-91e2-5edc85749bc4</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>08055C104KAT4A:CAPC2012X94N</footprint>
+      <fields>
+        <field name="MF">AVX</field>
+        <field name="Description_1">0805 100nF Ceramic Multilayer Capacitor, 50 VDC, +125degC, X7R Dielec, +/-10% | AVX 08055C104KAT4A</field>
+        <field name="Package">2012 AVX</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/08055C104KAT4A/AVX/view-part/?ref=snap</field>
+        <field name="MP">08055C104KAT4A</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/08055C104KAT4A/AVX/view-part/?ref=eda</field>
+        <field name="Footprint">08055C104KAT4A:CAPC2012X94N</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="08055C104KAT4A" part="08055C104KAT4A" description=""/>
+      <property name="MF" value="AVX"/>
+      <property name="Description_1" value="0805 100nF Ceramic Multilayer Capacitor, 50 VDC, +125degC, X7R Dielec, +/-10% | AVX 08055C104KAT4A"/>
+      <property name="Package" value="2012 AVX"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/08055C104KAT4A/AVX/view-part/?ref=snap"/>
+      <property name="MP" value="08055C104KAT4A"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/08055C104KAT4A/AVX/view-part/?ref=eda"/>
+      <property name="Sheetname" value="12V to 5V + 3.3V bucks"/>
+      <property name="Sheetfile" value="step-down-buck-converters.kicad_sch"/>
+      <sheetpath names="/12V to 5V + 3.3V bucks/" tstamps="/49def333-5dd9-480f-a077-de948f7f462b/"/>
+      <tstamps>ec4a5281-32f8-4585-b3c5-549c2b6016c5</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>75 pF</value>
+      <footprint>GCM0335C1E750FA16D:CAPC0603X33N</footprint>
+      <description>75 pF</description>
+      <fields>
+        <field name="MF">Murata</field>
+        <field name="Description_1">SMD capacitor C0G(EIA) with capacitance 75pF Tol.1%. Rated voltage 25Vdc 125C</field>
+        <field name="Package">0603-2 MURATA</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/GCM0335C1E750FA16D/Murata/view-part/?ref=snap</field>
+        <field name="MP">GCM0335C1E750FA16D</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/GCM0335C1E750FA16D/Murata/view-part/?ref=eda</field>
+        <field name="Footprint">GCM0335C1E750FA16D:CAPC0603X33N</field>
+        <field name="Datasheet"/>
+        <field name="Description">75 pF</field>
+      </fields>
+      <libsource lib="GCM0335C1E750FA16D" part="GCM0335C1E750FA16D" description=""/>
+      <property name="MF" value="Murata"/>
+      <property name="Description_1" value="SMD capacitor C0G(EIA) with capacitance 75pF Tol.1%. Rated voltage 25Vdc 125C"/>
+      <property name="Package" value="0603-2 MURATA"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/GCM0335C1E750FA16D/Murata/view-part/?ref=snap"/>
+      <property name="MP" value="GCM0335C1E750FA16D"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/GCM0335C1E750FA16D/Murata/view-part/?ref=eda"/>
+      <property name="Sheetname" value="12V to 5V + 3.3V bucks"/>
+      <property name="Sheetfile" value="step-down-buck-converters.kicad_sch"/>
+      <sheetpath names="/12V to 5V + 3.3V bucks/" tstamps="/49def333-5dd9-480f-a077-de948f7f462b/"/>
+      <tstamps>e5d366ad-911a-4e97-9f44-a242d667449a</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>4.7 µF</value>
+      <footprint>MCASL21GBC7475MTCA01:CAPC2012X145N</footprint>
+      <fields>
+        <field name="MF">Taiyo Yuden</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.45mm</field>
+        <field name="Package">0805-2 TAIYO</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/MCASL21GBC7475MTCA01/Taiyo+Yuden/view-part/?ref=eda</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="PARTREV">NA</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/MCASL21GBC7475MTCA01/Taiyo+Yuden/view-part/?ref=snap</field>
+        <field name="MP">MCASL21GBC7475MTCA01</field>
+        <field name="Description_1">CAP CER 4.7UF 20% 10V X7S 0805</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Taiyo Yuden</field>
+        <field name="Footprint">MCASL21GBC7475MTCA01:CAPC2012X145N</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MCASL21GBC7475MTCA01" part="MCASL21GBC7475MTCA01" description=""/>
+      <property name="MF" value="Taiyo Yuden"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.45mm"/>
+      <property name="Package" value="0805-2 TAIYO"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/MCASL21GBC7475MTCA01/Taiyo+Yuden/view-part/?ref=eda"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="NA"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/MCASL21GBC7475MTCA01/Taiyo+Yuden/view-part/?ref=snap"/>
+      <property name="MP" value="MCASL21GBC7475MTCA01"/>
+      <property name="Description_1" value="CAP CER 4.7UF 20% 10V X7S 0805"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Taiyo Yuden"/>
+      <property name="Sheetname" value="12V to 5V + 3.3V bucks"/>
+      <property name="Sheetfile" value="step-down-buck-converters.kicad_sch"/>
+      <sheetpath names="/12V to 5V + 3.3V bucks/" tstamps="/49def333-5dd9-480f-a077-de948f7f462b/"/>
+      <tstamps>2cc1b31c-513d-4aef-863c-3c097e2c19ea</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>22 µF</value>
+      <footprint>MLASG32MSB5226MPNA01:CAPC3225X270N</footprint>
+      <fields>
+        <field name="MF">Taiyo Yuden</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.7mm</field>
+        <field name="Package">3225-2 Taiyo Yuden</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/MLASG32MSB5226MPNA01/Taiyo+Yuden/view-part/?ref=eda</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="PARTREV">NA</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/MLASG32MSB5226MPNA01/Taiyo+Yuden/view-part/?ref=snap</field>
+        <field name="MP">MLASG32MSB5226MPNA01</field>
+        <field name="Description_1">22uF 35V 20% Multilayer Ceramic Capacitor X5R 1210 (3225 Metric)</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Taiyo Yuden</field>
+        <field name="Footprint">MLASG32MSB5226MPNA01:CAPC3225X270N</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MLASG32MSB5226MPNA01" part="MLASG32MSB5226MPNA01" description=""/>
+      <property name="MF" value="Taiyo Yuden"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="2.7mm"/>
+      <property name="Package" value="3225-2 Taiyo Yuden"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/MLASG32MSB5226MPNA01/Taiyo+Yuden/view-part/?ref=eda"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="NA"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/MLASG32MSB5226MPNA01/Taiyo+Yuden/view-part/?ref=snap"/>
+      <property name="MP" value="MLASG32MSB5226MPNA01"/>
+      <property name="Description_1" value="22uF 35V 20% Multilayer Ceramic Capacitor X5R 1210 (3225 Metric)"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Taiyo Yuden"/>
+      <property name="Sheetname" value="12V to 5V + 3.3V bucks"/>
+      <property name="Sheetfile" value="step-down-buck-converters.kicad_sch"/>
+      <sheetpath names="/12V to 5V + 3.3V bucks/" tstamps="/49def333-5dd9-480f-a077-de948f7f462b/"/>
+      <tstamps>44908d21-1ec6-43fe-a54e-2af1646fc807</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>10µH</value>
+      <footprint>DR125-100-R:INDPM125125X600N</footprint>
+      <datasheet>https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-dr-high-power-density-high-efficiency-shielded-drum-core-power-inductors-data-sheet.pdf</datasheet>
+      <description>Eaton Bussmann Series, DR, 0125 Shielded Wire-wound SMD Inductor with a Ferrite Core, 10 uH +/-20% Wire-Wound 7.17A Idc</description>
+      <fields>
+        <field name="Height">6</field>
+        <field name="Mouser Part Number">704-DR125-100-R</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Coiltronics-Eaton/DR125-100-R?qs=yzwxPInThYQFBSntHAA2nw%3D%3D</field>
+        <field name="Manufacturer_Name">Eaton</field>
+        <field name="Manufacturer_Part_Number">DR125-100-R</field>
+        <field name="Footprint">DR125-100-R:INDPM125125X600N</field>
+        <field name="Datasheet">https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-dr-high-power-density-high-efficiency-shielded-drum-core-power-inductors-data-sheet.pdf</field>
+        <field name="Description">Eaton Bussmann Series, DR, 0125 Shielded Wire-wound SMD Inductor with a Ferrite Core, 10 uH +/-20% Wire-Wound 7.17A Idc</field>
+      </fields>
+      <libsource lib="DR125-100-R" part="DR125-100-R" description="Eaton Bussmann Series, DR, 0125 Shielded Wire-wound SMD Inductor with a Ferrite Core, 10 uH +/-20% Wire-Wound 7.17A Idc"/>
+      <property name="Height" value="6"/>
+      <property name="Mouser Part Number" value="704-DR125-100-R"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Coiltronics-Eaton/DR125-100-R?qs=yzwxPInThYQFBSntHAA2nw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Eaton"/>
+      <property name="Manufacturer_Part_Number" value="DR125-100-R"/>
+      <property name="Sheetname" value="12V to 5V + 3.3V bucks"/>
+      <property name="Sheetfile" value="step-down-buck-converters.kicad_sch"/>
+      <sheetpath names="/12V to 5V + 3.3V bucks/" tstamps="/49def333-5dd9-480f-a077-de948f7f462b/"/>
+      <tstamps>082361fa-926c-4669-a999-b8132fc75de3</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>4.7 µH</value>
+      <footprint>WE-TPC_2828:WE-TPC_2828</footprint>
+      <datasheet>https://www.we-online.com/components/products/datasheet/744025004.pdf</datasheet>
+      <description>4.7 uH</description>
+      <fields>
+        <field name="MF">Würth Elektronik</field>
+        <field name="Description_1">Tiny Power Inductor, SMT, Fixed, 4.7uH, 1.35A, .1 Ohm, 2828, WE-TPC Series | Wurth Electronics 744025004</field>
+        <field name="Package">Nonstandard Würth Elektronik</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/744025004/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap</field>
+        <field name="MP">744025004</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/744025004/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda</field>
+        <field name="Footprint">WE-TPC_2828:WE-TPC_2828</field>
+        <field name="Datasheet">https://www.we-online.com/components/products/datasheet/744025004.pdf</field>
+        <field name="Description">4.7 uH</field>
+      </fields>
+      <libsource lib="WE-TPC_2828" part="WE-TPC_2828" description=""/>
+      <property name="MF" value="Würth Elektronik"/>
+      <property name="Description_1" value="Tiny Power Inductor, SMT, Fixed, 4.7uH, 1.35A, .1 Ohm, 2828, WE-TPC Series | Wurth Electronics 744025004"/>
+      <property name="Package" value="Nonstandard Würth Elektronik"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/744025004/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"/>
+      <property name="MP" value="744025004"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/744025004/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"/>
+      <property name="Sheetname" value="12V to 5V + 3.3V bucks"/>
+      <property name="Sheetfile" value="step-down-buck-converters.kicad_sch"/>
+      <sheetpath names="/12V to 5V + 3.3V bucks/" tstamps="/49def333-5dd9-480f-a077-de948f7f462b/"/>
+      <tstamps>d4b9225d-2f8f-4a0c-9f74-e070fe3676e3</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100 k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="12V to 5V + 3.3V bucks"/>
+      <property name="Sheetfile" value="step-down-buck-converters.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/12V to 5V + 3.3V bucks/" tstamps="/49def333-5dd9-480f-a077-de948f7f462b/"/>
+      <tstamps>91f8e6a5-27f9-4c6d-8b63-9b0aeb39ae26</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>13.7 k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="12V to 5V + 3.3V bucks"/>
+      <property name="Sheetfile" value="step-down-buck-converters.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/12V to 5V + 3.3V bucks/" tstamps="/49def333-5dd9-480f-a077-de948f7f462b/"/>
+      <tstamps>c30ad452-3af0-4201-b6db-5ced3ccc41b2</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>2 k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="12V to 5V + 3.3V bucks"/>
+      <property name="Sheetfile" value="step-down-buck-converters.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/12V to 5V + 3.3V bucks/" tstamps="/49def333-5dd9-480f-a077-de948f7f462b/"/>
+      <tstamps>8a28d194-5ea1-4303-b1b2-a31a5476a909</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TPS54308</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps54308.pdf</datasheet>
+      <description>3A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, continuous-conduction, SOT-23-6</description>
+      <fields>
+        <field name="Sim.Library">libraries/SPICE/TPS54308_TRANS.LIB</field>
+        <field name="Sim.Name">TPS54308_TRANS</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps54308.pdf</field>
+        <field name="Description">3A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, continuous-conduction, SOT-23-6</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="TPS54308" description="3A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, continuous-conduction, SOT-23-6"/>
+      <property name="Sim.Library" value="libraries/SPICE/TPS54308_TRANS.LIB"/>
+      <property name="Sim.Name" value="TPS54308_TRANS"/>
+      <property name="Sheetname" value="12V to 5V + 3.3V bucks"/>
+      <property name="Sheetfile" value="step-down-buck-converters.kicad_sch"/>
+      <property name="ki_keywords" value="switching buck converter power-supply voltage regulator emi spread spectrum FCCM"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/12V to 5V + 3.3V bucks/" tstamps="/49def333-5dd9-480f-a077-de948f7f462b/"/>
+      <tstamps>c57eac64-1f4a-4fdf-946a-637eea9b031f</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TPS62203DBVTG4</value>
+      <footprint>TPS62203DBVTG4:SOT95P280X145-5N</footprint>
+      <fields>
+        <field name="MF">Texas Instruments</field>
+        <field name="Description_1">3.3-V Output, 300-mA, 95% Efficient Step-Down Converter in SOT-23 5-SOT-23 -40 to 85</field>
+        <field name="Package">SOT-23-5 Texas Instruments</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/TPS62203DBVTG4/Texas+Instruments/view-part/?ref=snap</field>
+        <field name="MP">TPS62203DBVTG4</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/TPS62203DBVTG4/Texas+Instruments/view-part/?ref=eda</field>
+        <field name="Footprint">TPS62203DBVTG4:SOT95P280X145-5N</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="TPS62203DBVTG4" part="TPS62203DBVTG4" description=""/>
+      <property name="MF" value="Texas Instruments"/>
+      <property name="Description_1" value="3.3-V Output, 300-mA, 95% Efficient Step-Down Converter in SOT-23 5-SOT-23 -40 to 85"/>
+      <property name="Package" value="SOT-23-5 Texas Instruments"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/TPS62203DBVTG4/Texas+Instruments/view-part/?ref=snap"/>
+      <property name="MP" value="TPS62203DBVTG4"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/TPS62203DBVTG4/Texas+Instruments/view-part/?ref=eda"/>
+      <property name="Sheetname" value="12V to 5V + 3.3V bucks"/>
+      <property name="Sheetfile" value="step-down-buck-converters.kicad_sch"/>
+      <sheetpath names="/12V to 5V + 3.3V bucks/" tstamps="/49def333-5dd9-480f-a077-de948f7f462b/"/>
+      <tstamps>1d2410a0-d582-4acf-953d-045aa22c5caf</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>0.1 µF</value>
+      <footprint>MBJCG168BB7104KTPA18:CAPC1608X100N</footprint>
+      <fields>
+        <field name="MF">Taiyo Yuden</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.00mm</field>
+        <field name="Package">1608-2 TAIYO</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/MBJCG168BB7104KTPA18/Taiyo+Yuden/view-part/?ref=eda</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="PARTREV">NA</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/MBJCG168BB7104KTPA18/Taiyo+Yuden/view-part/?ref=snap</field>
+        <field name="MP">MBJCG168BB7104KTPA18</field>
+        <field name="Description_1">0.1uF 35V 10% Multilayer Ceramic Capacitor X7R 0603 (1608 Metric)</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Taiyo Yuden</field>
+        <field name="Footprint">MBJCG168BB7104KTPA18:CAPC1608X100N</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MBJCG168BB7104KTPA18" part="MBJCG168BB7104KTPA18" description=""/>
+      <property name="MF" value="Taiyo Yuden"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.00mm"/>
+      <property name="Package" value="1608-2 TAIYO"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/MBJCG168BB7104KTPA18/Taiyo+Yuden/view-part/?ref=eda"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="NA"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/MBJCG168BB7104KTPA18/Taiyo+Yuden/view-part/?ref=snap"/>
+      <property name="MP" value="MBJCG168BB7104KTPA18"/>
+      <property name="Description_1" value="0.1uF 35V 10% Multilayer Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Taiyo Yuden"/>
+      <property name="Sheetname" value="Accel - Gyro"/>
+      <property name="Sheetfile" value="accel-gyro.kicad_sch"/>
+      <sheetpath names="/Accel - Gyro/" tstamps="/cfd34f19-b9c8-43fa-a529-56c363000dae/"/>
+      <tstamps>fdcefe72-6d14-4ecb-8ef1-7f6e186bafe0</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LSM6DSOXTR</value>
+      <footprint>LSM6DSOXTR:PQFN50P250X300X86-14N</footprint>
+      <fields>
+        <field name="MF">STMicroelectronics</field>
+        <field name="Description_1">Accelerometer, Gyroscope, 6 Axis Sensor I2C, SPI Output</field>
+        <field name="Package">VFLGA-14 STMicroelectronics</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/LSM6DSOXTR/STMicroelectronics/view-part/?ref=eda</field>
+        <field name="STANDARD">IPC7351B</field>
+        <field name="PARTREV">3.0</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/LSM6DSOXTR/STMicroelectronics/view-part/?ref=snap</field>
+        <field name="MP">LSM6DSOXTR</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">ST Microelectronics</field>
+        <field name="Footprint">LSM6DSOXTR:PQFN50P250X300X86-14N</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="LSM6DSOXTR" part="LSM6DSOXTR" description=""/>
+      <property name="MF" value="STMicroelectronics"/>
+      <property name="Description_1" value="Accelerometer, Gyroscope, 6 Axis Sensor I2C, SPI Output"/>
+      <property name="Package" value="VFLGA-14 STMicroelectronics"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/LSM6DSOXTR/STMicroelectronics/view-part/?ref=eda"/>
+      <property name="STANDARD" value="IPC7351B"/>
+      <property name="PARTREV" value="3.0"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/LSM6DSOXTR/STMicroelectronics/view-part/?ref=snap"/>
+      <property name="MP" value="LSM6DSOXTR"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="ST Microelectronics"/>
+      <property name="Sheetname" value="Accel - Gyro"/>
+      <property name="Sheetfile" value="accel-gyro.kicad_sch"/>
+      <sheetpath names="/Accel - Gyro/" tstamps="/cfd34f19-b9c8-43fa-a529-56c363000dae/"/>
+      <tstamps>bc76c7a8-3184-4445-bbc3-7c58d67f90ab</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>TESEO-LIV3R</value>
+      <footprint>TESEOLIV3R</footprint>
+      <datasheet>https://www.arrow.com/en/products/teseo-liv3r/stmicroelectronics?region=nac</datasheet>
+      <description>- RF Receiver BeiDou, GLONASS, GNSS, GPS 1.561GHz, 1.575MHz -163dBm Not Included 18-LCC (9.7x10.1)</description>
+      <fields>
+        <field name="Height">2.3</field>
+        <field name="Arrow Part Number">TESEO-LIV3R</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/teseo-liv3r/stmicroelectronics?region=nac</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">TESEO-LIV3R</field>
+        <field name="Footprint">TESEOLIV3R</field>
+        <field name="Datasheet">https://www.arrow.com/en/products/teseo-liv3r/stmicroelectronics?region=nac</field>
+        <field name="Description">- RF Receiver BeiDou, GLONASS, GNSS, GPS 1.561GHz, 1.575MHz -163dBm Not Included 18-LCC (9.7x10.1)</field>
+      </fields>
+      <libsource lib="TESEO-LIV3R" part="TESEO-LIV3R" description="- RF Receiver BeiDou, GLONASS, GNSS, GPS 1.561GHz, 1.575MHz -163dBm Not Included 18-LCC (9.7x10.1)"/>
+      <property name="Height" value="2.3"/>
+      <property name="Arrow Part Number" value="TESEO-LIV3R"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/teseo-liv3r/stmicroelectronics?region=nac"/>
+      <property name="Manufacturer_Name" value="STMicroelectronics"/>
+      <property name="Manufacturer_Part_Number" value="TESEO-LIV3R"/>
+      <property name="Sheetname" value="GNSS"/>
+      <property name="Sheetfile" value="gnss.kicad_sch"/>
+      <sheetpath names="/GNSS/" tstamps="/20b38507-7c11-47bc-b74f-fc37e2ef1b90/"/>
+      <tstamps>2cfb91a0-c83e-400a-a044-71a680247ac9</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>Switch</value>
+      <footprint>Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm</footprint>
+      <datasheet>https://www.we-online.com/components/products/datasheet/450301014042.pdf</datasheet>
+      <description>Switch slide, single pole double throw</description>
+      <fields>
+        <field name="Footprint">Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm</field>
+        <field name="Datasheet">https://www.we-online.com/components/products/datasheet/450301014042.pdf</field>
+        <field name="Description">Switch slide, single pole double throw</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Wuerth_450301014042" description="Switch slide, single pole double throw"/>
+      <property name="Sheetname" value="GNSS"/>
+      <property name="Sheetfile" value="gnss.kicad_sch"/>
+      <property name="ki_keywords" value="changeover single-pole opposite-side-connection double-throw spdt ON-ON"/>
+      <property name="ki_fp_filters" value="SW*Wuerth*WS*SLTV*10x2.5x6.4*P2.54mm*"/>
+      <sheetpath names="/GNSS/" tstamps="/20b38507-7c11-47bc-b74f-fc37e2ef1b90/"/>
+      <tstamps>1a98070e-e6ed-46b7-9e0e-1006a80741ef</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>MCP2551T-E_SN</value>
+      <footprint>MCP2551-E-SN:SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/MCP2551T-E_SN.pdf</datasheet>
+      <description>CAN Interface IC Hi Spd CAN Transceiv</description>
+      <fields>
+        <field name="Height">1.75</field>
+        <field name="Mouser Part Number">579-MCP2551T-E/SN</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP2551T-E-SN?qs=gZwDaUDMhIcQtLtB%252B7bOWQ%3D%3D</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MCP2551T-E/SN</field>
+        <field name="Footprint">MCP2551-E-SN:SOIC127P600X175-8N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/MCP2551T-E_SN.pdf</field>
+        <field name="Description">CAN Interface IC Hi Spd CAN Transceiv</field>
+      </fields>
+      <libsource lib="MCP2551T-E_SN" part="MCP2551T-E_SN" description="CAN Interface IC Hi Spd CAN Transceiv"/>
+      <property name="Height" value="1.75"/>
+      <property name="Mouser Part Number" value="579-MCP2551T-E/SN"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP2551T-E-SN?qs=gZwDaUDMhIcQtLtB%252B7bOWQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Microchip"/>
+      <property name="Manufacturer_Part_Number" value="MCP2551T-E/SN"/>
+      <property name="Sheetname" value="OBD II Transreceiver"/>
+      <property name="Sheetfile" value="OBD-II-Transreceiver.kicad_sch"/>
+      <sheetpath names="/OBD II Transreceiver/" tstamps="/23f3389a-4f90-491e-9f31-2a46e142f2be/"/>
+      <tstamps>4bdd608f-486d-4108-b91b-b8fe15601a37</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>MOSFET</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="OBD II Transreceiver"/>
+      <property name="Sheetfile" value="OBD-II-Transreceiver.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/OBD II Transreceiver/" tstamps="/23f3389a-4f90-491e-9f31-2a46e142f2be/"/>
+      <tstamps>38102572-5c97-4c10-be36-3e8c54ad2c92</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>TRNSSTR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf</datasheet>
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf</field>
+        <field name="Description">0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="Sheetname" value="OBD II Transreceiver"/>
+      <property name="Sheetfile" value="OBD-II-Transreceiver.kicad_sch"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/OBD II Transreceiver/" tstamps="/23f3389a-4f90-491e-9f31-2a46e142f2be/"/>
+      <tstamps>88328635-be89-422f-ac8f-5c00fd4bd7ba</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="OBD II Transreceiver"/>
+      <property name="Sheetfile" value="OBD-II-Transreceiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/OBD II Transreceiver/" tstamps="/23f3389a-4f90-491e-9f31-2a46e142f2be/"/>
+      <tstamps>af5648bc-dc7f-4d98-93f7-ade9af5f1122</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1 k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="OBD II Transreceiver"/>
+      <property name="Sheetfile" value="OBD-II-Transreceiver.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/OBD II Transreceiver/" tstamps="/23f3389a-4f90-491e-9f31-2a46e142f2be/"/>
+      <tstamps>48c7338a-6f26-4cac-baf5-cd2cf8a22b60</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>PJS008-4100-0-VE</value>
+      <footprint>PJS008-4100-0-VE:PJS00841000VE</footprint>
+      <fields>
+        <field name="Manufacturer_Name">Yamaichi</field>
+        <field name="MF">Yamaichi Electronics</field>
+        <field name="Mouser_Price-Stock">https://www.mouser.co.uk/ProductDetail/Yamaichi-Electronics/PJS008-4100-0-VE?qs=6DDkx98%252BHnB0kYUHIqHPnQ%3D%3D</field>
+        <field name="Description_1">8 Position Card Connector Secure Digital - microSD™ Surface Mount, Right Angle Gold-Nickel</field>
+        <field name="Mouser_Part_Number">945-PJS008-4100-0-VE</field>
+        <field name="Price">None</field>
+        <field name="Package">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/PJS008-4100-0-VE/Yamaichi/view-part/?ref=eda</field>
+        <field name="Height">3.4mm</field>
+        <field name="MP">PJS008-4100-0-VE</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/PJS008-4100-0-VE/Yamaichi/view-part/?ref=snap</field>
+        <field name="Arrow_Price-Stock"/>
+        <field name="Arrow_Part_Number"/>
+        <field name="Availability">In Stock</field>
+        <field name="Manufacturer_Part_Number">PJS008-4100-0-VE</field>
+        <field name="Footprint">PJS008-4100-0-VE:PJS00841000VE</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PJS008-4100-0-VE" part="PJS008-4100-0-VE" description=""/>
+      <property name="Manufacturer_Name" value="Yamaichi"/>
+      <property name="MF" value="Yamaichi Electronics"/>
+      <property name="Mouser_Price-Stock" value="https://www.mouser.co.uk/ProductDetail/Yamaichi-Electronics/PJS008-4100-0-VE?qs=6DDkx98%252BHnB0kYUHIqHPnQ%3D%3D"/>
+      <property name="Description_1" value="8 Position Card Connector Secure Digital - microSD™ Surface Mount, Right Angle Gold-Nickel"/>
+      <property name="Mouser_Part_Number" value="945-PJS008-4100-0-VE"/>
+      <property name="Price" value="None"/>
+      <property name="Package" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/PJS008-4100-0-VE/Yamaichi/view-part/?ref=eda"/>
+      <property name="Height" value="3.4mm"/>
+      <property name="MP" value="PJS008-4100-0-VE"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/PJS008-4100-0-VE/Yamaichi/view-part/?ref=snap"/>
+      <property name="Arrow_Price-Stock" value=""/>
+      <property name="Arrow_Part_Number" value=""/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Manufacturer_Part_Number" value="PJS008-4100-0-VE"/>
+      <property name="Sheetname" value="Micro SD"/>
+      <property name="Sheetfile" value="micro-sd.kicad_sch"/>
+      <sheetpath names="/Micro SD/" tstamps="/a53a5bca-403d-4e80-aaac-f027646efe2b/"/>
+      <tstamps>db5f1bb7-5b0c-4411-99d8-25e47460555d</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10 k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Micro SD"/>
+      <property name="Sheetfile" value="micro-sd.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Micro SD/" tstamps="/a53a5bca-403d-4e80-aaac-f027646efe2b/"/>
+      <tstamps>40640be7-59b2-4358-8803-fe702b3bb07e</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10 k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Micro SD"/>
+      <property name="Sheetfile" value="micro-sd.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Micro SD/" tstamps="/a53a5bca-403d-4e80-aaac-f027646efe2b/"/>
+      <tstamps>8aa6b185-a39d-45c4-863a-ce43c18ffd8b</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="0732511352" part="0732511352">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">0732511352</field>
+        <field name="Footprint">0732511352:MOLEX_0732511352</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">Molex</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">9.655mm</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/732511352/Molex/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">C4</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/732511352/Molex/view-part/?ref=snap</field>
+        <field name="MP">732511352</field>
+        <field name="Description_1">SMA Connector Jack, Female Socket 50 Ohms Surface Mount Solder</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Molex</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="S1" name="" type="passive"/>
+        <pin num="S2" name="" type="passive"/>
+        <pin num="S3" name="" type="passive"/>
+        <pin num="S4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="08055C104KAT4A" part="08055C104KAT4A">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">08055C104KAT4A</field>
+        <field name="Footprint">08055C104KAT4A:CAPC2012X94N</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">AVX</field>
+        <field name="Description_1">0805 100nF Ceramic Multilayer Capacitor, 50 VDC, +125degC, X7R Dielec, +/-10% | AVX 08055C104KAT4A</field>
+        <field name="Package">2012 AVX</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/08055C104KAT4A/AVX/view-part/?ref=snap</field>
+        <field name="MP">08055C104KAT4A</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/08055C104KAT4A/AVX/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="150060RS83000" part="150060RS83000">
+      <description>Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)</description>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">150060RS83000</field>
+        <field name="Footprint">LEDC1608X115N</field>
+        <field name="Datasheet"/>
+        <field name="Description">Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)</field>
+        <field name="Height">1.15</field>
+        <field name="Mouser Part Number"/>
+        <field name="Mouser Price/Stock"/>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">150060RS83000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="C-OBD-II-16M" part="C-OBD-II-16M">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">C-OBD-II-16M</field>
+        <field name="Footprint">C-OBD-II-16M:COMTECH_C-OBD-II-16M</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">Comtech Electronic Co., LTD</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">18.3mm</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/C-OBD-II-16M/Comtech+Electronic+Co.%252C+LTD/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">A</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/C-OBD-II-16M/Comtech+Electronic+Co.%252C+LTD/view-part/?ref=snap</field>
+        <field name="MP">C-OBD-II-16M</field>
+        <field name="Description_1">OBD II 16pin 90 Degree Angle Male Plug Connector</field>
+        <field name="Availability">Not in stock</field>
+        <field name="MANUFACTURER">Comtech Electronic Co.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DR125-100-R" part="DR125-100-R">
+      <description>Eaton Bussmann Series, DR, 0125 Shielded Wire-wound SMD Inductor with a Ferrite Core, 10 uH +/-20% Wire-Wound 7.17A Idc</description>
+      <docs>https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-dr-high-power-density-high-efficiency-shielded-drum-core-power-inductors-data-sheet.pdf</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">DR125-100-R</field>
+        <field name="Footprint">DR125-100-R:INDPM125125X600N</field>
+        <field name="Datasheet">https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-dr-high-power-density-high-efficiency-shielded-drum-core-power-inductors-data-sheet.pdf</field>
+        <field name="Description">Eaton Bussmann Series, DR, 0125 Shielded Wire-wound SMD Inductor with a Ferrite Core, 10 uH +/-20% Wire-Wound 7.17A Idc</field>
+        <field name="Height">6</field>
+        <field name="Mouser Part Number">704-DR125-100-R</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Coiltronics-Eaton/DR125-100-R?qs=yzwxPInThYQFBSntHAA2nw%3D%3D</field>
+        <field name="Manufacturer_Name">Eaton</field>
+        <field name="Manufacturer_Part_Number">DR125-100-R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EEU-FC1H221S" part="EEU-FC1H221S">
+      <description>Aluminium Electrolytic Capacitor, Radial Lead, AEC-Q200, 105?C</description>
+      <docs>http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1209.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">EEU-FC1H221S</field>
+        <field name="Footprint">EEU-FC1H221S:CAPPRD500W65D1250H1600</field>
+        <field name="Datasheet">http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1209.pdf</field>
+        <field name="Description">Aluminium Electrolytic Capacitor, Radial Lead, AEC-Q200, 105?C</field>
+        <field name="Height">16</field>
+        <field name="Mouser Part Number">667-EEU-FC1H221S</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Panasonic/EEU-FC1H221S?qs=8Z%252BUzlV55zQx6uOsQOxJqQ%3D%3D</field>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">EEU-FC1H221S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GCM0335C1E750FA16D" part="GCM0335C1E750FA16D">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GCM0335C1E750FA16D</field>
+        <field name="Footprint">GCM0335C1E750FA16D:CAPC0603X33N</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">Murata</field>
+        <field name="Description_1">SMD capacitor C0G(EIA) with capacitance 75pF Tol.1%. Rated voltage 25Vdc 125C</field>
+        <field name="Package">0603-2 MURATA</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/GCM0335C1E750FA16D/Murata/view-part/?ref=snap</field>
+        <field name="MP">GCM0335C1E750FA16D</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/GCM0335C1E750FA16D/Murata/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LSM6DSOXTR" part="LSM6DSOXTR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LSM6DSOXTR</field>
+        <field name="Footprint">LSM6DSOXTR:PQFN50P250X300X86-14N</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">STMicroelectronics</field>
+        <field name="Description_1">Accelerometer, Gyroscope, 6 Axis Sensor I2C, SPI Output</field>
+        <field name="Package">VFLGA-14 STMicroelectronics</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/LSM6DSOXTR/STMicroelectronics/view-part/?ref=eda</field>
+        <field name="STANDARD">IPC7351B</field>
+        <field name="PARTREV">3.0</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/LSM6DSOXTR/STMicroelectronics/view-part/?ref=snap</field>
+        <field name="MP">LSM6DSOXTR</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">ST Microelectronics</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDO/SA0" type="bidirectional"/>
+        <pin num="2" name="SDX" type="bidirectional"/>
+        <pin num="3" name="SCX" type="bidirectional"/>
+        <pin num="4" name="INT1" type="output"/>
+        <pin num="5" name="VDDIO" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="INT2" type="output"/>
+        <pin num="10" name="OCS_AUX" type="bidirectional"/>
+        <pin num="11" name="SDO_AUX" type="bidirectional"/>
+        <pin num="12" name="CS" type="input"/>
+        <pin num="13" name="SCL" type="input"/>
+        <pin num="14" name="SDA" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="MBAST32MSB7226KPNA18" part="MBAST32MSB7226KPNA18">
+      <description>Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V 22uF X7R 1210 10% Industrial</description>
+      <docs>https://www.mouser.in/datasheet/2/396/c_mlcc_B_e-3369865.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">MBAST32MSB7226KPNA18</field>
+        <field name="Footprint">MBAST32MSB7226KPNA18:CAPC3225X270N</field>
+        <field name="Datasheet">https://www.mouser.in/datasheet/2/396/c_mlcc_B_e-3369865.pdf</field>
+        <field name="Description">Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V 22uF X7R 1210 10% Industrial</field>
+        <field name="Height">2.7</field>
+        <field name="Mouser Part Number">963-MBAST32MSB7226KP</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/MBAST32MSB7226KPNA18?qs=tlsG%2FOw5FFidLEF4ibjoUw%3D%3D</field>
+        <field name="Manufacturer_Name">TAIYO YUDEN</field>
+        <field name="Manufacturer_Part_Number">MBAST32MSB7226KPNA18</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MBJCG168BB7104KTPA18" part="MBJCG168BB7104KTPA18">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">MBJCG168BB7104KTPA18</field>
+        <field name="Footprint">MBJCG168BB7104KTPA18:CAPC1608X100N</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">Taiyo Yuden</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.00mm</field>
+        <field name="Package">1608-2 TAIYO</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/MBJCG168BB7104KTPA18/Taiyo+Yuden/view-part/?ref=eda</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="PARTREV">NA</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/MBJCG168BB7104KTPA18/Taiyo+Yuden/view-part/?ref=snap</field>
+        <field name="MP">MBJCG168BB7104KTPA18</field>
+        <field name="Description_1">0.1uF 35V 10% Multilayer Ceramic Capacitor X7R 0603 (1608 Metric)</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Taiyo Yuden</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCASL21GBC7475MTCA01" part="MCASL21GBC7475MTCA01">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">MCASL21GBC7475MTCA01</field>
+        <field name="Footprint">MCASL21GBC7475MTCA01:CAPC2012X145N</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">Taiyo Yuden</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.45mm</field>
+        <field name="Package">0805-2 TAIYO</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/MCASL21GBC7475MTCA01/Taiyo+Yuden/view-part/?ref=eda</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="PARTREV">NA</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/MCASL21GBC7475MTCA01/Taiyo+Yuden/view-part/?ref=snap</field>
+        <field name="MP">MCASL21GBC7475MTCA01</field>
+        <field name="Description_1">CAP CER 4.7UF 20% 10V X7S 0805</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Taiyo Yuden</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCP2551T-E_SN" part="MCP2551T-E_SN">
+      <description>CAN Interface IC Hi Spd CAN Transceiv</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/MCP2551T-E_SN.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MCP2551T-E_SN</field>
+        <field name="Footprint">MCP2551-E-SN:SOIC127P600X175-8N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/MCP2551T-E_SN.pdf</field>
+        <field name="Description">CAN Interface IC Hi Spd CAN Transceiv</field>
+        <field name="Height">1.75</field>
+        <field name="Mouser Part Number">579-MCP2551T-E/SN</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP2551T-E-SN?qs=gZwDaUDMhIcQtLtB%252B7bOWQ%3D%3D</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MCP2551T-E/SN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="passive"/>
+        <pin num="2" name="VSS" type="passive"/>
+        <pin num="3" name="VDD" type="passive"/>
+        <pin num="4" name="RXD" type="passive"/>
+        <pin num="5" name="VREF" type="passive"/>
+        <pin num="6" name="CANL" type="passive"/>
+        <pin num="7" name="CANH" type="passive"/>
+        <pin num="8" name="RS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLASG32MSB5226MPNA01" part="MLASG32MSB5226MPNA01">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">MLASG32MSB5226MPNA01</field>
+        <field name="Footprint">MLASG32MSB5226MPNA01:CAPC3225X270N</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">Taiyo Yuden</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.7mm</field>
+        <field name="Package">3225-2 Taiyo Yuden</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/MLASG32MSB5226MPNA01/Taiyo+Yuden/view-part/?ref=eda</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="PARTREV">NA</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/MLASG32MSB5226MPNA01/Taiyo+Yuden/view-part/?ref=snap</field>
+        <field name="MP">MLASG32MSB5226MPNA01</field>
+        <field name="Description_1">22uF 35V 20% Multilayer Ceramic Capacitor X5R 1210 (3225 Metric)</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Taiyo Yuden</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PJS008-4100-0-VE" part="PJS008-4100-0-VE">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PJS008-4100-0-VE</field>
+        <field name="Footprint">PJS008-4100-0-VE:PJS00841000VE</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="Manufacturer_Name">Yamaichi</field>
+        <field name="MF">Yamaichi Electronics</field>
+        <field name="Mouser_Price-Stock">https://www.mouser.co.uk/ProductDetail/Yamaichi-Electronics/PJS008-4100-0-VE?qs=6DDkx98%252BHnB0kYUHIqHPnQ%3D%3D</field>
+        <field name="Description_1">8 Position Card Connector Secure Digital - microSD™ Surface Mount, Right Angle Gold-Nickel</field>
+        <field name="Mouser_Part_Number">945-PJS008-4100-0-VE</field>
+        <field name="Price">None</field>
+        <field name="Package">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/PJS008-4100-0-VE/Yamaichi/view-part/?ref=eda</field>
+        <field name="Height">3.4mm</field>
+        <field name="MP">PJS008-4100-0-VE</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/PJS008-4100-0-VE/Yamaichi/view-part/?ref=snap</field>
+        <field name="Arrow_Price-Stock"/>
+        <field name="Arrow_Part_Number"/>
+        <field name="Availability">In Stock</field>
+        <field name="Manufacturer_Part_Number">PJS008-4100-0-VE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT2" type="bidirectional"/>
+        <pin num="2" name="CD/DAT3" type="bidirectional"/>
+        <pin num="3" name="CMD" type="bidirectional"/>
+        <pin num="4" name="VDD" type="bidirectional"/>
+        <pin num="5" name="CLK" type="bidirectional"/>
+        <pin num="6" name="VSS" type="bidirectional"/>
+        <pin num="7" name="DAT0" type="bidirectional"/>
+        <pin num="8" name="DAT1" type="bidirectional"/>
+        <pin num="MP1" name="MP1" type="bidirectional"/>
+        <pin num="MP2" name="MP2" type="bidirectional"/>
+        <pin num="MP3" name="MP3" type="bidirectional"/>
+        <pin num="MP4" name="MP4" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="TPS54308">
+      <description>3A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, continuous-conduction, SOT-23-6</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps54308.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS54308</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps54308.pdf</field>
+        <field name="Description">3A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, continuous-conduction, SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="SW" type="power_out"/>
+        <pin num="3" name="VIN" type="power_in"/>
+        <pin num="4" name="FB" type="input"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="BOOT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Wuerth_450301014042">
+      <description>Switch slide, single pole double throw</description>
+      <docs>https://www.we-online.com/components/products/datasheet/450301014042.pdf</docs>
+      <footprints>
+        <fp>SW*Wuerth*WS*SLTV*10x2.5x6.4*P2.54mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Wuerth_450301014042</field>
+        <field name="Footprint">Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm</field>
+        <field name="Datasheet">https://www.we-online.com/components/products/datasheet/450301014042.pdf</field>
+        <field name="Description">Switch slide, single pole double throw</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TESEO-LIV3R" part="TESEO-LIV3R">
+      <description>- RF Receiver BeiDou, GLONASS, GNSS, GPS 1.561GHz, 1.575MHz -163dBm Not Included 18-LCC (9.7x10.1)</description>
+      <docs>https://www.arrow.com/en/products/teseo-liv3r/stmicroelectronics?region=nac</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TESEO-LIV3R</field>
+        <field name="Footprint">TESEOLIV3R</field>
+        <field name="Datasheet">https://www.arrow.com/en/products/teseo-liv3r/stmicroelectronics?region=nac</field>
+        <field name="Description">- RF Receiver BeiDou, GLONASS, GNSS, GPS 1.561GHz, 1.575MHz -163dBm Not Included 18-LCC (9.7x10.1)</field>
+        <field name="Height">2.3</field>
+        <field name="Arrow Part Number">TESEO-LIV3R</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/teseo-liv3r/stmicroelectronics?region=nac</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">TESEO-LIV3R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="TX" type="passive"/>
+        <pin num="3" name="RX" type="passive"/>
+        <pin num="4" name="1PPS" type="passive"/>
+        <pin num="5" name="_WAKE-UP" type="passive"/>
+        <pin num="6" name="VBATT" type="passive"/>
+        <pin num="7" name="VCC_IO" type="passive"/>
+        <pin num="8" name="VCC" type="passive"/>
+        <pin num="9" name="SYS_RSTN" type="passive"/>
+        <pin num="10" name="_GND_RF" type="passive"/>
+        <pin num="11" name="_RF_IN" type="passive"/>
+        <pin num="12" name="GND_RF" type="passive"/>
+        <pin num="13" name="_ANT_OFF" type="passive"/>
+        <pin num="14" name="VCC_RF" type="passive"/>
+        <pin num="15" name="RESERVED_1" type="passive"/>
+        <pin num="16" name="SDA" type="passive"/>
+        <pin num="17" name="SCL" type="passive"/>
+        <pin num="18" name="RESERVED_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TPS62203DBVTG4" part="TPS62203DBVTG4">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS62203DBVTG4</field>
+        <field name="Footprint">TPS62203DBVTG4:SOT95P280X145-5N</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">Texas Instruments</field>
+        <field name="Description_1">3.3-V Output, 300-mA, 95% Efficient Step-Down Converter in SOT-23 5-SOT-23 -40 to 85</field>
+        <field name="Package">SOT-23-5 Texas Instruments</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/TPS62203DBVTG4/Texas+Instruments/view-part/?ref=snap</field>
+        <field name="MP">TPS62203DBVTG4</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/TPS62203DBVTG4/Texas+Instruments/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="FB" type="input"/>
+        <pin num="5" name="SW" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="MMBT3904">
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MMBT3904</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf</field>
+        <field name="Description">0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="2N7002">
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7002</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="WE-TPC_2828" part="WE-TPC_2828">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">WE-TPC_2828</field>
+        <field name="Footprint">WE-TPC_2828:WE-TPC_2828</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">Würth Elektronik</field>
+        <field name="Description_1">Tiny Power Inductor, SMT, Fixed, 4.7uH, 1.35A, .1 Ohm, 2828, WE-TPC Series | Wurth Electronics 744025004</field>
+        <field name="Package">Nonstandard Würth Elektronik</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/744025004/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap</field>
+        <field name="MP">744025004</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/744025004/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="arduino-library" part="Arduino_Nano_R4">
+      <description>Arduino Nano R4</description>
+      <docs>https://docs.arduino.cc/tutorials/nano-r4/user-manual/</docs>
+      <footprints>
+        <fp>Arduino_Nano_Socket</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_Nano_R4</field>
+        <field name="Footprint">PCM_arduino-library:Arduino_Nano_R4</field>
+        <field name="Datasheet">https://docs.arduino.cc/tutorials/nano-r4/user-manual/</field>
+        <field name="Description">Arduino Nano R4</field>
+      </fields>
+      <pins>
+        <pin num="3V3" name="3.3V" type="power_out"/>
+        <pin num="5V" name="5V" type="power_out"/>
+        <pin num="A0" name="A0_DAC" type="bidirectional"/>
+        <pin num="A1" name="A1" type="bidirectional"/>
+        <pin num="A2" name="A2" type="bidirectional"/>
+        <pin num="A3" name="A3" type="bidirectional"/>
+        <pin num="A4" name="A4/SDA" type="bidirectional"/>
+        <pin num="A5" name="A5/SCL" type="bidirectional"/>
+        <pin num="A6" name="A6" type="bidirectional"/>
+        <pin num="A7" name="A7" type="bidirectional"/>
+        <pin num="AREF" name="AREF" type="input"/>
+        <pin num="BOOT" name="BOOT" type="input"/>
+        <pin num="D0" name="D0/RX" type="bidirectional"/>
+        <pin num="D1" name="D1/TX" type="bidirectional"/>
+        <pin num="D2" name="D2_INT0" type="bidirectional"/>
+        <pin num="D3" name="D3_INT1" type="bidirectional"/>
+        <pin num="D4" name="D4_CAN0_TX" type="bidirectional"/>
+        <pin num="D5" name="D5_CAN0_RX" type="bidirectional"/>
+        <pin num="D6" name="D6" type="bidirectional"/>
+        <pin num="D7" name="D7" type="bidirectional"/>
+        <pin num="D8" name="D8" type="bidirectional"/>
+        <pin num="D9" name="D9" type="bidirectional"/>
+        <pin num="D10" name="D10_SS" type="bidirectional"/>
+        <pin num="D11" name="D11_MOSI" type="bidirectional"/>
+        <pin num="D12" name="D12_MISO" type="bidirectional"/>
+        <pin num="D13" name="D13_SCK" type="bidirectional"/>
+        <pin num="GND1" name="GND" type="power_in"/>
+        <pin num="GND2" name="GND" type="power_in"/>
+        <pin num="RST" name="RESET" type="open_collector"/>
+        <pin num="SCL" name="I2C0_SCL" type="input"/>
+        <pin num="SDA" name="I2C0_SDA" type="input"/>
+        <pin num="VBATT" name="VBATT" type="power_in"/>
+        <pin num="VIN" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="0732511352">
+      <uri>/home/gfurlan/src/bike-sensors-logger/schematics/libraries/Symbols/0732511352.kicad_sym</uri>
+    </library>
+    <library logical="08055C104KAT4A">
+      <uri>/home/gfurlan/src/bike-sensors-logger/schematics/libraries/Symbols/08055C104KAT4A.kicad_sym</uri>
+    </library>
+    <library logical="150060RS83000">
+      <uri>/home/gfurlan/src/bike-sensors-logger/schematics/libraries/Symbols/150060RS83000.kicad_sym</uri>
+    </library>
+    <library logical="C-OBD-II-16M">
+      <uri>/home/gfurlan/src/bike-sensors-logger/schematics/libraries/Symbols/C-OBD-II-16M.kicad_sym</uri>
+    </library>
+    <library logical="DR125-100-R">
+      <uri>/home/gfurlan/src/bike-sensors-logger/schematics/libraries/Symbols/DR125-100-R.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="EEU-FC1H221S">
+      <uri>/home/gfurlan/src/bike-sensors-logger/schematics/libraries/Symbols/EEU-FC1H221S.kicad_sym</uri>
+    </library>
+    <library logical="GCM0335C1E750FA16D">
+      <uri>/home/gfurlan/src/bike-sensors-logger/schematics/libraries/Symbols/GCM0335C1E750FA16D.kicad_sym</uri>
+    </library>
+    <library logical="LSM6DSOXTR">
+      <uri>/home/gfurlan/src/bike-sensors-logger/schematics/libraries/Symbols/LSM6DSOXTR.kicad_sym</uri>
+    </library>
+    <library logical="MBAST32MSB7226KPNA18">
+      <uri>/home/gfurlan/src/bike-sensors-logger/schematics/libraries/Symbols/MBAST32MSB7226KPNA18.kicad_sym</uri>
+    </library>
+    <library logical="MBJCG168BB7104KTPA18">
+      <uri>/home/gfurlan/src/bike-sensors-logger/schematics/libraries/Symbols/MBJCG168BB7104KTPA18.kicad_sym</uri>
+    </library>
+    <library logical="MCASL21GBC7475MTCA01">
+      <uri>/home/gfurlan/src/bike-sensors-logger/schematics/libraries/Symbols/MCASL21GBC7475MTCA01.kicad_sym</uri>
+    </library>
+    <library logical="MCP2551T-E_SN">
+      <uri>/home/gfurlan/src/bike-sensors-logger/schematics/libraries/Symbols/MCP2551T-E_SN.kicad_sym</uri>
+    </library>
+    <library logical="MLASG32MSB5226MPNA01">
+      <uri>/home/gfurlan/src/bike-sensors-logger/schematics/libraries/Symbols/MLASG32MSB5226MPNA01.kicad_sym</uri>
+    </library>
+    <library logical="PJS008-4100-0-VE">
+      <uri>/home/gfurlan/src/bike-sensors-logger/schematics/libraries/Symbols/PJS008-4100-0-VE.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>/usr/share/kicad/symbols//Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="TESEO-LIV3R">
+      <uri>/home/gfurlan/src/bike-sensors-logger/schematics/libraries/Symbols/TESEO-LIV3R.kicad_sym</uri>
+    </library>
+    <library logical="TPS62203DBVTG4">
+      <uri>/home/gfurlan/src/bike-sensors-logger/schematics/libraries/Symbols/TPS62203DBVTG4.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/usr/share/kicad/symbols//Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/symbols//Transistor_FET.kicad_sym</uri>
+    </library>
+    <library logical="WE-TPC_2828">
+      <uri>/home/gfurlan/src/bike-sensors-logger/schematics/libraries/Symbols/WE-TPC_2828.kicad_sym</uri>
+    </library>
+    <library logical="arduino-library">
+      <uri>/home/gfurlan/src/bike-sensors-logger/schematics/libraries/Symbols/arduino-library.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/12V to 5V + 3.3V bucks/3V3" class="Default">
+      <node ref="A1" pin="VIN" pinfunction="VIN" pintype="power_in"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="7" pinfunction="VCC_IO" pintype="passive"/>
+      <node ref="IC1" pin="8" pinfunction="VCC" pintype="passive"/>
+      <node ref="IC2" pin="3" pinfunction="VDD" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="VDD" pintype="bidirectional"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L2" pin="2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="B" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="VI" pintype="input"/>
+      <node ref="U3" pin="3" pinfunction="EN" pintype="input"/>
+      <node ref="U3" pin="4" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="2" name="/12V to 5V + 3.3V bucks/Vin" class="Default">
+      <node ref="C1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J2" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="3" name="/Accel - Gyro/SCL" class="Default">
+      <node ref="A1" pin="SCL" pinfunction="I2C0_SCL" pintype="input"/>
+      <node ref="IC1" pin="17" pinfunction="SCL" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="4" name="/Accel - Gyro/SDA" class="Default">
+      <node ref="A1" pin="SDA" pinfunction="I2C0_SDA" pintype="input"/>
+      <node ref="IC1" pin="16" pinfunction="SDA" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/GNSS/ANT_PWR" class="Default">
+      <node ref="IC1" pin="14" pinfunction="VCC_RF" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="6" name="/GNSS/RF_IN" class="Default">
+      <node ref="IC1" pin="11" pinfunction="_RF_IN" pintype="passive"/>
+      <node ref="J1" pin="S1" pintype="passive"/>
+      <node ref="J1" pin="S2" pintype="passive"/>
+      <node ref="J1" pin="S3" pintype="passive"/>
+      <node ref="J1" pin="S4" pintype="passive"/>
+    </net>
+    <net code="7" name="/GNSS/VBATT" class="Default">
+      <node ref="IC1" pin="6" pinfunction="VBATT" pintype="passive"/>
+    </net>
+    <net code="8" name="/Micro SD/CLK" class="Default">
+      <node ref="A1" pin="D13" pinfunction="D13_SCK" pintype="bidirectional"/>
+      <node ref="J3" pin="5" pinfunction="CLK" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/Micro SD/DAT0" class="Default">
+      <node ref="A1" pin="D10" pinfunction="D10_SS" pintype="bidirectional"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="/Micro SD/MISO" class="Default">
+      <node ref="A1" pin="D12" pinfunction="D12_MISO" pintype="bidirectional"/>
+      <node ref="J3" pin="2" pinfunction="CD/DAT3" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/Micro SD/MOSI" class="Default">
+      <node ref="A1" pin="D11" pinfunction="D11_MOSI" pintype="bidirectional"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="/OBD II Transreceiver/CAN_H" class="Default">
+      <node ref="IC2" pin="7" pinfunction="CANH" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="/OBD II Transreceiver/CAN_L" class="Default">
+      <node ref="IC2" pin="6" pinfunction="CANL" pintype="passive"/>
+      <node ref="J2" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="14" name="/OBD II Transreceiver/EN_TERM_CHKD" class="Default">
+      <node ref="A1" pin="D6" pinfunction="D6" pintype="bidirectional"/>
+      <node ref="Q2" pin="1" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="15" name="/OBD II Transreceiver/RXD" class="Default">
+      <node ref="A1" pin="D5" pinfunction="D5_CAN0_RX" pintype="bidirectional"/>
+      <node ref="IC2" pin="4" pinfunction="RXD" pintype="passive"/>
+    </net>
+    <net code="16" name="/OBD II Transreceiver/TERMD" class="Default">
+      <node ref="A1" pin="D8" pinfunction="D8" pintype="bidirectional"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="17" name="/OBD II Transreceiver/TERM_CHECKD" class="Default">
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="/OBD II Transreceiver/TXD" class="Default">
+      <node ref="A1" pin="D4" pinfunction="D4_CAN0_TX" pintype="bidirectional"/>
+      <node ref="IC2" pin="1" pinfunction="TXD" pintype="passive"/>
+    </net>
+    <net code="19" name="/TERM_CHKD" class="Default">
+      <node ref="A1" pin="D7" pinfunction="D7" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="GND" class="Default">
+      <node ref="A1" pin="GND1" pinfunction="GND" pintype="power_in"/>
+      <node ref="A1" pin="GND2" pinfunction="GND" pintype="power_in"/>
+      <node ref="C1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="IC1" pin="10" pinfunction="_GND_RF" pintype="passive"/>
+      <node ref="IC1" pin="12" pinfunction="GND_RF" pintype="passive"/>
+      <node ref="IC2" pin="2" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC2" pin="5" pinfunction="VREF" pintype="passive"/>
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="VSS" pintype="bidirectional"/>
+      <node ref="LED1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="LED2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="SDO/SA0" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="SDX" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="SCX" pintype="bidirectional"/>
+      <node ref="U2" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="21" name="Net-(C8-Pad1)" class="Default">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(J3-DAT0)" class="Default">
+      <node ref="J3" pin="7" pinfunction="DAT0" pintype="bidirectional"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(J3-DAT2)" class="Default">
+      <node ref="J3" pin="1" pinfunction="DAT2" pintype="bidirectional"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(LED1-A)" class="Default">
+      <node ref="LED1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(LED2-A)" class="Default">
+      <node ref="LED2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(Q1-D)" class="Default">
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(U1-BOOT)" class="Default">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="BOOT" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(U1-FB)" class="Default">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="29" name="Net-(U1-SW)" class="Default">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="SW" pintype="power_out"/>
+    </net>
+    <net code="30" name="Net-(U3-SW)" class="Default">
+      <node ref="L2" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="SW" pintype="output"/>
+    </net>
+    <net code="31" name="unconnected-(A1-3.3V-Pad3V3)" class="Default">
+      <node ref="A1" pin="3V3" pinfunction="3.3V" pintype="power_out"/>
+    </net>
+    <net code="32" name="unconnected-(A1-A0_DAC-PadA0)" class="Default">
+      <node ref="A1" pin="A0" pinfunction="A0_DAC" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="unconnected-(A1-A4/SDA-PadA4)" class="Default">
+      <node ref="A1" pin="A4" pinfunction="A4/SDA" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="unconnected-(A1-A5/SCL-PadA5)" class="Default">
+      <node ref="A1" pin="A5" pinfunction="A5/SCL" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="unconnected-(A1-D0/RX-PadD0)" class="Default">
+      <node ref="A1" pin="D0" pinfunction="D0/RX" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="unconnected-(A1-D1/TX-PadD1)" class="Default">
+      <node ref="A1" pin="D1" pinfunction="D1/TX" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="unconnected-(A1-D2_INT0-PadD2)" class="Default">
+      <node ref="A1" pin="D2" pinfunction="D2_INT0" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="unconnected-(A1-D3_INT1-PadD3)" class="Default">
+      <node ref="A1" pin="D3" pinfunction="D3_INT1" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="unconnected-(A1-Pad5V)" class="Default">
+      <node ref="A1" pin="5V" pinfunction="5V" pintype="power_out"/>
+    </net>
+    <net code="40" name="unconnected-(A1-PadA1)" class="Default">
+      <node ref="A1" pin="A1" pinfunction="A1" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="unconnected-(A1-PadA2)" class="Default">
+      <node ref="A1" pin="A2" pinfunction="A2" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="unconnected-(A1-PadA3)" class="Default">
+      <node ref="A1" pin="A3" pinfunction="A3" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="unconnected-(A1-PadA6)" class="Default">
+      <node ref="A1" pin="A6" pinfunction="A6" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="unconnected-(A1-PadA7)" class="Default">
+      <node ref="A1" pin="A7" pinfunction="A7" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="unconnected-(A1-PadAREF)" class="Default">
+      <node ref="A1" pin="AREF" pinfunction="AREF" pintype="input"/>
+    </net>
+    <net code="46" name="unconnected-(A1-PadBOOT)" class="Default">
+      <node ref="A1" pin="BOOT" pinfunction="BOOT" pintype="input"/>
+    </net>
+    <net code="47" name="unconnected-(A1-PadD9)" class="Default">
+      <node ref="A1" pin="D9" pinfunction="D9" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="unconnected-(A1-PadVBATT)" class="Default">
+      <node ref="A1" pin="VBATT" pinfunction="VBATT" pintype="power_in"/>
+    </net>
+    <net code="49" name="unconnected-(A1-RESET-PadRST)" class="Default">
+      <node ref="A1" pin="RST" pinfunction="RESET" pintype="open_collector"/>
+    </net>
+    <net code="50" name="unconnected-(IC1-1PPS-Pad4)" class="Default">
+      <node ref="IC1" pin="4" pinfunction="1PPS" pintype="passive"/>
+    </net>
+    <net code="51" name="unconnected-(IC1-RESERVED_1-Pad15)" class="Default">
+      <node ref="IC1" pin="15" pinfunction="RESERVED_1" pintype="passive"/>
+    </net>
+    <net code="52" name="unconnected-(IC1-RESERVED_2-Pad18)" class="Default">
+      <node ref="IC1" pin="18" pinfunction="RESERVED_2" pintype="passive"/>
+    </net>
+    <net code="53" name="unconnected-(IC1-RX-Pad3)" class="Default">
+      <node ref="IC1" pin="3" pinfunction="RX" pintype="passive"/>
+    </net>
+    <net code="54" name="unconnected-(IC1-SYS_RSTN-Pad9)" class="Default">
+      <node ref="IC1" pin="9" pinfunction="SYS_RSTN" pintype="passive"/>
+    </net>
+    <net code="55" name="unconnected-(IC1-TX-Pad2)" class="Default">
+      <node ref="IC1" pin="2" pinfunction="TX" pintype="passive"/>
+    </net>
+    <net code="56" name="unconnected-(IC1-_ANT_OFF-Pad13)" class="Default">
+      <node ref="IC1" pin="13" pinfunction="_ANT_OFF" pintype="passive"/>
+    </net>
+    <net code="57" name="unconnected-(IC1-_WAKE-UP-Pad5)" class="Default">
+      <node ref="IC1" pin="5" pinfunction="_WAKE-UP" pintype="passive"/>
+    </net>
+    <net code="58" name="unconnected-(IC2-RS-Pad8)" class="Default">
+      <node ref="IC2" pin="8" pinfunction="RS" pintype="passive"/>
+    </net>
+    <net code="59" name="unconnected-(J2-Pad1)" class="Default">
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="60" name="unconnected-(J2-Pad2)" class="Default">
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="61" name="unconnected-(J2-Pad3)" class="Default">
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="62" name="unconnected-(J2-Pad4)" class="Default">
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="63" name="unconnected-(J2-Pad5)" class="Default">
+      <node ref="J2" pin="5" pinfunction="5" pintype="passive"/>
+    </net>
+    <net code="64" name="unconnected-(J2-Pad7)" class="Default">
+      <node ref="J2" pin="7" pinfunction="7" pintype="passive"/>
+    </net>
+    <net code="65" name="unconnected-(J2-Pad8)" class="Default">
+      <node ref="J2" pin="8" pinfunction="8" pintype="passive"/>
+    </net>
+    <net code="66" name="unconnected-(J2-Pad9)" class="Default">
+      <node ref="J2" pin="9" pinfunction="9" pintype="passive"/>
+    </net>
+    <net code="67" name="unconnected-(J2-Pad10)" class="Default">
+      <node ref="J2" pin="10" pinfunction="10" pintype="passive"/>
+    </net>
+    <net code="68" name="unconnected-(J2-Pad11)" class="Default">
+      <node ref="J2" pin="11" pinfunction="11" pintype="passive"/>
+    </net>
+    <net code="69" name="unconnected-(J2-Pad12)" class="Default">
+      <node ref="J2" pin="12" pinfunction="12" pintype="passive"/>
+    </net>
+    <net code="70" name="unconnected-(J2-Pad13)" class="Default">
+      <node ref="J2" pin="13" pinfunction="13" pintype="passive"/>
+    </net>
+    <net code="71" name="unconnected-(J2-Pad15)" class="Default">
+      <node ref="J2" pin="15" pinfunction="15" pintype="passive"/>
+    </net>
+    <net code="72" name="unconnected-(J3-CMD-Pad3)" class="Default">
+      <node ref="J3" pin="3" pinfunction="CMD" pintype="bidirectional"/>
+    </net>
+    <net code="73" name="unconnected-(J3-DAT1-Pad8)" class="Default">
+      <node ref="J3" pin="8" pinfunction="DAT1" pintype="bidirectional"/>
+    </net>
+    <net code="74" name="unconnected-(J3-PadMP1)" class="Default">
+      <node ref="J3" pin="MP1" pinfunction="MP1" pintype="bidirectional"/>
+    </net>
+    <net code="75" name="unconnected-(J3-PadMP2)" class="Default">
+      <node ref="J3" pin="MP2" pinfunction="MP2" pintype="bidirectional"/>
+    </net>
+    <net code="76" name="unconnected-(J3-PadMP3)" class="Default">
+      <node ref="J3" pin="MP3" pinfunction="MP3" pintype="bidirectional"/>
+    </net>
+    <net code="77" name="unconnected-(J3-PadMP4)" class="Default">
+      <node ref="J3" pin="MP4" pinfunction="MP4" pintype="bidirectional"/>
+    </net>
+    <net code="78" name="unconnected-(SW1-C-Pad2)" class="Default">
+      <node ref="SW1" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="79" name="unconnected-(U2-CS-Pad12)" class="Default">
+      <node ref="U2" pin="12" pinfunction="CS" pintype="input"/>
+    </net>
+    <net code="80" name="unconnected-(U2-INT1-Pad4)" class="Default">
+      <node ref="U2" pin="4" pinfunction="INT1" pintype="output"/>
+    </net>
+    <net code="81" name="unconnected-(U2-INT2-Pad9)" class="Default">
+      <node ref="U2" pin="9" pinfunction="INT2" pintype="output"/>
+    </net>
+    <net code="82" name="unconnected-(U2-OCS_AUX-Pad10)" class="Default">
+      <node ref="U2" pin="10" pinfunction="OCS_AUX" pintype="bidirectional"/>
+    </net>
+    <net code="83" name="unconnected-(U2-SDO_AUX-Pad11)" class="Default">
+      <node ref="U2" pin="11" pinfunction="SDO_AUX" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>

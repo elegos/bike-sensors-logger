@@ -52,6 +52,13 @@ Software is licensed under the GNU General Public License v3.0.
 
 ## Changelog
 
+### Dev 5
+
+- Added I2C level shifters
+- Added I2C pull-up resistors
+- Added pull-up resistor to accel-gyro's CS pin to (always) enable I2C communication
+- Removed typo short-circuit connection between 5-to-3.3V buck FB and VI pins
+
 ### Dev 4
 
 - Added Micro SD port

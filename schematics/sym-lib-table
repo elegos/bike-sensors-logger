@@ -20,4 +20,5 @@
   (lib (name "EEU-FC1H221S")(type "KiCad")(uri "${KIPRJMOD}/libraries/Symbols/EEU-FC1H221S.kicad_sym")(options "")(descr ""))
   (lib (name "MBAST32MSB7226KPNA18")(type "KiCad")(uri "${KIPRJMOD}/libraries/Symbols/MBAST32MSB7226KPNA18.kicad_sym")(options "")(descr ""))
   (lib (name "DR125-100-R")(type "KiCad")(uri "${KIPRJMOD}/libraries/Symbols/DR125-100-R.kicad_sym")(options "")(descr ""))
+  (lib (name "TXB0104PWR")(type "KiCad")(uri "${KIPRJMOD}/libraries/Symbols/TXB0104PWR.kicad_sym")(options "")(descr ""))
 )

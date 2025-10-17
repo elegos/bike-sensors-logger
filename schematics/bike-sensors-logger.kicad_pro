@@ -827,6 +827,10 @@
     [
       "a53a5bca-403d-4e80-aaac-f027646efe2b",
       "Micro SD"
+    ],
+    [
+      "dd6e0f87-8366-4fc4-bf3d-978cd04c4b91",
+      "I2C level shifters"
     ]
   ],
   "text_variables": {}
